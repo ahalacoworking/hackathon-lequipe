@@ -1,0 +1,24 @@
+{
+    "name" : "hackathon-lequipe",
+    "version" : "0.0.1",
+    "devDependencies" : {
+        "mocha" : "*",
+        "superagent" : "*",
+        "expect.js" : "*"
+    },
+    "private" : true,
+    "dependencies" : {
+        "underscore" : "*",
+        "q" : "*",
+        "express" : "*",
+        "amdefine" : "*",
+        "tilepin" : "git://github.com/ubimix/tilepin.git"
+    },
+    "scripts" : {
+        "test" : "mocha -R spec ./tests/Test*"
+    },
+    "engines" : {
+        "node" : "latest",
+        "npm" : "latest"
+    }
+}
