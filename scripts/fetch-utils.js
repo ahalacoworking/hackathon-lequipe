@@ -2,10 +2,12 @@ var $ = require('cheerio');
 var Request = require('superagent');
 var Q = require('q');
 var _ = require('underscore');
-var fs = require('fs');
+var FS = require('fs');
 var crypto = require('crypto');
 var Path = require('path');
 var Url = require('url');
+var CsvSplitter = require('./csv-splitter');
+var Readline = require('readline');
 
 /* -------------------------------- */
 module.exports = {
@@ -30,11 +32,68 @@ module.exports = {
     writeJson : writeJson,
     readJson : readJson,
 
+    readCsvAsObjects : readCsvAsObjects,
+    readCsv : readCsv,
+
     // HTML utils
     resolve : resolve,
     resolveRefs : resolveRefs,
     toHtml : toHtml,
-    toText : toText
+    toText : toText,
+    toGeo : toGeo
+}
+
+function readCsvAsObjects(file) {
+    var results = [];
+    return readCsv(file, function(obj) {
+        console.log(obj);
+        results.push(obj);
+    }).then(function() {
+        return results;
+    });
+}
+
+function readCsv(file, callback) {
+    var deferred = Q.defer();
+    try {
+        var first = true;
+        var headers = [];
+        var splitter = new CsvSplitter({
+            delim : ','
+        });
+        Readline.createInterface({
+            input : FS.createReadStream(file),
+            terminal : false
+        }).on('line', function(line) {
+            var array = splitter.splitCsvLine(line);
+            array = _.map(array, function(str) {
+                str = trim(str);
+                return str;
+            });
+            if (first) {
+                headers = array;
+            } else {
+                var obj = splitter.toObject(headers, array);
+                callback(obj);
+            }
+            first = false;
+        }).on('close', function() {
+            deferred.resolve();
+        });
+    } catch (e) {
+        deferred.reject(e);
+    }
+    return deferred.promise;
+}
+
+function toGeo(elm) {
+    var str = $($(elm)[0]).text();
+    var array = str.split(/\s*,\s*/gim);
+    try {
+        return [ parseFloat(array[1]), parseFloat(array[0]) ];
+    } catch (e) {
+        return undefined;
+    }
 }
 
 /* -------------------------------- */
@@ -94,7 +153,7 @@ function getFileNameFromUrl(url, ext) {
 function checkDir(dir) {
     function f() {
     }
-    return Q.nfcall(fs.mkdir, dir).then(f, f);
+    return Q.nfcall(FS.mkdir, dir).then(f, f);
 }
 
 function loadPage(options) {
@@ -103,7 +162,7 @@ function loadPage(options) {
     var reload = options.reload;
     return checkDir(dir).then(function() {
         var fileName = dir + getFileNameFromUrl(url, '.html');
-        if (!reload && fs.existsSync(fileName)) {
+        if (!reload && FS.existsSync(fileName)) {
             return readText(fileName).then(function(str) {
                 return $(str);
             });
@@ -130,10 +189,10 @@ function load(url) {
 }
 
 function writeText(file, str) {
-    return Q.nfcall(fs.writeFile, file, str);
+    return Q.nfcall(FS.writeFile, file, str);
 }
 function readText(file) {
-    return Q.nfcall(fs.readFile, file, 'utf8');
+    return Q.nfcall(FS.readFile, file, 'utf8');
 }
 
 function writeJson(file, obj) {

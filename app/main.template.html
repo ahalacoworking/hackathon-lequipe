@@ -8,74 +8,35 @@
                 },
                 renderTitle : function(elm) {
                     var resource = this.getResource();
-                    elm.html(resource.properties.label);
+                    elm.html(resource.properties.title);
                 },
                 renderDescription : function(elm) {
                     var resource = this.getResource();
                     elm.html(resource.properties.description);
-                },
-                sayHello : function(e) {
-                    alert('Hello, there! ' + this._elm.text())
                 }
-
             })
         </script>
 	</div>
 
-	<div data-resource-type="photo" data-view="MapMarkerView">
-		<div style="white-space: nowrap;">
-			<i class="fa fa-map-marker fa-2x"></i><i class="fa fa-caret-left"
-				style="color: silver;"></i><span
-				style="background-color: white; border: 1px solid silver; border-radius: 3px; padding: 0.1em 0.5em;"
-				data-render="renderTitle"></span>
+	<div data-resource-type="Stade" data-view="MapMarkerView">
+		<div style="white-space: nowrap; color: white;">
+			<i class="fa fa-circle-o"></i>
 		</div>
 		<script type="text/javascript">
             ({
                         renderTitle : function(el) {
                             var resource = this.getResource();
-                            el.text(resource.properties.label);
+                            el.text(resource.properties.title);
                         },
                         icon : {
-                            popupAnchor : [ 6, 3 ],
+                            popupAnchor : [ 6, -17 ],
+                            iconAnchor: [0, 14]
                         }
                     })
         </script>
 	</div>
-	<div data-resource-type="photo" data-view="MapActivePopupView"
-		data-extends="#parentView">
-		<h3 data-action-click="sayHello" data-render="renderTitle">Hello</h3>
-		<p data-render="renderDescription">No description</p>
-	</div>
 
-
-	<div data-resource-type="sculpture" data-view="MapMarkerView">
-		<script type="text/javascript">
-            (
-                            {
-                                icon : {
-                                    iconUrl : 'http://leafletjs.com/docs/images/leaf-red.png',
-                                    shadowUrl : 'http://leafletjs.com/docs/images/leaf-shadow.png',
-
-                                    iconSize : [ 38, 95 ], // size of the icon
-                                    shadowSize : [ 50, 64 ], // size of the shadow
-                                    iconAnchor : [ 22, 94 ], // point of the icon which will correspond to marker's location
-                                    shadowAnchor : [ 4, 62 ], // the same for the shadow
-                                    popupAnchor : [ -3, -76 ]
-                                // point from which the popup should open relative to the iconAnchor
-                                }
-
-                            })
-        </script>
-	</div>
-
-
-	<script type="text/javascript" id="commonOptions">
-        ({
-            opacity : 0.5
-        })
-    </script>
-
-	<script type="text/javascript" data-map-options="place"
+	<script type="text/javascript" data-map-options="Stade"
 		data-extends="#commonOptions">
         {
             color: 'red',
@@ -83,41 +44,15 @@
         }
     </script>
 
-
-	<script type="text/javascript" data-map-options="rue"
-		data-extends="#commonOptions">
-        ({
-            color : 'red'
-        })
-    </script>
-
-	<script type="text/javascript" data-map-options="Resource"
-		data-extends="#commonOptions">
-        ({
-            color : 'green'
-        })
-    </script>
-
-	<div data-resource-type="rue" data-view="MapActivePopupView"
+	<div data-resource-type="Stade" data-view="MapActivePopupView"
 		data-extends="#parentView">
-		<h3 data-action-click="sayHello" data-render="renderTitle">Hello</h3>
-		<p data-render="renderText">Blah-blah</p>
+		<h3 data-action-click="sayHello" data-render="renderTitle"></h3>
+		<p data-render="renderDescription"></p>
 	</div>
 
-	<div data-resource-type="Resource" data-view="MapActivePopupView"
-		data-extends="[data-resource-type='rue'][data-view='MapActivePopupView']">
-		<script type="text/javascript">
-            ({
-                sayHello : function() {
-                    alert('I AM A GREEN STREET!');
-                }
-            })
-        </script>
-	</div>
-
-	<div data-resource-type="rue" data-view="MapFocusedPopupView"
+	<div data-resource-type="Stade" data-view="MapFocusedPopupView"
 		data-extends="#parentView">
-		<strong data-action-click="sayHello" data-render="renderTitle">Abc</strong>
+		<strong data-action-click="sayHello" data-render="renderTitle"></strong>
 		<script type="text/javascript">
             ({
                 popupOptions : function() {

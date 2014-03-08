@@ -2,9 +2,16 @@
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Gran Parque Central",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Gran_Parque_Central",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Fachada_Estadio_Gran_Parque_Central.JPG/280px-Fachada_Estadio_Gran_Parque_Central.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Fachada_Estadio_Gran_Parque_Central.JPG"
+          }
+        ],
         "Surnom(s)": "El Parque, El Templo Tricolor, La Quinta de la Paraguaya",
         "Nom complet": "Estadio Gran Parque Central",
         "Adresse": "Montevideo, Uruguay",
@@ -21,17 +28,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -34.884373,
-        -56.1588
+        -56.1588,
+        -34.884373
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Pocitos",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Pocitos",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Estadio_Pocitos_Montevideo.JPG/280px-Estadio_Pocitos_Montevideo.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_Pocitos_Montevideo.JPG"
+          }
+        ],
         "Adresse": "Montevideo",
         "Coordonnées": "34° 54′ 18″ S 56° 09′ 22″ O / -34.905083, -56.156222 ()34° 54′ 18″ Sud 56° 09′ 22″ Ouest / -34.905083, -56.156222 ()",
         "Début construction": "avril 1921",
@@ -45,17 +59,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -34.905083,
-        -56.156222
+        -56.156222,
+        -34.905083
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Artemio-Franchi (Florence)",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_Artemio_Franchi_(Florence)",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Soccer_in_Florence%2C_Italy%2C_2007.jpg/280px-Soccer_in_Florence%2C_Italy%2C_2007.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Soccer_in_Florence,_Italy,_2007.jpg"
+          }
+        ],
         "Noms précédents": "Stadio Giovanni Berta (1931-1945) Stadio Comunale (1945-1993)",
         "Nom complet": "Stadio comunale Artemio-Franchi",
         "Adresse": "Viale Manfredo Fanti, 4 50137 Florence (FI), Italie",
@@ -77,14 +98,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        43.780822,
-        11.282258
+        11.282258,
+        43.780822
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Luigi-Ferraris",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Luigi_Ferraris",
       "stadeInfo": {
@@ -109,14 +131,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        44.416583,
-        8.952742
+        8.952742,
+        44.416583
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Giuseppe-Meazza",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_San_Siro",
       "stadeInfo": {
@@ -138,17 +161,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        45.478025,
-        9.124206
+        9.124206,
+        45.478025
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Giorgio-Ascarelli",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Giorgio_Ascarelli",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/StadioPartenopeo.jpg/280px-StadioPartenopeo.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:StadioPartenopeo.jpg"
+          }
+        ],
         "Surnom(s)": "Stadio Partenopeo",
         "Adresse": "Naples, Italie",
         "Coordonnées": "40° 51′ 35″ N 14° 17′ 36″ E / 40.859722, 14.293333 ()40° 51′ 35″ Nord 14° 17′ 36″ Est / 40.859722, 14.293333 ()",
@@ -168,17 +198,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        40.859722,
-        14.293333
+        14.293333,
+        40.859722
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stadio Nazionale del PNF",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_Nazionale_del_P.N.F.",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadio_Pnf.jpg/280px-Stadio_Pnf.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stadio_Pnf.jpg"
+          }
+        ],
         "Nom complet": "Stadio del Partito Nazionale Fascista",
         "Adresse": "Rome, Italie",
         "Coordonnées": "41° 55′ 38″ N 12° 28′ 20″ E / 41.927222, 12.472222 ()41° 55′ 38″ Nord 12° 28′ 20″ Est / 41.927222, 12.472222 ()",
@@ -196,17 +233,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        41.927222,
-        12.472222
+        12.472222,
+        41.927222
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Giuseppe-Grezar",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Giuseppe_Grezar",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/StadiodelLittorio.jpg/280px-StadiodelLittorio.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:StadiodelLittorio.jpg"
+          }
+        ],
         "Surnom(s)": "Pino Grezar",
         "Adresse": "Via dei Macelli 2, 34148 Trieste, Italie",
         "Coordonnées": "45° 37′ 26″ N 13° 47′ 39″ E / 45.62386, 13.794277 ()45° 37′ 26″ Nord 13° 47′ 39″ Est / 45.62386, 13.794277 ()",
@@ -224,17 +268,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        45.62386,
-        13.794277
+        13.794277,
+        45.62386
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade olympique de Turin",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_Olimpico_(Turin)",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Stadio_Olimpico_Torino_Italy.jpg/280px-Stadio_Olimpico_Torino_Italy.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stadio_Olimpico_Torino_Italy.jpg"
+          }
+        ],
         "Noms précédents": "Stadio Mussolini Stadio Comunale",
         "Nom complet": "Stadio Olimpico di Torino",
         "Adresse": "Corso Sebastopoli, 123 10137 Turin, Italie",
@@ -253,17 +304,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        45.041722,
-        7.649733
+        7.649733,
+        45.041722
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Jacques-Chaban-Delmas",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Jacques-Chaban-Delmas",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Panorama_Chaban-Delmas.jpg/280px-Panorama_Chaban-Delmas.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Panorama_Chaban-Delmas.jpg"
+          }
+        ],
         "Noms précédents": "Parc Lescure (1924 - 2001)",
         "Surnom(s)": "Chaban, Lescure",
         "Adresse": "Place Johnston 33000 Bordeaux",
@@ -284,17 +342,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        44.82917,
-        -0.5983333
+        -0.5983333,
+        44.82917
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade olympique Yves-du-Manoir",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_olympique_Yves-du-Manoir",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Stade_Yves_du_Manoir_Colombes7.jpg/280px-Stade_Yves_du_Manoir_Colombes7.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stade_Yves_du_Manoir_Colombes7.jpg"
+          }
+        ],
         "Noms précédents": "Stade du Matin (1907-1919) Stade de Colombes (1920-1924) Stade olympique de Colombes (1924-1928) Stade olympique Yves-du-Manoir (depuis 1928)",
         "Adresse": "Colombes",
         "Coordonnées": "48° 55′ 46″ N 2° 14′ 53″ E / 48.929348, 2.247948 ()48° 55′ 46″ Nord 2° 14′ 53″ Est / 48.929348, 2.247948 ()",
@@ -309,17 +374,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        48.929348,
-        2.247948
+        2.247948,
+        48.929348
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Jules-Deschaseaux",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Jules-Deschaseaux",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Le_Stade_Jules_Deschaseaux%2C_tribune_Paul_Langlois.jpg/280px-Le_Stade_Jules_Deschaseaux%2C_tribune_Paul_Langlois.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Le_Stade_Jules_Deschaseaux,_tribune_Paul_Langlois.jpg"
+          }
+        ],
         "Noms précédents": "Stade municipal du Havre (1931 - 1957)",
         "Adresse": "109 rue du Commandant Abadie 76600 Le Havre",
         "Coordonnées": "49° 30′ 06″ N 0° 10′ 16″ E / 49.501733, 0.1711 ()49° 30′ 06″ Nord 0° 10′ 16″ Est / 49.501733, 0.1711 ()",
@@ -338,17 +410,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        49.501733,
-        0.1711
+        0.1711,
+        49.501733
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Henri-Jooris",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Henri-Jooris",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/96/LilleOM-1937.jpg/280px-LilleOM-1937.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:LilleOM-1937.jpg"
+          }
+        ],
         "Noms précédents": "stade de l'avenue de Dunkerque stade Victor-Boucquey",
         "Adresse": "Lille",
         "Coordonnées": "50° 38′ 15″ N 3° 02′ 10″ E / 50.6375, 3.036111 ()50° 38′ 15″ Nord 3° 02′ 10″ Est / 50.6375, 3.036111 ()",
@@ -363,17 +442,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        50.6375,
-        3.036111
+        3.036111,
+        50.6375
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Vélodrome",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_V%C3%A9lodrome",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Stade_velodrome.jpg/280px-Stade_velodrome.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stade_velodrome.jpg"
+          }
+        ],
         "Adresse": "3 boulevard Michelet, 13008 Marseille",
         "Coordonnées": "43° 16′ 11″ N 5° 23′ 45″ E / 43.269806, 5.395922 ()43° 16′ 11″ Nord 5° 23′ 45″ Est / 43.269806, 5.395922 ()",
         "Début construction": "28 avril 1935",
@@ -394,17 +480,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        43.269806,
-        5.395922
+        5.395922,
+        43.269806
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Parc des Princes",
       "wikipedia": "http://fr.wikipedia.org/wiki/Parc_des_Princes",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Paris-Parc-des-Princes.jpg/280px-Paris-Parc-des-Princes.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Paris-Parc-des-Princes.jpg"
+          }
+        ],
         "Adresse": "24, rue du Commandant Guilbaud 75016 Paris",
         "Coordonnées": "48° 50′ 29″ N 2° 15′ 11″ E / 48.841389, 2.253056 ()48° 50′ 29″ Nord 2° 15′ 11″ Est / 48.841389, 2.253056 ()",
         "Ouverture": "18 juillet 1897",
@@ -424,17 +517,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        48.841389,
-        2.253056
+        2.253056,
+        48.841389
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Auguste-Delaune",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Auguste_Delaune",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Stade_Auguste-Delaune_2_Trib%C3%BCnen.JPG/280px-Stade_Auguste-Delaune_2_Trib%C3%BCnen.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stade_Auguste-Delaune_2_Trib%C3%BCnen.JPG"
+          }
+        ],
         "Noms précédents": "Stade municipal (1935 - 1945)",
         "Adresse": "33, chaussée Bocquaine 51100 Reims",
         "Coordonnées": "49° 14′ 48″ N 4° 01′ 30″ E / 49.246704, 4.024962 ()49° 14′ 48″ Nord 4° 01′ 30″ Est / 49.246704, 4.024962 ()",
@@ -455,17 +555,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        49.246704,
-        4.024962
+        4.024962,
+        49.246704
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de la Meinau",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_la_Meinau",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Stade_de_la_Meinau.JPG/280px-Stade_de_la_Meinau.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stade_de_la_Meinau.JPG"
+          }
+        ],
         "Noms précédents": "Jardin Haemmerlé (1906-1921)",
         "Surnom(s)": "La Meinau, D'Màinau (en alsacien)",
         "Adresse": "12 rue de l'Extenwoerth 67100 Strasbourg",
@@ -488,14 +595,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        48.560064,
-        7.754969
+        7.754969,
+        48.560064
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Ernest-Wallon",
       "wikipedia": "http://fr.wikipedia.org/wiki/Parc_des_Sports_(Toulouse)",
       "stadeInfo": {
@@ -515,17 +623,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        43.621944,
-        1.415556
+        1.415556,
+        43.621944
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Vila Capanema",
       "wikipedia": "http://fr.wikipedia.org/wiki/Est%C3%A1dio_Vila_Capanema",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Vila_panoramica.jpg/280px-Vila_panoramica.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Vila_panoramica.jpg"
+          }
+        ],
         "Nom complet": "Estádio Durival Britto e Silva",
         "Adresse": "Curitiba, Paraná Brésil",
         "Coordonnées": "25° 26′ 22″ S 49° 15′ 21″ O / -25.439444, -49.255833 ()25° 26′ 22″ Sud 49° 15′ 21″ Ouest / -25.439444, -49.255833 ()",
@@ -544,14 +659,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -25.439444,
-        -49.255833
+        -49.255833,
+        -25.439444
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Ildo-Meneghetti",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Ildo_Meneghetti",
       "stadeInfo": {
@@ -570,17 +686,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -30.061667,
-        -51.227222
+        -51.227222,
+        -30.061667
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Adelmar-da-Costa-Carvalho",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Adelmar_da_Costa_Carvalho",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Sociais-Cadeiras_da_Ilha_do_Retiro.jpg/280px-Sociais-Cadeiras_da_Ilha_do_Retiro.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Sociais-Cadeiras_da_Ilha_do_Retiro.jpg"
+          }
+        ],
         "Surnom(s)": "Ilha do Retiro",
         "Nom complet": "Estádio Adelmar da Costa Carvalho",
         "Adresse": "Recife, PE",
@@ -599,17 +722,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -8.062953,
-        -34.902981
+        -34.902981,
+        -8.062953
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Maracanã",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Maracan%C3%A3",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Maracana_internal_view_april_2013.jpg/280px-Maracana_internal_view_april_2013.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Maracana_internal_view_april_2013.jpg"
+          }
+        ],
         "Surnom(s)": "O Maior do Mundo, Templo do Futebol, Maraca",
         "Nom complet": "Estádio Jornalista Mário Filho",
         "Adresse": "Rue Professor Eurico Rabelo, s/nº, portão 18, Maracanã.",
@@ -630,17 +760,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -22.9122,
-        -43.2302
+        -43.2302,
+        -22.9122
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade du Pacaembu",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Pacaembu",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pacaembu.jpg/280px-Pacaembu.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Pacaembu.jpg"
+          }
+        ],
         "Surnom(s)": "Stade du Pacaembu",
         "Nom complet": "Estádio Paulo Machado de Carvalho",
         "Adresse": "São Paulo, SP",
@@ -658,17 +795,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -23.548639,
-        -46.665111
+        -46.665111,
+        -23.548639
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade du Wankdorf",
       "wikipedia": "http://fr.wikipedia.org/wiki/Wankdorf",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Wankdorf_demolition_merged.jpg/280px-Wankdorf_demolition_merged.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Wankdorf_demolition_merged.jpg"
+          }
+        ],
         "Adresse": "Papiermühlestrasse 71 CH-3014 Berne",
         "Coordonnées": "46° 57′ 46″ N 7° 27′ 54″ E / 46.962778, 7.465 ()46° 57′ 46″ Nord 7° 27′ 54″ Est / 46.962778, 7.465 ()",
         "Début construction": "1925",
@@ -685,17 +829,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        46.962778,
-        7.465
+        7.465,
+        46.962778
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade des Charmilles",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_des_Charmilles",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ouches_oct_2008_%2821%29.jpg/280px-Ouches_oct_2008_%2821%29.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Ouches_oct_2008_(21).jpg"
+          }
+        ],
         "Adresse": "Genève (Suisse)",
         "Coordonnées": "46° 12′ 33″ N 6° 07′ 06″ E / 46.2091, 6.1182 ()46° 12′ 33″ Nord 6° 07′ 06″ Est / 46.2091, 6.1182 ()",
         "Construction": "1930",
@@ -712,17 +863,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        46.2091,
-        6.1182
+        6.1182,
+        46.2091
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade olympique de la Pontaise",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_la_Pontaise",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stade_Olympique.jpg/280px-Stade_Olympique.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stade_Olympique.jpg"
+          }
+        ],
         "Adresse": "Route des Plaines du Loup 7 1018 Lausanne, VD",
         "Coordonnées": "46° 32′ 00″ N 6° 37′ 27″ E / 46.533333, 6.624167 ()46° 32′ 00″ Nord 6° 37′ 27″ Est / 46.533333, 6.624167 ()",
         "Ouverture": "1904 Rouvert le 23 mai 1954",
@@ -738,14 +896,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        46.533333,
-        6.624167
+        6.624167,
+        46.533333
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stadio comunale Cornaredo",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Cornaredo",
       "stadeInfo": {
@@ -758,17 +917,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        46.023611,
-        8.961667
+        8.961667,
+        46.023611
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade du Hardturm",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_du_Hardturm",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Hardturm_retouched.jpg/280px-Hardturm_retouched.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Hardturm_retouched.jpg"
+          }
+        ],
         "Coordonnées": "47° 23′ 35″ N 8° 30′ 17″ E / 47.393056, 8.504722 ()47° 23′ 35″ Nord 8° 30′ 17″ Est / 47.393056, 8.504722 ()",
         "Ouverture": "1929",
         "Clubs résidents": "Grasshopper Zurich",
@@ -779,17 +945,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        47.393056,
-        8.504722
+        8.504722,
+        47.393056
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Tunavallen",
       "wikipedia": "http://fr.wikipedia.org/wiki/Tunavallen",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tunavallen_2011.jpg/280px-Tunavallen_2011.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Tunavallen_2011.jpg"
+          }
+        ],
         "Nom complet": "Tunavallen",
         "Adresse": "Tunavallen, 63226 Eskilstuna",
         "Coordonnées": "59° 22′ 14″ N 16° 29′ 42″ E / 59.370667, 16.495 ()59° 22′ 14″ Nord 16° 29′ 42″ Est / 59.370667, 16.495 ()",
@@ -806,17 +979,28 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        59.370667,
-        16.495
+        16.495,
+        59.370667
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Ullevi",
       "wikipedia": "http://fr.wikipedia.org/wiki/Nya_Ullevi",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/fr/1/1d/Ullevilogo.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Ullevilogo.jpg"
+          },
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ullevi_stadium_in_gothenburg_20060510.jpg/280px-Ullevi_stadium_in_gothenburg_20060510.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Ullevi_stadium_in_gothenburg_20060510.jpg"
+          }
+        ],
         "Adresse": "Ullevi, Skånegatan 411 40 Göteborg, Suède",
         "Coordonnées": "57° 42′ 21″ N 11° 59′ 14″ E / 57.705889, 11.98725 ()57° 42′ 21″ Nord 11° 59′ 14″ Est / 57.705889, 11.98725 ()",
         "Début construction": "mai 1957",
@@ -836,17 +1020,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        57.705889,
-        11.98725
+        11.98725,
+        57.705889
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Olympia (stade)",
       "wikipedia": "http://fr.wikipedia.org/wiki/Olympia_(stade)",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Olympiahelsingborg.jpg/280px-Olympiahelsingborg.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Olympiahelsingborg.jpg"
+          }
+        ],
         "Adresse": "Helsingborg, Scanie",
         "Coordonnées": "56° 03′ 00″ N 12° 43′ 00″ E / 56.05, 12.716667 ()56° 03′ 00″ Nord 12° 43′ 00″ Est / 56.05, 12.716667 ()",
         "Ouverture": "31 juillet 1898",
@@ -863,17 +1054,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        56.05,
-        12.716667
+        12.716667,
+        56.05
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Örjans Vall",
       "wikipedia": "http://fr.wikipedia.org/wiki/%C3%96rjans_Vall",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/%C3%96rjan.JPG/280px-%C3%96rjan.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:%C3%96rjan.JPG"
+          }
+        ],
         "Adresse": "Halmstad, Suède",
         "Coordonnées": "56° 41′ 03″ N 12° 51′ 59″ E / 56.684167, 12.866389 ()56° 41′ 03″ Nord 12° 51′ 59″ Est / 56.684167, 12.866389 ()",
         "Ouverture": "1922",
@@ -889,17 +1087,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        56.684167,
-        12.866389
+        12.866389,
+        56.684167
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Malmö Stadion",
       "wikipedia": "http://fr.wikipedia.org/wiki/Malm%C3%B6stadion",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Malm%C3%B6_stadion.jpg/280px-Malm%C3%B6_stadion.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Malm%C3%B6_stadion.jpg"
+          }
+        ],
         "Adresse": "Malmö",
         "Coordonnées": "55° 35′ 10″ N 12° 59′ 21″ E / 55.586081, 12.989267 ()55° 35′ 10″ Nord 12° 59′ 21″ Est / 55.586081, 12.989267 ()",
         "Début construction": "1951",
@@ -916,17 +1121,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        55.586081,
-        12.989267
+        12.989267,
+        55.586081
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Idrottsparken",
       "wikipedia": "http://fr.wikipedia.org/wiki/Idrottsparken",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Norrkopings_idrottspark.jpg/280px-Norrkopings_idrottspark.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Norrkopings_idrottspark.jpg"
+          }
+        ],
         "Adresse": "Norrköping",
         "Coordonnées": "58° 35′ 04″ N 16° 10′ 23″ E / 58.584306, 16.173056 ()58° 35′ 04″ Nord 16° 10′ 23″ Est / 58.584306, 16.173056 ()",
         "Début construction": "1903",
@@ -941,17 +1153,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        58.584306,
-        16.173056
+        16.173056,
+        58.584306
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Behrn Arena",
       "wikipedia": "http://fr.wikipedia.org/wiki/Eyravallen",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Behrn_Arena_2008.JPG/280px-Behrn_Arena_2008.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Behrn_Arena_2008.JPG"
+          }
+        ],
         "Noms précédents": "Eyravallen",
         "Nom complet": "Behrn Arena",
         "Adresse": "Örebro, Suède",
@@ -968,17 +1187,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        59.266111,
-        15.223056
+        15.223056,
+        59.266111
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Jernvallen",
       "wikipedia": "http://fr.wikipedia.org/wiki/Jernvallen",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Jernvallen.jpg/280px-Jernvallen.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Jernvallen.jpg"
+          }
+        ],
         "Nom complet": "Jernvallen",
         "Adresse": "Sätragatan 15 81161 Sandviken",
         "Coordonnées": "60° 36′ 27″ N 16° 46′ 18″ E / 60.6076, 16.7717 ()60° 36′ 27″ Nord 16° 46′ 18″ Est / 60.6076, 16.7717 ()",
@@ -993,17 +1219,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        60.6076,
-        16.7717
+        16.7717,
+        60.6076
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Råsunda",
       "wikipedia": "http://fr.wikipedia.org/wiki/R%C3%A5sunda_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/69/R%C3%A5sunda_February_2013_01.jpg/280px-R%C3%A5sunda_February_2013_01.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:R%C3%A5sunda_February_2013_01.jpg"
+          }
+        ],
         "Surnom(s)": "Betongbunkern (le Bunker bétonné)",
         "Adresse": "Solna",
         "Coordonnées": "59° 21′ 46″ N 17° 59′ 47″ E / 59.362742, 17.996308 ()59° 21′ 46″ Nord 17° 59′ 47″ Est / 59.362742, 17.996308 ()",
@@ -1017,17 +1250,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        59.362742,
-        17.996308
+        17.996308,
+        59.362742
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Rimnersvallen",
       "wikipedia": "http://fr.wikipedia.org/wiki/Rimnersvallen",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/d/d4/Rimnersvallen.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Rimnersvallen.jpg"
+          }
+        ],
         "Adresse": "Uddevalla, Suède",
         "Coordonnées": "58° 21′ 24″ N 11° 57′ 00″ E / 58.3567, 11.95 ()58° 21′ 24″ Nord 11° 57′ 00″ Est / 58.3567, 11.95 ()",
         "Ouverture": "1922",
@@ -1040,14 +1280,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        58.3567,
-        11.95
+        11.95,
+        58.3567
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Arosvallen",
       "wikipedia": "http://fr.wikipedia.org/wiki/Arosvallen",
       "stadeInfo": {
@@ -1066,17 +1307,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        59.6204,
-        16.541
+        16.541,
+        59.6204
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio El Teniente",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Braden_Cooper_Co.",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Estadio_El_Teniente.jpg/280px-Estadio_El_Teniente.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_El_Teniente.jpg"
+          }
+        ],
         "Noms précédents": "Estadio Braden Copper Co.",
         "Adresse": "Rancagua Chili",
         "Coordonnées": "34° 10′ 40″ S 70° 44′ 16″ O / -34.177764, -70.737719 ()34° 10′ 40″ Sud 70° 44′ 16″ Ouest / -34.177764, -70.737719 ()",
@@ -1093,17 +1341,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -34.177764,
-        -70.737719
+        -70.737719,
+        -34.177764
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Nacional de Chile",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Nacional_de_Chile",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Estadio_Nacional_de_Chile_2.jpg/280px-Estadio_Nacional_de_Chile_2.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_Nacional_de_Chile_2.jpg"
+          }
+        ],
         "Adresse": "Ñuñoa, Santiago du Chili",
         "Coordonnées": "33° 27′ 52.3″ S 70° 36′ 38.17″ O / -33.464528, -70.6106028 ()33° 27′ 52.3″ Sud 70° 36′ 38.17″ Ouest / -33.464528, -70.6106028 ()",
         "Ouverture": "3 décembre 1938",
@@ -1115,17 +1370,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -33.464528,
-        -70.6106028
+        -70.6106028,
+        -33.464528
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Sausalito",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Sausalito",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/12/EstadioSausalito.jpg/280px-EstadioSausalito.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:EstadioSausalito.jpg"
+          }
+        ],
         "Adresse": "Viña del Mar Chili",
         "Coordonnées": "33° 00′ 52″ S 71° 32′ 07″ O / -33.014397, -71.535233 ()33° 00′ 52″ Sud 71° 32′ 07″ Ouest / -33.014397, -71.535233 ()",
         "Construction": "1929",
@@ -1141,17 +1403,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -33.014397,
-        -71.535233
+        -71.535233,
+        -33.014397
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Goodison Park",
       "wikipedia": "http://fr.wikipedia.org/wiki/Goodison_Park",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Goodisonview1.JPG/280px-Goodisonview1.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Goodisonview1.JPG"
+          }
+        ],
         "Noms précédents": "Mere Green field",
         "Surnom(s)": "The Grand Old Lady",
         "Adresse": "Goodison Road, Liverpool, Angleterre",
@@ -1173,17 +1442,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        53.438889,
-        -2.966389
+        -2.966389,
+        53.438889
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Hillsborough (stade)",
       "wikipedia": "http://fr.wikipedia.org/wiki/Hillsborough_(stade)",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Hillsborough_North_Stand.JPG/280px-Hillsborough_North_Stand.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Hillsborough_North_Stand.JPG"
+          }
+        ],
         "Noms précédents": "Owlerton Stadium (avant 1914)",
         "Nom complet": "Hillsborough Stadium",
         "Adresse": "Owlerton, Sheffield, Angleterre S6 1SW",
@@ -1202,17 +1478,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        53.411389,
-        -1.500556
+        -1.500556,
+        53.411389
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Roker Park",
       "wikipedia": "http://fr.wikipedia.org/wiki/Roker_Park",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Roker_Park_August_1976.jpg/280px-Roker_Park_August_1976.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Roker_Park_August_1976.jpg"
+          }
+        ],
         "Adresse": "Sunderland, Angleterre",
         "Coordonnées": "54° 55′ 17″ N 1° 22′ 32″ O / 54.9213, -1.375481 ()54° 55′ 17″ Nord 1° 22′ 32″ Ouest / 54.9213, -1.375481 ()",
         "Construction": "1897",
@@ -1231,17 +1514,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        54.9213,
-        -1.375481
+        -1.375481,
+        54.9213
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "White City Stadium",
       "wikipedia": "http://fr.wikipedia.org/wiki/White_City_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/White_City_Stadium_1908.jpg/280px-White_City_Stadium_1908.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:White_City_Stadium_1908.jpg"
+          }
+        ],
         "Adresse": "White City, Londres, Angleterre",
         "Coordonnées": "51° 30′ 49″ N 0° 13′ 39″ O / 51.51362, -0.2274 ()51° 30′ 49″ Nord 0° 13′ 39″ Ouest / 51.51362, -0.2274 ()",
         "Début construction": "1907",
@@ -1257,17 +1547,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        51.51362,
-        -0.2274
+        -0.2274,
+        51.51362
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Villa Park",
       "wikipedia": "http://fr.wikipedia.org/wiki/Villa_Park",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Villaparkfromtopofholte.jpg/280px-Villaparkfromtopofholte.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Villaparkfromtopofholte.jpg"
+          }
+        ],
         "Noms précédents": "Aston Lower Grounds",
         "Adresse": "Trinity Road, Birmingham B6 6HE[1]",
         "Coordonnées": "52° 30′ 33″ N 1° 53′ 05″ O / 52.509167, -1.884722 ()52° 30′ 33″ Nord 1° 53′ 05″ Ouest / 52.509167, -1.884722 ()",
@@ -1286,17 +1583,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        52.509167,
-        -1.884722
+        -1.884722,
+        52.509167
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Old Trafford",
       "wikipedia": "http://fr.wikipedia.org/wiki/Old_Trafford",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Old_Trafford_inside_20060726_1.jpg/280px-Old_Trafford_inside_20060726_1.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Old_Trafford_inside_20060726_1.jpg"
+          }
+        ],
         "Surnom(s)": "Le Théâtre des Rêves",
         "Adresse": "Sir Matt Busby Way Old Trafford Manchester, M16 0RA",
         "Coordonnées": "53° 27′ 47″ N 2° 17′ 28″ O / 53.463120007109, -2.2912126779556 ()53° 27′ 47″ Nord 2° 17′ 28″ Ouest / 53.463120007109, -2.2912126779556 ()",
@@ -1320,17 +1624,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        53.463120007109,
-        -2.2912126779556
+        -2.2912126779556,
+        53.463120007109
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Ayresome Park",
       "wikipedia": "http://fr.wikipedia.org/wiki/Ayresome_Park",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/East_Stand%2C_Ayresome_Park.jpg/280px-East_Stand%2C_Ayresome_Park.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:East_Stand,_Ayresome_Park.jpg"
+          }
+        ],
         "Adresse": "Ayresome Park Road, Middlesbrough, Angleterre",
         "Coordonnées": "54° 33′ 51″ N 1° 14′ 49″ O / 54.564167, -1.246944 ()54° 33′ 51″ Nord 1° 14′ 49″ Ouest / 54.564167, -1.246944 ()",
         "Début construction": "1881",
@@ -1350,17 +1661,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        54.564167,
-        -1.246944
+        -1.246944,
+        54.564167
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Nou Camp",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Nou_Camp",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/EstadioLeon.jpg/280px-EstadioLeon.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:EstadioLeon.jpg"
+          }
+        ],
         "Noms précédents": "Guanajuato",
         "Nom complet": "Estadio Nou Camp",
         "Adresse": "León, Guanajuato, Mexico",
@@ -1376,17 +1694,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        21.115544,
-        -101.657744
+        -101.657744,
+        21.115544
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Azteca",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Azteca",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Azteca_entrance.jpg/280px-Azteca_entrance.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Azteca_entrance.jpg"
+          }
+        ],
         "Surnom(s)": "Coloso de Santa Úrsula",
         "Adresse": "Calzada de Tlalpan 3465 Mexico, DF C.P. 04650",
         "Coordonnées": "19° 18′ 10″ N 99° 09′ 02″ O / 19.302911, -99.150442 ()19° 18′ 10″ Nord 99° 09′ 02″ Ouest / 19.302911, -99.150442 ()",
@@ -1406,17 +1731,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        19.302911,
-        -99.150442
+        -99.150442,
+        19.302911
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Cuauhtémoc",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Cuauht%C3%A9moc",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/12012008067.jpg/280px-12012008067.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:12012008067.jpg"
+          }
+        ],
         "Nom complet": "Estadio Cuauhtémoc",
         "Adresse": "Puebla, Mexico",
         "Coordonnées": "19° 04′ 41″ N 98° 09′ 52″ O / 19.078056, -98.164444 ()19° 04′ 41″ Nord 98° 09′ 52″ Ouest / 19.078056, -98.164444 ()",
@@ -1434,17 +1766,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        19.078056,
-        -98.164444
+        -98.164444,
+        19.078056
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Nemesio Díez",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Nemesio_D%C3%ADez",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/B4Game26JulyToluca.JPG/280px-B4Game26JulyToluca.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:B4Game26JulyToluca.JPG"
+          }
+        ],
         "Noms précédents": "Stade Luis Dosal",
         "Nom complet": "Estadio Nemesio Díez",
         "Adresse": "Toluca, Mexique",
@@ -1460,17 +1799,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        19.2872861,
-        -99.6667944
+        -99.6667944,
+        19.2872861
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Signal Iduna Park",
       "wikipedia": "http://fr.wikipedia.org/wiki/Westfalenstadion",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Signal_Iduna_Park_new_sign.jpg/280px-Signal_Iduna_Park_new_sign.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Signal_Iduna_Park_new_sign.jpg"
+          }
+        ],
         "Noms précédents": "Westfalenstadion (1974 - 2005) FIFA WM-Stadion Dortmund (Coupe du monde de football de 2006)",
         "Adresse": "Strobelallee 50 44139 Dortmund",
         "Coordonnées": "51° 29′ 33″ N 7° 27′ 06″ E / 51.4925, 7.451667 ()51° 29′ 33″ Nord 7° 27′ 06″ Est / 51.4925, 7.451667 ()",
@@ -1491,17 +1837,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        51.4925,
-        7.451667
+        7.451667,
+        51.4925
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Rheinstadion",
       "wikipedia": "http://fr.wikipedia.org/wiki/Rheinstadion",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Altes_Rheinstadion.jpg/280px-Altes_Rheinstadion.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Altes_Rheinstadion.jpg"
+          }
+        ],
         "Adresse": "Düsseldorf",
         "Coordonnées": "51° 15′ 37″ N 6° 44′ 03″ E / 51.2603, 6.73417 ()51° 15′ 37″ Nord 6° 44′ 03″ Est / 51.2603, 6.73417 ()",
         "Ouverture": "septembre 1925",
@@ -1518,17 +1871,28 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        51.2603,
-        6.73417
+        6.73417,
+        51.2603
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Commerzbank-Arena",
       "wikipedia": "http://fr.wikipedia.org/wiki/Waldstadion",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/fr/thumb/a/ab/Commerzbank-Arenalogo.jpg/140px-Commerzbank-Arenalogo.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Commerzbank-Arenalogo.jpg"
+          },
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/08/130919-Commerzbank-Arena-Europa-League.jpg/280px-130919-Commerzbank-Arena-Europa-League.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:130919-Commerzbank-Arena-Europa-League.jpg"
+          }
+        ],
         "Noms précédents": "Waldstadion (1925 - 2005) FIFA WM-Stadion Frankfurt am Main (Coupe du monde de football de 2006)",
         "Surnom(s)": "Waldstadion",
         "Adresse": "Mörfelder Landstrasse 362 D-60528 Francfort-sur-le-Main",
@@ -1550,17 +1914,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        50.068611,
-        8.645278
+        8.645278,
+        50.068611
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Parkstadion",
       "wikipedia": "http://fr.wikipedia.org/wiki/Parkstadion",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Schalke_Parkstadion.jpg/280px-Schalke_Parkstadion.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Schalke_Parkstadion.jpg"
+          }
+        ],
         "Adresse": "Gelsenkirchen",
         "Coordonnées": "51° 33′ 33″ N 7° 04′ 00″ E / 51.5592, 7.06667 ()51° 33′ 33″ Nord 7° 04′ 00″ Est / 51.5592, 7.06667 ()",
         "Début construction": "28 août 1969",
@@ -1575,17 +1946,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        51.5592,
-        7.06667
+        7.06667,
+        51.5592
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Imtech Arena",
       "wikipedia": "http://fr.wikipedia.org/wiki/Volksparkstadion",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/de/RK_1009_9831_Volksparkstadion.jpg/280px-RK_1009_9831_Volksparkstadion.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:RK_1009_9831_Volksparkstadion.jpg"
+          }
+        ],
         "Noms précédents": "Volksparkstadion (1953 - 2001) AOL Arena (2001 - 2007) FIFA WM-Stadion Hamburg (Coupe du monde de football de 2006) HSH Nordbank Arena (2007 - 2010)",
         "Surnom(s)": "Volksparkstadion",
         "Adresse": "Sylvesterallee 7 22525 Hambourg",
@@ -1604,17 +1982,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        53.586944,
-        9.898611
+        9.898611,
+        53.586944
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "HDI-Arena",
       "wikipedia": "http://fr.wikipedia.org/wiki/Niedersachsenstadion",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/AWD_Eingang08.jpg/280px-AWD_Eingang08.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:AWD_Eingang08.jpg"
+          }
+        ],
         "Noms précédents": "Niedersachsenstadion (1954 - 2002) AWD-Arena (2002 - 2013) FIFA-WM-Stadion Hannover (Coupe du monde de football de 2006)",
         "Adresse": "Robert Enke-Straße 1 30169 Hanovre",
         "Coordonnées": "52° 21′ 36″ N 9° 43′ 52″ E / 52.36, 9.731111 ()52° 21′ 36″ Nord 9° 43′ 52″ Est / 52.36, 9.731111 ()",
@@ -1633,17 +2018,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        52.36,
-        9.731111
+        9.731111,
+        52.36
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade olympique de Munich",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_olympique_de_Munich",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Olympiastadion_Muenchen.jpg/280px-Olympiastadion_Muenchen.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Olympiastadion_Muenchen.jpg"
+          }
+        ],
         "Adresse": "Spiridon-Louis-Ring 21 D-80809 Munich",
         "Coordonnées": "48° 10′ 23″ N 11° 32′ 48″ E / 48.173056, 11.546667 ()48° 10′ 23″ Nord 11° 32′ 48″ Est / 48.173056, 11.546667 ()",
         "Début construction": "1968",
@@ -1663,17 +2055,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        48.173056,
-        11.546667
+        11.546667,
+        48.173056
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Mercedes-Benz Arena",
       "wikipedia": "http://fr.wikipedia.org/wiki/Neckarstadion",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Gottlieb-daimler-stadion.jpg/280px-Gottlieb-daimler-stadion.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Gottlieb-daimler-stadion.jpg"
+          }
+        ],
         "Noms précédents": "Adolf-Hitler-Kampfbahn (1933 - 1945) Century Stadium/Kampfbahn (1945 – 1949) Neckarstadion (1949 – 1993) Gottlieb-Daimler-Stadion (1993 – 2008)",
         "Adresse": "Mercedesstrasse 87 70372 Stuttgart",
         "Coordonnées": "48° 47′ 32″ N 9° 13′ 55″ E / 48.792222, 9.231944 ()48° 47′ 32″ Nord 9° 13′ 55″ Est / 48.792222, 9.231944 ()",
@@ -1692,17 +2091,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        48.792222,
-        9.231944
+        9.231944,
+        48.792222
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio José Amalfitani",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Jos%C3%A9_Amalfitani",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Buenos_Aires_-_Estadio_Jos%C3%A9_Amalfitani_%28V%C3%A9lez_S%C3%A1rsfield%29.jpg/280px-Buenos_Aires_-_Estadio_Jos%C3%A9_Amalfitani_%28V%C3%A9lez_S%C3%A1rsfield%29.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Buenos_Aires_-_Estadio_Jos%C3%A9_Amalfitani_(V%C3%A9lez_S%C3%A1rsfield).jpg"
+          }
+        ],
         "Surnom(s)": "El Fortín",
         "Coordonnées": "34° 38′ 07″ S 58° 31′ 15″ O / -34.635361, -58.520722 ()34° 38′ 07″ Sud 58° 31′ 15″ Ouest / -34.635361, -58.520722 ()",
         "Début construction": "1947",
@@ -1715,17 +2121,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -34.635361,
-        -58.520722
+        -58.520722,
+        -34.635361
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Mario Alberto Kempes",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Mario_Alberto_Kempes",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Estadio_C%C3%B3rdoba_%28Arg_vs_Ghana%29_1.jpg/280px-Estadio_C%C3%B3rdoba_%28Arg_vs_Ghana%29_1.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_C%C3%B3rdoba_(Arg_vs_Ghana)_1.jpg"
+          }
+        ],
         "Noms précédents": "Estadio Olímpico Chateau Carreras, Estadio Córdoba",
         "Adresse": "Paraje Chateau Carreras, Córdoba Argentine",
         "Coordonnées": "31° 22′ 08″ S 64° 14′ 46″ O / -31.368956, -64.246244 ()31° 22′ 08″ Sud 64° 14′ 46″ Ouest / -31.368956, -64.246244 ()",
@@ -1742,17 +2155,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -31.368956,
-        -64.246244
+        -64.246244,
+        -31.368956
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Malvinas Argentinas",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Malvinas_Argentinas",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Estadio_Malvinas_Argentinas.JPG/280px-Estadio_Malvinas_Argentinas.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_Malvinas_Argentinas.JPG"
+          }
+        ],
         "Noms précédents": "Estadio Ciudad de Mendoza",
         "Nom complet": "Estadio Mundialista Malvinas Argentinas",
         "Adresse": "Mendoza",
@@ -1768,17 +2188,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -32.889564,
-        -68.879994
+        -68.879994,
+        -32.889564
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Gigante de Arroyito",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Gigante_de_Arroyito",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Estadio_Gigante_de_Arroyito.jpg/280px-Estadio_Gigante_de_Arroyito.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_Gigante_de_Arroyito.jpg"
+          }
+        ],
         "Nom complet": "Estadio Dr Lisandro de la Torre",
         "Coordonnées": "32° 54′ 50″ S 60° 40′ 28″ O / -32.913997, -60.674567 ()32° 54′ 50″ Sud 60° 40′ 28″ Ouest / -32.913997, -60.674567 ()",
         "Début construction": "1927",
@@ -1794,14 +2221,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -32.913997,
-        -60.674567
+        -60.674567,
+        -32.913997
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade José Maria Minella",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Jos%C3%A9_Maria_Minella",
       "stadeInfo": {
@@ -1816,17 +2244,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -38.017944,
-        -57.582333
+        -57.582333,
+        -38.017944
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Camp Nou",
       "wikipedia": "http://fr.wikipedia.org/wiki/Nou_Camp",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CampNouAkn.jpg/280px-CampNouAkn.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:CampNouAkn.jpg"
+          }
+        ],
         "Noms précédents": "Estadi del FC Barcelona (1957-2000)",
         "Adresse": "Avinguda Aristides Maillol s/n 08028 Barcelone, Catalogne",
         "Coordonnées": "41° 22′ 51″ N 2° 07′ 22″ E / 41.380889, 2.122831 ()41° 22′ 51″ Nord 2° 07′ 22″ Est / 41.380889, 2.122831 ()",
@@ -1848,17 +2283,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        41.380889,
-        2.122831
+        2.122831,
+        41.380889
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadi de Sarrià",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadi_de_Sarri%C3%A0",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Sarri%C3%A0.jpg/280px-Sarri%C3%A0.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Sarri%C3%A0.jpg"
+          }
+        ],
         "Adresse": "Barcelone Espagne",
         "Coordonnées": "41° 23′ 35″ N 2° 07′ 59″ E / 41.393111, 2.133169 ()41° 23′ 35″ Nord 2° 07′ 59″ Est / 41.393111, 2.133169 ()",
         "Ouverture": "18 février 1923",
@@ -1875,14 +2317,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        41.393111,
-        2.133169
+        2.133169,
+        41.393111
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade San Mamés (1913)",
       "wikipedia": "http://fr.wikipedia.org/wiki/San_Mam%C3%A9s",
       "stadeInfo": {
@@ -1902,17 +2345,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        43.263676,
-        -2.948097
+        -2.948097,
+        43.263676
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Martínez-Valero",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Martinez-Valero",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Elche-Xerez.jpg/280px-Elche-Xerez.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Elche-Xerez.jpg"
+          }
+        ],
         "Surnom(s)": "Coliseo Ilicitano",
         "Nom complet": "Estadio Manuel Martínez Valero",
         "Adresse": "Avda de Manuel Martínez Valero, 3 03208 Elche, Espagne",
@@ -1931,14 +2381,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        38.266944,
-        -0.663333
+        -0.663333,
+        38.266944
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade El Molinón",
       "wikipedia": "http://fr.wikipedia.org/wiki/El_Molin%C3%B3n",
       "stadeInfo": {
@@ -1960,17 +2411,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        43.536111,
-        -5.637222
+        -5.637222,
+        43.536111
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade du Riazor",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_du_Riazor",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Estadio_de_Riazor.A_Corunha.Galiza.jpg/280px-Estadio_de_Riazor.A_Corunha.Galiza.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_de_Riazor.A_Corunha.Galiza.jpg"
+          }
+        ],
         "Adresse": "La Corogne (Espagne)",
         "Coordonnées": "43° 22′ 07″ N 8° 25′ 03″ O / 43.368714, -8.417516 ()43° 22′ 07″ Nord 8° 25′ 03″ Ouest / 43.368714, -8.417516 ()",
         "Ouverture": "28 octobre 1944",
@@ -1985,17 +2443,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        43.368714,
-        -8.417516
+        -8.417516,
+        43.368714
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Santiago Bernabéu",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Santiago_Bernab%C3%A9u",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Estadio_Santiago_Bernabeu_-_vista_exterior.jpg/280px-Estadio_Santiago_Bernabeu_-_vista_exterior.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_Santiago_Bernabeu_-_vista_exterior.jpg"
+          }
+        ],
         "Noms précédents": "Nuevo Estadio Chamartín (1947-1955)",
         "Surnom(s)": "El Bernabéu",
         "Adresse": "Avenida de Concha Espina 1 28036 Madrid, Espagne",
@@ -2020,17 +2485,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        40.452778,
-        -3.688056
+        -3.688056,
+        40.452778
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Vicente-Calderón",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Vicente_Calder%C3%B3n",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/VicenteCalderon.jpg/280px-VicenteCalderon.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:VicenteCalderon.jpg"
+          }
+        ],
         "Adresse": "Paseo Virgen del Puerto 67, Puerta 4, 28 005 Madrid",
         "Coordonnées": "40° 24′ 06″ N 3° 43′ 14″ O / 40.401719, -3.720606 ()40° 24′ 06″ Nord 3° 43′ 14″ Ouest / 40.401719, -3.720606 ()",
         "Construction": "1966",
@@ -2048,17 +2520,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        40.401719,
-        -3.720606
+        -3.720606,
+        40.401719
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade La Rosaleda",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_La_Rosaleda",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Estado_de_la_Rosaleda_%28M%C3%A1laga_C.F.%29.jpg/280px-Estado_de_la_Rosaleda_%28M%C3%A1laga_C.F.%29.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estado_de_la_Rosaleda_(M%C3%A1laga_C.F.).jpg"
+          }
+        ],
         "Nom complet": "Estadio La Rosaleda",
         "Adresse": "Paseo de Martiricos s/n - 29011 Malaga, Andalousie, Espagne",
         "Coordonnées": "36° 44′ 03″ N 4° 25′ 35″ O / 36.734092, -4.426422 ()36° 44′ 03″ Nord 4° 25′ 35″ Ouest / 36.734092, -4.426422 ()",
@@ -2075,14 +2554,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        36.734092,
-        -4.426422
+        -4.426422,
+        36.734092
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Carlos-Tartiere (1932)",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Carlos_Tartiere",
       "stadeInfo": {
@@ -2113,9 +2593,16 @@
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "La Romareda",
       "wikipedia": "http://fr.wikipedia.org/wiki/La_Romareda",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Interior_de_La_Romareda.jpg/280px-Interior_de_La_Romareda.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Interior_de_La_Romareda.jpg"
+          }
+        ],
         "Adresse": "Saragosse",
         "Coordonnées": "41° 38′ 12″ N 0° 54′ 07″ O / 41.636592, -0.901822 ()41° 38′ 12″ Nord 0° 54′ 07″ Ouest / 41.636592, -0.901822 ()",
         "Début construction": "19 septembre 1956",
@@ -2135,17 +2622,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        41.636592,
-        -0.901822
+        -0.901822,
+        41.636592
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Benito-Villamarín",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Manuel_Ruiz_de_Lopera",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Stade_Manuel_Ruiz_de_Lopera_S%C3%A9ville.JPG/280px-Stade_Manuel_Ruiz_de_Lopera_S%C3%A9ville.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stade_Manuel_Ruiz_de_Lopera_S%C3%A9ville.JPG"
+          }
+        ],
         "Noms précédents": "Estadio de la Exposición (1929—1939) Estadio Municipal de Heliópolis (1939—1982) Estadio Benito Villamarín (1982—2000) Estadio Manuel Ruiz de Lopera (2000—2010)",
         "Adresse": "Glorieta Plus Ultra 41012 Séville, Espagne",
         "Coordonnées": "37° 21′ 25″ N 5° 58′ 55″ O / 37.357008, -5.982039 ()37° 21′ 25″ Nord 5° 58′ 55″ Ouest / 37.357008, -5.982039 ()",
@@ -2163,17 +2657,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        37.357008,
-        -5.982039
+        -5.982039,
+        37.357008
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Ramón-Sánchez-Pizjuán",
       "wikipedia": "http://fr.wikipedia.org/wiki/Sanchez_Pizjuan",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Estadioramonsanchezpizjuan2.JPG/280px-Estadioramonsanchezpizjuan2.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadioramonsanchezpizjuan2.JPG"
+          }
+        ],
         "Surnom(s)": "La Bombonera de Nervión, Sánchez Pizjuán",
         "Adresse": "Avenida Eduardo Dato, s/n 41005 Séville, Espagne",
         "Coordonnées": "37° 23′ 03″ N 5° 58′ 14″ O / 37.384064, -5.9705 ()37° 23′ 03″ Nord 5° 58′ 14″ Ouest / 37.384064, -5.9705 ()",
@@ -2192,17 +2693,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        37.384064,
-        -5.9705
+        -5.9705,
+        37.384064
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio de Mestalla",
       "wikipedia": "http://fr.wikipedia.org/wiki/Mestalla",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Mestalla1.jpg/280px-Mestalla1.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Mestalla1.jpg"
+          }
+        ],
         "Adresse": "Avda. de Suecia s/n. 46 010 Valence",
         "Coordonnées": "39° 28′ 29″ N 0° 21′ 30″ O / 39.474656, -0.358361 ()39° 28′ 29″ Nord 0° 21′ 30″ Ouest / 39.474656, -0.358361 ()",
         "Ouverture": "20 mai 1923",
@@ -2215,17 +2723,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        39.474656,
-        -0.358361
+        -0.358361,
+        39.474656
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade José-Zorrilla",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Jos%C3%A9_Zorilla",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Estadio_Jos%C3%A9_Zorrilla_desde_Preferencia_A.jpg/280px-Estadio_Jos%C3%A9_Zorrilla_desde_Preferencia_A.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_Jos%C3%A9_Zorrilla_desde_Preferencia_A.jpg"
+          }
+        ],
         "Nom complet": "Nuevo Estadio Municipal José Zorrilla",
         "Adresse": "Avenida del Mundial 82, s/n 47014 Valladolid Espagne",
         "Coordonnées": "41° 38′ 40″ N 4° 45′ 40″ O / 41.644444, -4.761111 ()41° 38′ 40″ Nord 4° 45′ 40″ Ouest / 41.644444, -4.761111 ()",
@@ -2243,17 +2758,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        41.644444,
-        -4.761111
+        -4.761111,
+        41.644444
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Balaídos",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_du_Balaidos",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Estadio_de_Bala%C3%ADdos.jpg/280px-Estadio_de_Bala%C3%ADdos.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_de_Bala%C3%ADdos.jpg"
+          }
+        ],
         "Noms précédents": "Stade de Balaídos (1928–1946)",
         "Nom complet": "Estadio Municipal de Balaídos",
         "Adresse": "Avenida Balaídos, Vigo Espagne",
@@ -2273,17 +2795,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        42.211842,
-        -8.739711
+        -8.739711,
+        42.211842
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade 3 de marzo",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_3_de_marzo",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Tecos_stadium.jpg/280px-Tecos_stadium.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Tecos_stadium.jpg"
+          }
+        ],
         "Nom complet": "Estadio Tres de Marzo",
         "Adresse": "Zapopan, Jalisco, Mexique",
         "Coordonnées": "20° 41′ 38″ N 103° 24′ 58″ O / 20.693753, -103.416136 ()20° 41′ 38″ Nord 103° 24′ 58″ Ouest / 20.693753, -103.416136 ()",
@@ -2299,17 +2828,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        20.693753,
-        -103.416136
+        -103.416136,
+        20.693753
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Sergio León Chávez",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Sergio_Le%C3%B3n_Ch%C3%A1vez",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Estadio_SLC_Irapuato.jpg/280px-Estadio_SLC_Irapuato.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_SLC_Irapuato.jpg"
+          }
+        ],
         "Nom complet": "Estadio Sergio León Chávez",
         "Adresse": "Irapuato, Guanajuato, Mexico",
         "Coordonnées": "18° 39′ 18″ N 99° 11′ 31″ O / 18.6550688, -99.1920269 ()18° 39′ 18″ Nord 99° 11′ 31″ Ouest / 18.6550688, -99.1920269 ()",
@@ -2325,17 +2861,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        18.6550688,
-        -99.1920269
+        -99.1920269,
+        18.6550688
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Nou Camp",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Nou_Camp",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/EstadioLeon.jpg/280px-EstadioLeon.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:EstadioLeon.jpg"
+          }
+        ],
         "Noms précédents": "Guanajuato",
         "Nom complet": "Estadio Nou Camp",
         "Adresse": "León, Guanajuato, Mexico",
@@ -2351,17 +2894,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        21.115544,
-        -101.657744
+        -101.657744,
+        21.115544
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Azteca",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Azteca",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Azteca_entrance.jpg/280px-Azteca_entrance.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Azteca_entrance.jpg"
+          }
+        ],
         "Surnom(s)": "Coloso de Santa Úrsula",
         "Adresse": "Calzada de Tlalpan 3465 Mexico, DF C.P. 04650",
         "Coordonnées": "19° 18′ 10″ N 99° 09′ 02″ O / 19.302911, -99.150442 ()19° 18′ 10″ Nord 99° 09′ 02″ Ouest / 19.302911, -99.150442 ()",
@@ -2381,17 +2931,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        19.302911,
-        -99.150442
+        -99.150442,
+        19.302911
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade olympique universitaire (Mexico)",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Ol%C3%ADmpico_Universitario",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Estadio_Olimpico_Universitario_CU.jpg/280px-Estadio_Olimpico_Universitario_CU.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_Olimpico_Universitario_CU.jpg"
+          }
+        ],
         "Adresse": "AV. Insurgentes Sur S/N, Col. Ciudad Universitaria CP: 43000, Coyoacán, Mexico",
         "Coordonnées": "19° 19′ 55″ N 99° 11′ 32″ O / 19.331928, -99.192106 ()19° 19′ 55″ Nord 99° 11′ 32″ Ouest / 19.331928, -99.192106 ()",
         "Ouverture": "20 novembre 1952",
@@ -2406,17 +2963,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        19.331928,
-        -99.192106
+        -99.192106,
+        19.331928
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Universitario",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Universitario",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Cancha-del-universitario-tomada-por-mi.jpg/280px-Cancha-del-universitario-tomada-por-mi.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Cancha-del-universitario-tomada-por-mi.jpg"
+          }
+        ],
         "Surnom(s)": "El Volcán",
         "Adresse": "Calle del Doctor Pedro de Alba, 6645 San Nicolás de los Garza",
         "Coordonnées": "25° 43′ 22″ N 100° 18′ 43″ O / 25.722806, -100.312056 ()25° 43′ 22″ Nord 100° 18′ 43″ Ouest / 25.722806, -100.312056 ()",
@@ -2435,17 +2999,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        25.722806,
-        -100.312056
+        -100.312056,
+        25.722806
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Tecnológico",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Tecnol%C3%B3gico",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/ITESM_Estadio_Tecnologico.jpg/280px-ITESM_Estadio_Tecnologico.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:ITESM_Estadio_Tecnologico.jpg"
+          }
+        ],
         "Surnom(s)": "El Huracán",
         "Adresse": "Monterrey",
         "Coordonnées": "25° 39′ 08″ N 100° 17′ 11″ O / 25.652264, -100.286414 ()25° 39′ 08″ Nord 100° 17′ 11″ Ouest / 25.652264, -100.286414 ()",
@@ -2461,14 +3032,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        25.652264,
-        -100.286414
+        -100.286414,
+        25.652264
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Neza 86",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Neza_86",
       "stadeInfo": {
@@ -2486,17 +3058,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        19.405786,
-        -98.987042
+        -98.987042,
+        19.405786
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Corregidora",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Corregidora",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Estadio_la_Corregidora.JPG/280px-Estadio_la_Corregidora.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_la_Corregidora.JPG"
+          }
+        ],
         "Coordonnées": "20° 34′ 40″ N 100° 21′ 59″ O / 20.577667, -100.366361 ()20° 34′ 40″ Nord 100° 21′ 59″ Ouest / 20.577667, -100.366361 ()",
         "Ouverture": "5 février 1985",
         "Clubs résidents": "Querétaro FC",
@@ -2507,17 +3086,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        20.577667,
-        -100.366361
+        -100.366361,
+        20.577667
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Estadio Nemesio Díez",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Nemesio_D%C3%ADez",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/B4Game26JulyToluca.JPG/280px-B4Game26JulyToluca.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:B4Game26JulyToluca.JPG"
+          }
+        ],
         "Noms précédents": "Stade Luis Dosal",
         "Nom complet": "Estadio Nemesio Díez",
         "Adresse": "Toluca, Mexique",
@@ -2533,17 +3119,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        19.2872861,
-        -99.6667944
+        -99.6667944,
+        19.2872861
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Renato-Dall'Ara",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_Renato_Dall%27Ara",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Prepartita_bologna_bari.jpg/280px-Prepartita_bologna_bari.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Prepartita_bologna_bari.jpg"
+          }
+        ],
         "Noms précédents": "Stadio Littoriale (1927-1945) Stadio Comunale (1945-1983)",
         "Adresse": "Via Andrea Costa 174 40134 Bologne, Italie",
         "Coordonnées": "44° 29′ 32″ N 11° 18′ 35″ E / 44.492314, 11.309667 ()44° 29′ 32″ Nord 11° 18′ 35″ Est / 44.492314, 11.309667 ()",
@@ -2562,14 +3155,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        44.492314,
-        11.309667
+        11.309667,
+        44.492314
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Sant'Elia",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_Sant%27Elia",
       "stadeInfo": {
@@ -2590,17 +3184,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        39.199394,
-        9.134953
+        9.134953,
+        39.199394
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Artemio-Franchi (Florence)",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_Artemio_Franchi",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Soccer_in_Florence%2C_Italy%2C_2007.jpg/280px-Soccer_in_Florence%2C_Italy%2C_2007.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Soccer_in_Florence,_Italy,_2007.jpg"
+          }
+        ],
         "Noms précédents": "Stadio Giovanni Berta (1931-1945) Stadio Comunale (1945-1993)",
         "Nom complet": "Stadio comunale Artemio-Franchi",
         "Adresse": "Viale Manfredo Fanti, 4 50137 Florence (FI), Italie",
@@ -2622,14 +3223,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        43.780822,
-        11.282258
+        11.282258,
+        43.780822
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Luigi-Ferraris",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Luigi-Ferraris",
       "stadeInfo": {
@@ -2654,14 +3256,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        44.416583,
-        8.952742
+        8.952742,
+        44.416583
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Giuseppe-Meazza",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Giuseppe_Meazza",
       "stadeInfo": {
@@ -2683,17 +3286,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        45.478025,
-        9.124206
+        9.124206,
+        45.478025
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade San Paolo",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_San_Paolo",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Stadio_San_Paolo.jpg/250px-Stadio_San_Paolo.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stadio_San_Paolo.jpg"
+          }
+        ],
         "Adresse": "Piazzale Vincenzo Tecchio 80125 Naples (NA), Italie",
         "Coordonnées": "40° 49′ 41″ N 14° 11′ 35″ E / 40.827967, 14.193008 ()40° 49′ 41″ Nord 14° 11′ 35″ Est / 40.827967, 14.193008 ()",
         "Ouverture": "6 décembre 1959",
@@ -2713,17 +3323,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        40.827967,
-        14.193008
+        14.193008,
+        40.827967
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Renzo-Barbera",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_Renzo_Barbera",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Palermo-Catania_2006.jpg/280px-Palermo-Catania_2006.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Palermo-Catania_2006.jpg"
+          }
+        ],
         "Noms précédents": "Littorio (1932-1936), Michele Marrone (1936-1945), Stadio Comunale (1945-1948), La Favorita (1948-2002)",
         "Adresse": "Viale del Fante 11, 90146 Palerme, Italie",
         "Coordonnées": "38° 09′ 10″ N 13° 20′ 32″ E / 38.152767, 13.342275 ()38° 09′ 10″ Nord 13° 20′ 32″ Est / 38.152767, 13.342275 ()",
@@ -2741,17 +3358,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        38.152767,
-        13.342275
+        13.342275,
+        38.152767
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade olympique de Rome",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_Olimpico",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Stadio_Olimpico_2008.JPG/280px-Stadio_Olimpico_2008.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stadio_Olimpico_2008.JPG"
+          }
+        ],
         "Surnom(s)": "Olimpico",
         "Adresse": "Via Foro Italico 00194 Rome, Italie",
         "Coordonnées": "41° 56′ 02″ N 12° 27′ 17″ E / 41.933889, 12.454722 ()41° 56′ 02″ Nord 12° 27′ 17″ Est / 41.933889, 12.454722 ()",
@@ -2769,17 +3393,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        41.933889,
-        12.454722
+        12.454722,
+        41.933889
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stadio delle Alpi",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_delle_Alpi",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Delle_Alpi_in_demolizione.jpg/280px-Delle_Alpi_in_demolizione.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Delle_Alpi_in_demolizione.jpg"
+          }
+        ],
         "Adresse": "Strada Comunale di Altessano, 131 10151 Turin (TO), Italie",
         "Coordonnées": "45° 06′ 34″ N 7° 38′ 29″ E / 45.109561, 7.641261 ()45° 06′ 34″ Nord 7° 38′ 29″ Est / 45.109561, 7.641261 ()",
         "Début construction": "juin 1988",
@@ -2798,17 +3429,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        45.109561,
-        7.641261
+        7.641261,
+        45.109561
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Friuli",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_Friuli",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Stadio_Friuli.JPG/280px-Stadio_Friuli.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stadio_Friuli.JPG"
+          }
+        ],
         "Adresse": "Piazzale Repubblica Argentina, 3 33100 Udine, Italie",
         "Coordonnées": "46° 04′ 54″ N 13° 12′ 00″ E / 46.081603, 13.200136 ()46° 04′ 54″ Nord 13° 12′ 00″ Est / 46.081603, 13.200136 ()",
         "Construction": "1971",
@@ -2826,14 +3464,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        46.081603,
-        13.200136
+        13.200136,
+        46.081603
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Marcantonio-Bentegodi",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_Marc%27Antonio_Bentegodi",
       "stadeInfo": {
@@ -2852,17 +3491,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        45.435356,
-        10.968647
+        10.968647,
+        45.435356
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stanford Stadium",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stanford_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Stanford_Stadium_new.jpg/280px-Stanford_Stadium_new.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stanford_Stadium_new.jpg"
+          }
+        ],
         "Adresse": "625 Nelson Road Stanford, CA 94305",
         "Coordonnées": "37° 26′ 04″ N 122° 09′ 40″ O / 37.434444, -122.161111 ()37° 26′ 04″ Nord 122° 09′ 40″ Ouest / 37.434444, -122.161111 ()",
         "Ouverture": "19 novembre 1921 Rouvert le 16 septembre 2006",
@@ -2881,14 +3527,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        37.434444,
-        -122.161111
+        -122.161111,
+        37.434444
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Silverdome",
       "wikipedia": "http://fr.wikipedia.org/wiki/Pontiac_Silverdome",
       "stadeInfo": {
@@ -2912,17 +3559,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        42.645833,
-        -83.255
+        -83.255,
+        42.645833
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Giants Stadium",
       "wikipedia": "http://fr.wikipedia.org/wiki/Giants_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Giants_Stadium_aerial.jpg/280px-Giants_Stadium_aerial.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Giants_Stadium_aerial.jpg"
+          }
+        ],
         "Surnom(s)": "The Meadowlands",
         "Adresse": "50 State Route 120 East Rutherford, NJ 07073",
         "Coordonnées": "40° 48′ 44″ N 74° 04′ 37″ O / 40.81222, -74.07694 ()40° 48′ 44″ Nord 74° 04′ 37″ Ouest / 40.81222, -74.07694 ()",
@@ -2945,17 +3599,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        40.81222,
-        -74.07694
+        -74.07694,
+        40.81222
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Citrus Bowl",
       "wikipedia": "http://fr.wikipedia.org/wiki/Citrus_Bowl",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Citrus_Bowl_aerial_view.jpg/280px-Citrus_Bowl_aerial_view.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Citrus_Bowl_aerial_view.jpg"
+          }
+        ],
         "Noms précédents": "Orlando Stadium (1936 - 1946) Tangerine Bowl (1947 - 1975) Citrus Bowl (1976) Orlando Stadium (1977 - 1982)",
         "Adresse": "1610 W. Church Street Orlando, FL 32805",
         "Coordonnées": "28° 32′ 20″ N 81° 24′ 10″ O / 28.539025, -81.402753 ()28° 32′ 20″ Nord 81° 24′ 10″ Ouest / 28.539025, -81.402753 ()",
@@ -2973,14 +3634,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        28.539025,
-        -81.402753
+        -81.402753,
+        28.539025
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Soldier Field",
       "wikipedia": "http://fr.wikipedia.org/wiki/Soldier_Field",
       "stadeInfo": {
@@ -3004,17 +3666,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        41.8625,
-        -87.61667
+        -87.61667,
+        41.8625
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Cotton Bowl (stade)",
       "wikipedia": "http://fr.wikipedia.org/wiki/Cotton_Bowl_(stade)",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Cotton_Bowl.JPG/280px-Cotton_Bowl.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Cotton_Bowl.JPG"
+          }
+        ],
         "Noms précédents": "Fair Park Stadium (1930 - 1936)",
         "Surnom(s)": "The House That Doak Built",
         "Adresse": "3750 Midway Plaza Dallas, TX 75210",
@@ -3036,14 +3705,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        32.779722,
-        -96.759722
+        -96.759722,
+        32.779722
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Foxboro Stadium",
       "wikipedia": "http://fr.wikipedia.org/wiki/Foxboro_Stadium",
       "stadeInfo": {
@@ -3065,14 +3735,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        42.0927,
-        -71.267442
+        -71.267442,
+        42.0927
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Robert F. Kennedy Memorial Stadium",
       "wikipedia": "http://fr.wikipedia.org/wiki/Robert_F._Kennedy_Memorial_Stadium",
       "stadeInfo": {
@@ -3094,17 +3765,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        38.889722,
-        -76.971667
+        -76.971667,
+        38.889722
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Vélodrome",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_V%C3%A9lodrome_(Marseille)",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Stade_velodrome.jpg/280px-Stade_velodrome.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stade_velodrome.jpg"
+          }
+        ],
         "Adresse": "3 boulevard Michelet, 13008 Marseille",
         "Coordonnées": "43° 16′ 11″ N 5° 23′ 45″ E / 43.269806, 5.395922 ()43° 16′ 11″ Nord 5° 23′ 45″ Est / 43.269806, 5.395922 ()",
         "Début construction": "28 avril 1935",
@@ -3125,17 +3803,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        43.269806,
-        5.395922
+        5.395922,
+        43.269806
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Parc des Princes",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_du_Parc_des_Princes",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Paris-Parc-des-Princes.jpg/280px-Paris-Parc-des-Princes.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Paris-Parc-des-Princes.jpg"
+          }
+        ],
         "Adresse": "24, rue du Commandant Guilbaud 75016 Paris",
         "Coordonnées": "48° 50′ 29″ N 2° 15′ 11″ E / 48.841389, 2.253056 ()48° 50′ 29″ Nord 2° 15′ 11″ Est / 48.841389, 2.253056 ()",
         "Ouverture": "18 juillet 1897",
@@ -3155,17 +3840,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        48.841389,
-        2.253056
+        2.253056,
+        48.841389
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de Gerland",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_Gerland",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Stade-Gerland-RWC2007.JPG/280px-Stade-Gerland-RWC2007.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stade-Gerland-RWC2007.JPG"
+          }
+        ],
         "Adresse": "393, avenue Jean-Jaurès 69007 Lyon",
         "Coordonnées": "45° 43′ 26″ N 4° 49′ 57″ E / 45.72375, 4.8324 ()45° 43′ 26″ Nord 4° 49′ 57″ Est / 45.72375, 4.8324 ()",
         "Début construction": "1900",
@@ -3184,17 +3876,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        45.72375,
-        4.8324
+        4.8324,
+        45.72375
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Bollaert-Delelis",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_F%C3%A9lix-Bollaert",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Bollaert_vide.jpg/280px-Bollaert_vide.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Bollaert_vide.jpg"
+          }
+        ],
         "Surnom(s)": "Bollaert",
         "Adresse": "Avenue Alfred-Maës, 62 300 Lens, France",
         "Coordonnées": "50° 25′ 58″ N 2° 48′ 54″ E / 50.43278, 2.815 ()50° 25′ 58″ Nord 2° 48′ 54″ Est / 50.43278, 2.815 ()",
@@ -3217,17 +3916,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        50.43278,
-        2.815
+        2.815,
+        50.43278
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de la Beaujoire",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_la_Beaujoire",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Stade_de_la_Beaujoire.jpg/280px-Stade_de_la_Beaujoire.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stade_de_la_Beaujoire.jpg"
+          }
+        ],
         "Noms précédents": "Stade de la Beaujoire (1984 - 1989)",
         "Surnom(s)": "La Beaujoire",
         "Adresse": "5 boulevard de la Beaujoire 44300 Nantes",
@@ -3250,17 +3956,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        47.255631,
-        -1.525375
+        -1.525375,
+        47.255631
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stadium municipal de Toulouse",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stadium_(Toulouse)",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/StadiumToulouse3.JPG/280px-StadiumToulouse3.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:StadiumToulouse3.JPG"
+          }
+        ],
         "Adresse": "Île du Ramier 1 bis allées Gabriel Biénès 31028 Toulouse",
         "Coordonnées": "43° 35′ 00″ N 1° 26′ 03″ E / 43.58334, 1.43428 ()43° 35′ 00″ Nord 1° 26′ 03″ Est / 43.58334, 1.43428 ()",
         "Ouverture": "1937",
@@ -3276,17 +3989,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        43.58334,
-        1.43428
+        1.43428,
+        43.58334
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Geoffroy-Guichard",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Geoffroy-Guichard",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Stade_Geoffroy-Guichard_-_Saint-Etienne_%2810-11-2013%29.jpg/280px-Stade_Geoffroy-Guichard_-_Saint-Etienne_%2810-11-2013%29.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stade_Geoffroy-Guichard_-_Saint-Etienne_(10-11-2013).jpg"
+          }
+        ],
         "Surnom(s)": "Le Chaudron (vert)",
         "Adresse": "14, rue Paul et Pierre Guichard 42028 Saint-Étienne",
         "Coordonnées": "45° 27′ 39″ N 4° 23′ 25″ E / 45.460856, 4.390344 ()45° 27′ 39″ Nord 4° 23′ 25″ Est / 45.460856, 4.390344 ()",
@@ -3310,17 +4030,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        45.460856,
-        4.390344
+        4.390344,
+        45.460856
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Jacques-Chaban-Delmas",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Jacques-Chaban-Delmas",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Panorama_Chaban-Delmas.jpg/280px-Panorama_Chaban-Delmas.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Panorama_Chaban-Delmas.jpg"
+          }
+        ],
         "Noms précédents": "Parc Lescure (1924 - 2001)",
         "Surnom(s)": "Chaban, Lescure",
         "Adresse": "Place Johnston 33000 Bordeaux",
@@ -3341,17 +4068,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        44.82917,
-        -0.5983333
+        -0.5983333,
+        44.82917
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de la Mosson",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_la_Mosson",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Australie-Fidji.4.JPG/280px-Australie-Fidji.4.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Australie-Fidji.4.JPG"
+          }
+        ],
         "Surnom(s)": "La marmite du diable",
         "Nom complet": "Stade de la Mosson-Mondial 98",
         "Adresse": "Avenue de Heidelberg 34080 Montpellier",
@@ -3371,14 +4105,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        43.621856,
-        3.8122183
+        3.8122183,
+        43.621856
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de Daegu",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_Daegu",
       "stadeInfo": {
@@ -3401,14 +4136,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        35.829778,
-        128.690306
+        128.690306,
+        35.829778
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de la Coupe du monde de Daejeon",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_la_Coupe_du_monde_de_Daejeon",
       "stadeInfo": {
@@ -3432,14 +4168,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        36.365139,
-        127.325167
+        127.325167,
+        36.365139
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de la Coupe du monde de Gwangju",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_la_Coupe_du_monde_de_Gwangju",
       "stadeInfo": {
@@ -3461,14 +4198,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        35.133667,
-        126.874861
+        126.874861,
+        35.133667
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Munhak d'Incheon",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Munhak_d%27Incheon",
       "stadeInfo": {
@@ -3492,14 +4230,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        37.435139,
-        126.690806
+        126.690806,
+        37.435139
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de la Coupe du monde de Jeonju",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_la_Coupe_du_monde_de_Jeonju",
       "stadeInfo": {
@@ -3521,14 +4260,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        35.868111,
-        127.064444
+        127.064444,
+        35.868111
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de la Coupe du Monde de Jeju",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_la_Coupe_du_Monde_de_Jeju",
       "stadeInfo": {
@@ -3548,14 +4288,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        33.246139,
-        126.509206
+        126.509206,
+        33.246139
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de la Coupe du monde de Séoul",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_la_Coupe_du_monde_de_S%C3%A9oul",
       "stadeInfo": {
@@ -3578,14 +4319,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        37.568222,
-        126.897361
+        126.897361,
+        37.568222
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de la Coupe du monde de Suwon",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_la_Coupe_du_monde_de_Suwon",
       "stadeInfo": {
@@ -3607,14 +4349,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        37.286278,
-        127.036889
+        127.036889,
+        37.286278
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de football d’Ulsan Munsu",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_football_d%E2%80%99Ulsan_Munsu",
       "stadeInfo": {
@@ -3636,17 +4379,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        35.535278,
-        129.259444
+        129.259444,
+        35.535278
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de Kashima",
       "wikipedia": "http://fr.wikipedia.org/wiki/Kashima_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kashima_Stadium_1.JPG/280px-Kashima_Stadium_1.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Kashima_Stadium_1.JPG"
+          }
+        ],
         "Adresse": "Kashima, Ibaraki, Japon",
         "Coordonnées": "35° 59′ 30″ N 140° 38′ 26″ E / 35.991744, 140.640525 ()35° 59′ 30″ Nord 140° 38′ 26″ Est / 35.991744, 140.640525 ()",
         "Construction": "mars 1992",
@@ -3663,17 +4413,28 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        35.991744,
-        140.640525
+        140.640525,
+        35.991744
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade du parc Misaki",
       "wikipedia": "http://fr.wikipedia.org/wiki/Kobe_Wing_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/fr/thumb/f/f2/HomesStadiumKobelogo.jpg/140px-HomesStadiumKobelogo.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:HomesStadiumKobelogo.jpg"
+          },
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Inside_View_of_Kobe_Wing_Stadium.jpg/280px-Inside_View_of_Kobe_Wing_Stadium.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Inside_View_of_Kobe_Wing_Stadium.jpg"
+          }
+        ],
         "Noms précédents": "Kobe Wing Stadium",
         "Adresse": "1 Misaki-cho, Hyōgo-ku Kōbe, Japon",
         "Coordonnées": "34° 39′ 24″ N 135° 10′ 08″ E / 34.656744, 135.168967 ()34° 39′ 24″ Nord 135° 10′ 08″ Est / 34.656744, 135.168967 ()",
@@ -3690,17 +4451,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        34.656744,
-        135.168967
+        135.168967,
+        34.656744
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de Miyagi",
       "wikipedia": "http://fr.wikipedia.org/wiki/Miyagi_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/MiyagiStadium2007-4-29.jpg/280px-MiyagiStadium2007-4-29.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:MiyagiStadium2007-4-29.jpg"
+          }
+        ],
         "Adresse": "40-1 Aza-Tate, Sugaya Rifu, Japon",
         "Coordonnées": "38° 20′ 07″ N 140° 57′ 01″ E / 38.335278, 140.950278 ()38° 20′ 07″ Nord 140° 57′ 01″ Est / 38.335278, 140.950278 ()",
         "Début construction": "octobre 1996",
@@ -3717,17 +4485,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        38.335278,
-        140.950278
+        140.950278,
+        38.335278
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Denka",
       "wikipedia": "http://fr.wikipedia.org/wiki/Niigata_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Bigswan080628.JPG/280px-Bigswan080628.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Bigswan080628.JPG"
+          }
+        ],
         "Noms précédents": "stade de Niigata ou Niigata Stadium",
         "Surnom(s)": "Grand cygne ou Big Swan",
         "Nom complet": "Stade du Grand cygne Tohoku Denryoku",
@@ -3746,17 +4521,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        37.882614,
-        139.059169
+        139.059169,
+        37.882614
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade d'Oita",
       "wikipedia": "http://fr.wikipedia.org/wiki/%C5%8Cita_Big_Eye_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/OitaStadium1.JPG/280px-OitaStadium1.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:OitaStadium1.JPG"
+          }
+        ],
         "Noms précédents": "Kyushu Oil Dome",
         "Surnom(s)": "Grand œil ou Big Eye",
         "Adresse": "Oaza Yokoo 1351, Matsuoka Oita, Japon",
@@ -3776,17 +4558,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        33.200556,
-        131.6575
+        131.6575,
+        33.200556
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Nagai",
       "wikipedia": "http://fr.wikipedia.org/wiki/Nagai_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nagai_stadium20040717.jpg/280px-Nagai_stadium20040717.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Nagai_stadium20040717.jpg"
+          }
+        ],
         "Adresse": "1-1 Nagai Koen, Higashisumiyoshi-ku Ōsaka, Japon",
         "Coordonnées": "34° 36′ 50″ N 135° 31′ 06″ E / 34.613889, 135.518333 ()34° 36′ 50″ Nord 135° 31′ 06″ Est / 34.613889, 135.518333 ()",
         "Ouverture": "1964",
@@ -3804,17 +4593,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        34.613889,
-        135.518333
+        135.518333,
+        34.613889
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Saitama 2002",
       "wikipedia": "http://fr.wikipedia.org/wiki/Saitama_Stadium_2002",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Saitama_2002_0604.jpg/280px-Saitama_2002_0604.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Saitama_2002_0604.jpg"
+          }
+        ],
         "Surnom(s)": "Saisuta",
         "Adresse": "500 Nakanoda Midori-ku Saitama, Japon",
         "Coordonnées": "35° 54′ 11″ N 139° 43′ 03″ E / 35.903142, 139.717492 ()35° 54′ 11″ Nord 139° 43′ 03″ Est / 35.903142, 139.717492 ()",
@@ -3834,17 +4630,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        35.903142,
-        139.717492
+        139.717492,
+        35.903142
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Dôme de Sapporo",
       "wikipedia": "http://fr.wikipedia.org/wiki/Sapporo_Dome",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SapporoDome2004-2.jpg/280px-SapporoDome2004-2.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:SapporoDome2004-2.jpg"
+          }
+        ],
         "Surnom(s)": "Hiroba",
         "Adresse": "1 Hitsujigaoka, Toyohira-ku Sapporo, Japon",
         "Coordonnées": "43° 00′ 53″ N 141° 24′ 39″ E / 43.014722, 141.410833 ()43° 00′ 53″ Nord 141° 24′ 39″ Est / 43.014722, 141.410833 ()",
@@ -3862,17 +4665,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        43.014722,
-        141.410833
+        141.410833,
+        43.014722
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Ecopa de Shizuoka",
       "wikipedia": "http://fr.wikipedia.org/wiki/Shizuoka_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ecopa030304.jpg/280px-Ecopa030304.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Ecopa030304.jpg"
+          }
+        ],
         "Adresse": "2300-1, Aino Fukuroi, Japon",
         "Coordonnées": "34° 44′ 36″ N 137° 58′ 14″ E / 34.743222, 137.970503 ()34° 44′ 36″ Nord 137° 58′ 14″ Est / 34.743222, 137.970503 ()",
         "Ouverture": "26 mars 2001",
@@ -3889,17 +4699,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        34.743222,
-        137.970503
+        137.970503,
+        34.743222
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Nissan",
       "wikipedia": "http://fr.wikipedia.org/wiki/Yokohama_International_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/1/11/NISSANSTADIUM20080608.JPG/280px-NISSANSTADIUM20080608.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:NISSANSTADIUM20080608.JPG"
+          }
+        ],
         "Noms précédents": "Stade International de Yokohama ou International Stadium Yokohama (1998 - 2005)",
         "Surnom(s)": "Nissan Stadium",
         "Adresse": "3300 Kozukue-cho Kōhoku-ku, Yokohama 220-0036",
@@ -3917,17 +4734,28 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        35.510044,
-        139.606247
+        139.606247,
+        35.510044
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade olympique de Berlin",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_olympique_de_Berlin",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/fr/thumb/6/61/OlympiastadionBerlinlogo.jpg/140px-OlympiastadionBerlinlogo.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:OlympiastadionBerlinlogo.jpg"
+          },
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Berlin_Olympiastadion_aussen.jpg/280px-Berlin_Olympiastadion_aussen.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Berlin_Olympiastadion_aussen.jpg"
+          }
+        ],
         "Adresse": "Olympischer Platz 3 14053 Berlin",
         "Coordonnées": "52° 30′ 53″ N 13° 14′ 22″ E / 52.514628, 13.239547 ()52° 30′ 53″ Nord 13° 14′ 22″ Est / 52.514628, 13.239547 ()",
         "Ouverture": "1er août 1936",
@@ -3945,14 +4773,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        52.514628,
-        13.239547
+        13.239547,
+        52.514628
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Red Bull Arena (Leipzig)",
       "wikipedia": "http://fr.wikipedia.org/wiki/Zentralstadion",
       "stadeInfo": {
@@ -3974,17 +4803,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        51.345833,
-        12.348056
+        12.348056,
+        51.345833
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade de Nuremberg",
       "wikipedia": "http://fr.wikipedia.org/wiki/EasyCredit-Stadion",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Easy-Credit_Stadion_2008.jpg/280px-Easy-Credit_Stadion_2008.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Easy-Credit_Stadion_2008.jpg"
+          }
+        ],
         "Noms précédents": "Städtisches Stadion (1928 - 1991) Frankenstadion (1991 - 2006) easyCredit-Stadion (2006 - 2012)",
         "Surnom(s)": "Frankenstadion",
         "Adresse": "Max-Morlock-Platz 1 90471 Nuremberg",
@@ -4004,17 +4840,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        49.426389,
-        11.125833
+        11.125833,
+        49.426389
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Allianz Arena",
       "wikipedia": "http://fr.wikipedia.org/wiki/Allianz_Arena",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Allianz-Arena-M%C3%BCnchen.jpg/280px-Allianz-Arena-M%C3%BCnchen.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Allianz-Arena-M%C3%BCnchen.jpg"
+          }
+        ],
         "Noms précédents": "FIFA World Cup Stadium Munich (2006)",
         "Surnom(s)": "Schlauchboot (canot pneumatique)",
         "Adresse": "Werner-Heisenberg-Allee 25 D-80939 Munich",
@@ -4035,17 +4878,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        48.218611,
-        11.624444
+        11.624444,
+        48.218611
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Mercedes-Benz Arena",
       "wikipedia": "http://fr.wikipedia.org/wiki/Mercedes-Benz_Arena",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Gottlieb-daimler-stadion.jpg/280px-Gottlieb-daimler-stadion.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Gottlieb-daimler-stadion.jpg"
+          }
+        ],
         "Noms précédents": "Adolf-Hitler-Kampfbahn (1933 - 1945) Century Stadium/Kampfbahn (1945 – 1949) Neckarstadion (1949 – 1993) Gottlieb-Daimler-Stadion (1993 – 2008)",
         "Adresse": "Mercedesstrasse 87 70372 Stuttgart",
         "Coordonnées": "48° 47′ 32″ N 9° 13′ 55″ E / 48.792222, 9.231944 ()48° 47′ 32″ Nord 9° 13′ 55″ Est / 48.792222, 9.231944 ()",
@@ -4064,17 +4914,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        48.792222,
-        9.231944
+        9.231944,
+        48.792222
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Fritz-Walter-Stadion",
       "wikipedia": "http://fr.wikipedia.org/wiki/Fritz-Walter-Stadion",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Kaiserslautern_03.jpg/280px-Kaiserslautern_03.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Kaiserslautern_03.jpg"
+          }
+        ],
         "Noms précédents": "Betzenbergstadion (1920-1985)",
         "Surnom(s)": "Betzenberg",
         "Adresse": "Kaiserslautern",
@@ -4095,17 +4952,28 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        49.434722,
-        7.776667
+        7.776667,
+        49.434722
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Veltins-Arena",
       "wikipedia": "http://fr.wikipedia.org/wiki/Veltins-Arena",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/fr/thumb/7/7f/Veltins-Arena-logo.jpg/140px-Veltins-Arena-logo.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Veltins-Arena-logo.jpg"
+          },
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/45/2010-06-03_Arena_AufSchalke_01.jpg/280px-2010-06-03_Arena_AufSchalke_01.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:2010-06-03_Arena_AufSchalke_01.jpg"
+          }
+        ],
         "Noms précédents": "Arena AufSchalke (2001 - 2005) FIFA WM-Stadion Gelsenkirchen (Coupe du monde de football de 2006)",
         "Adresse": "Ernst-Kuzorra-Weg 1 45891 Gelsenkirchen",
         "Coordonnées": "51° 33′ 16″ N 7° 04′ 03″ E / 51.554503, 7.067589 ()51° 33′ 16″ Nord 7° 04′ 03″ Est / 51.554503, 7.067589 ()",
@@ -4124,17 +4992,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        51.554503,
-        7.067589
+        7.067589,
+        51.554503
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Signal Iduna Park",
       "wikipedia": "http://fr.wikipedia.org/wiki/Signal_Iduna_Park",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Signal_Iduna_Park_new_sign.jpg/280px-Signal_Iduna_Park_new_sign.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Signal_Iduna_Park_new_sign.jpg"
+          }
+        ],
         "Noms précédents": "Westfalenstadion (1974 - 2005) FIFA WM-Stadion Dortmund (Coupe du monde de football de 2006)",
         "Adresse": "Strobelallee 50 44139 Dortmund",
         "Coordonnées": "51° 29′ 33″ N 7° 27′ 06″ E / 51.4925, 7.451667 ()51° 29′ 33″ Nord 7° 27′ 06″ Est / 51.4925, 7.451667 ()",
@@ -4155,17 +5030,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        51.4925,
-        7.451667
+        7.451667,
+        51.4925
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "RheinEnergieStadion",
       "wikipedia": "http://fr.wikipedia.org/wiki/RheinEnergieStadion",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Rheinenergiestadion-panorama.jpg/280px-Rheinenergiestadion-panorama.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Rheinenergiestadion-panorama.jpg"
+          }
+        ],
         "Noms précédents": "Müngersdorfer Stadion (1923 - 2002)",
         "Surnom(s)": "RES",
         "Adresse": "Aachener Straße 999 50933 Cologne",
@@ -4185,17 +5067,28 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        50.933611,
-        6.875
+        6.875,
+        50.933611
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Commerzbank-Arena",
       "wikipedia": "http://fr.wikipedia.org/wiki/Commerzbank-Arena",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/fr/thumb/a/ab/Commerzbank-Arenalogo.jpg/140px-Commerzbank-Arenalogo.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Commerzbank-Arenalogo.jpg"
+          },
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/08/130919-Commerzbank-Arena-Europa-League.jpg/280px-130919-Commerzbank-Arena-Europa-League.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:130919-Commerzbank-Arena-Europa-League.jpg"
+          }
+        ],
         "Noms précédents": "Waldstadion (1925 - 2005) FIFA WM-Stadion Frankfurt am Main (Coupe du monde de football de 2006)",
         "Surnom(s)": "Waldstadion",
         "Adresse": "Mörfelder Landstrasse 362 D-60528 Francfort-sur-le-Main",
@@ -4217,17 +5110,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        50.068611,
-        8.645278
+        8.645278,
+        50.068611
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Fritz-Walter-Stadion",
       "wikipedia": "http://fr.wikipedia.org/wiki/Fritz-Walter-Stadion",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Kaiserslautern_03.jpg/280px-Kaiserslautern_03.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Kaiserslautern_03.jpg"
+          }
+        ],
         "Noms précédents": "Betzenbergstadion (1920-1985)",
         "Surnom(s)": "Betzenberg",
         "Adresse": "Kaiserslautern",
@@ -4248,17 +5148,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        49.434722,
-        7.776667
+        7.776667,
+        49.434722
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Loftus Versfeld Stadium",
       "wikipedia": "http://fr.wikipedia.org/wiki/Loftus_Versfeld_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Loftus-Stadion.JPG/280px-Loftus-Stadion.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Loftus-Stadion.JPG"
+          }
+        ],
         "Noms précédents": "Loftus Minolta, Securicor Loftus, Vodacom Stadium",
         "Surnom(s)": "Loftus Versfeld",
         "Adresse": "440 Kirkness St., Pretoria",
@@ -4275,14 +5182,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -25.753214,
-        28.222986
+        28.222986,
+        -25.753214
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Peter-Mokaba",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Peter-Mokaba",
       "stadeInfo": {
@@ -4301,17 +5209,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -23.924689,
-        29.468765
+        29.468765,
+        -23.924689
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Stade Mbombela",
       "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Mbombela",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/8/84/FIFA_World_Cup_2010_Italy_New_Zealand.jpg/280px-FIFA_World_Cup_2010_Italy_New_Zealand.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:FIFA_World_Cup_2010_Italy_New_Zealand.jpg"
+          }
+        ],
         "Surnom(s)": "stade Girafe",
         "Nom complet": "L'intérieur du stade Mbombela",
         "Adresse": "Nelspruit Afrique du Sud",
@@ -4328,17 +5243,28 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -25.461,
-        30.929
+        30.929,
+        -25.461
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "FNB Stadium",
       "wikipedia": "http://fr.wikipedia.org/wiki/FNB_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/fr/thumb/e/eb/SoccerCityJoburgLogo.jpg/140px-SoccerCityJoburgLogo.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:SoccerCityJoburgLogo.jpg"
+          },
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/First_game_of_the_2010_FIFA_World_Cup%2C_South_Africa_vs_Mexico.jpg/280px-First_game_of_the_2010_FIFA_World_Cup%2C_South_Africa_vs_Mexico.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:First_game_of_the_2010_FIFA_World_Cup,_South_Africa_vs_Mexico.jpg"
+          }
+        ],
         "Noms précédents": "Soccer City (2010)",
         "Surnom(s)": "Soccer City, The Calabash (La calebasse) [1]",
         "Nom complet": "First National Bank Stadium",
@@ -4362,17 +5288,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -26.234797,
-        27.982353
+        27.982353,
+        -26.234797
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Ellis Park Stadium",
       "wikipedia": "http://fr.wikipedia.org/wiki/Ellis_Park_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/45/FIFA_World_Cup_2010_Slovakia_Italy.jpg/280px-FIFA_World_Cup_2010_Slovakia_Italy.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:FIFA_World_Cup_2010_Slovakia_Italy.jpg"
+          }
+        ],
         "Surnom(s)": "Ellis Park",
         "Adresse": "Corner of Currey and Staib Street Doornfontein, Johannesburg, 2028",
         "Coordonnées": "26° 11′ 51″ S 28° 03′ 39″ E / -26.197519, 28.060767 ()26° 11′ 51″ Sud 28° 03′ 39″ Est / -26.197519, 28.060767 ()",
@@ -4390,17 +5323,24 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -26.197519,
-        28.060767
+        28.060767,
+        -26.197519
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Cape Town Stadium",
       "wikipedia": "http://fr.wikipedia.org/wiki/Cape_Town_Stadium",
       "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/fr/thumb/0/0f/CapeTownStadiumLogo.jpg/140px-CapeTownStadiumLogo.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:CapeTownStadiumLogo.jpg"
+          }
+        ],
         "Surnom(s)": "Green Point",
         "Adresse": "Fritz Sonnenberg Road Green Point 8051 Le Cap, Cap-Occidental",
         "Coordonnées": "33° 54′ 12″ S 18° 24′ 40″ E / -33.903461, 18.411153 ()33° 54′ 12″ Sud 18° 24′ 40″ Est / -33.903461, 18.411153 ()",
@@ -4419,14 +5359,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -33.903461,
-        18.411153
+        18.411153,
+        -33.903461
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Nelson Mandela Bay Stadium",
       "wikipedia": "http://fr.wikipedia.org/wiki/Nelson_Mandela_Bay_Stadium",
       "stadeInfo": {
@@ -4449,14 +5390,15 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -33.937778,
-        25.598889
+        25.598889,
+        -33.937778
       ]
     }
   },
   {
     "type": "Feature",
     "properties": {
+      "type": "Stade",
       "title": "Free State Stadium",
       "wikipedia": "http://fr.wikipedia.org/wiki/Free_State_Stadium",
       "stadeInfo": {
@@ -4476,8 +5418,8 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        -29.117292,
-        26.208847
+        26.208847,
+        -29.117292
       ]
     }
   }
