@@ -18,33 +18,40 @@ Q().then(function() {
     return Q.all([ Utils.checkDir(TMP_DIR), Utils.checkDir(DATA_DIR) ]);
 }).then(function() {
     return Utils.readCsvAsObjects(sourceFile);
-}).then(function(stads) {
-    return Q.all(_.filter(_.map(stads, function(stad) {
-        var url = Utils.trim(stad['Stade URL']);
-        if (!url.match(/^http:/))
-            return;
-        var year = parseInt(Utils.trim(stad['Année']));
-
-        console.log('Loading info from URL: "' + url + '"...');
-        return Utils.loadPage({
-            url : url,
-            dir : TMP_DIR,
-            reload : false
-        }).then(function(doc) {
-            var obj = extractInfo(url, doc);
-            obj.properties.matchYear = year;
-            console.log('Done: URL: "' + url + '".');
-            return obj;
-        });
-    }), function(obj) {
-        return obj ? true : false;
-    })).then(function(info) {
-        console.log('Writing data in file: "' + resultFile + '"...');
-        return Utils.writeJson(resultFile, info).then(function() {
-            console.log('Done.');
-        });
-    })
-}).done();
+}).then(
+        function(stads) {
+            return Q.all(
+                    _.filter(_.map(stads, function(stad) {
+                        var url = Utils.trim(stad['Stade URL']);
+                        if (!url.match(/^http:/))
+                            return;
+                        var year = parseInt(Utils.trim(stad['Année']));
+                        println('Loading info from. Year: ' + year + '. URL: "'
+                                + url + '"...');
+                        return Utils.loadPage({
+                            url : url,
+                            dir : TMP_DIR,
+                            reload : false
+                        }).then(
+                                function(doc) {
+                                    var obj = extractInfo(url, doc);
+                                    if (!obj.properties.matchYear) {
+                                        obj.properties.matchYear = [];
+                                    }
+                                    obj.properties.matchYear.push(year);
+                                    println('Done. Year: ' + year + '.  URL: "'
+                                            + url + '".');
+                                    return obj;
+                                });
+                    }), function(obj) {
+                        return obj ? true : false;
+                    })).then(function(info) {
+                println('Writing data in file: "' + resultFile + '"...');
+                return Utils.writeJson(resultFile, info).then(function() {
+                    println('Done.');
+                });
+            })
+        }).done();
 
 function extractInfo(url, doc) {
     var properties = {
@@ -74,27 +81,32 @@ function extractInfo(url, doc) {
 
     properties.stadeInfo = extractStructureFromTable(infoBlock);
 
-    console.log(JSON.stringify(result, null, 2));
+    // println(JSON.stringify(result, null, 2));
     return result;
+}
+
+function println(str) {
+    console.log(str);
 }
 
 function extractStructureFromTable(table) {
     var result = {};
     var photos = [];
-    table.find('td[colspan="2"][style="text-align:center"] a.image').each(function(){
-        var a = $(this);
-        var imgSrc = a.find('img').attr('src');
-        var imgHref = a.attr('href');
-        if (!Utils.isEmpty(imgSrc) || !Utils.isEmpty(imgHref)) {
-            if (imgSrc.match(/\.jpg/gim)) {
-                photos.push({
-                    src : imgSrc,
-                    href : imgHref
-                });
-            }
-        }
-    });
-    if (photos.length){
+    table.find('td[colspan="2"][style="text-align:center"] a.image').each(
+            function() {
+                var a = $(this);
+                var imgSrc = a.find('img').attr('src');
+                var imgHref = a.attr('href');
+                if (!Utils.isEmpty(imgSrc) || !Utils.isEmpty(imgHref)) {
+                    if (imgSrc.match(/\.jpg/gim)) {
+                        photos.push({
+                            src : imgSrc,
+                            href : imgHref
+                        });
+                    }
+                }
+            });
+    if (photos.length) {
         result.photos = photos;
     }
 

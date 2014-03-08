@@ -43,24 +43,24 @@ module.exports = {
     toGeo : toGeo
 }
 
-function readCsvAsObjects(file) {
+function readCsvAsObjects(file, options) {
     var results = [];
     return readCsv(file, function(obj) {
-        console.log(obj);
         results.push(obj);
-    }).then(function() {
+    }, options).then(function() {
         return results;
     });
 }
 
-function readCsv(file, callback) {
+function readCsv(file, callback, options) {
     var deferred = Q.defer();
     try {
         var first = true;
         var headers = [];
-        var splitter = new CsvSplitter({
+        options = options || {
             delim : ','
-        });
+        };
+        var splitter = new CsvSplitter(options);
         Readline.createInterface({
             input : FS.createReadStream(file),
             terminal : false

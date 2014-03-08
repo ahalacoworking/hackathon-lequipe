@@ -3,6 +3,43 @@
     "type": "Feature",
     "properties": {
       "type": "Stade",
+      "title": "Stade Centenario",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Centenario",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Estadio_centenario_2.JPG/280px-Estadio_centenario_2.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_centenario_2.JPG"
+          }
+        ],
+        "Adresse": "Montevideo, Uruguay",
+        "Coordonnées": "34° 53′ 40″ S 56° 09′ 10″ O / -34.89455, -56.1528 ()34° 53′ 40″ Sud 56° 09′ 10″ Ouest / -34.89455, -56.1528 ()",
+        "Début construction": "21 juillet 1929",
+        "Ouverture": "18 juillet 1930",
+        "Architecte": "Juan Antonio Scasso",
+        "Coût de construction": "1 million $USD",
+        "Clubs résidents": "Équipe d'Uruguay de football",
+        "Propriétaire": "Intendencia Municipal de Montevideo",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "76 609",
+        "Dimensions": "105 m × 68 m"
+      },
+      "matchYear": [
+        1930
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -56.1528,
+        -34.89455
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
       "title": "Estadio Gran Parque Central",
       "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Gran_Parque_Central",
       "stadeInfo": {
@@ -23,7 +60,9 @@
         "Capacité": "29 500",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1930
+      "matchYear": [
+        1930
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -54,13 +93,53 @@
         "Clubs résidents": "Club Atlético Peñarol (1921-1933)",
         "Capacité": "5 000"
       },
-      "matchYear": 1930
+      "matchYear": [
+        1930
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         -56.156222,
         -34.905083
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade Renato-Dall'Ara",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_Littoriale",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Prepartita_bologna_bari.jpg/280px-Prepartita_bologna_bari.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Prepartita_bologna_bari.jpg"
+          }
+        ],
+        "Noms précédents": "Stadio Littoriale (1927-1945) Stadio Comunale (1945-1983)",
+        "Adresse": "Via Andrea Costa 174 40134 Bologne, Italie",
+        "Coordonnées": "44° 29′ 32″ N 11° 18′ 35″ E / 44.492314, 11.309667 ()44° 29′ 32″ Nord 11° 18′ 35″ Est / 44.492314, 11.309667 ()",
+        "Début construction": "1925",
+        "Ouverture": "29 mai 1927",
+        "Architecte": "Umberto Costanzini et Ulisse Arata",
+        "Rénovation": "1989",
+        "Clubs résidents": "Bologne FC 1909",
+        "Propriétaire": "Ville de Bologne",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "38 279",
+        "Dimensions": "105 m × 68 m"
+      },
+      "matchYear": [
+        1934
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        11.309667,
+        44.492314
       ]
     }
   },
@@ -93,7 +172,9 @@
         "Affluence record": "58 271 (Fiorentina-Inter Milan) (25 novembre 1984)",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1934
+      "matchYear": [
+        1934
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -126,7 +207,9 @@
         "Affluence record": "+60 000 (Italie-Portugal le 27 février 1949)",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1934
+      "matchYear": [
+        1934
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -156,7 +239,9 @@
         "Capacité": "80 018[1]",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1934
+      "matchYear": [
+        1934
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -193,7 +278,9 @@
         "Capacité": "40 000",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1934
+      "matchYear": [
+        1934
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -228,7 +315,9 @@
         "Capacité": "47 300",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1934
+      "matchYear": [
+        1934
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -263,7 +352,9 @@
         "Capacité": "6 226",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1934
+      "matchYear": [
+        1934
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -299,13 +390,45 @@
         "Capacité": "28 140",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1934
+      "matchYear": [
+        1934
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         7.649733,
         45.041722
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade du Fort Carré",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stade_du_Fort_Carr%C3%A9",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Stade_du_Fort_Carr%C3%A9%2C_Antibes%2C_France.jpg/280px-Stade_du_Fort_Carr%C3%A9%2C_Antibes%2C_France.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Stade_du_Fort_Carr%C3%A9,_Antibes,_France.jpg"
+          }
+        ],
+        "Adresse": "Antibes",
+        "Coordonnées": "43° 35′ 27″ N 7° 07′ 32″ E / 43.590861, 7.1256 ()43° 35′ 27″ Nord 7° 07′ 32″ Est / 43.590861, 7.1256 ()",
+        "Capacité": "FC Antibes",
+        "Tribunes": "4 000"
+      },
+      "matchYear": [
+        1938
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        7.1256,
+        43.590861
       ]
     }
   },
@@ -337,7 +460,9 @@
         "Affluence record": "40 211 (Bordeaux-Juventus) (24 avril 1985)",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1938
+      "matchYear": [
+        1938
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -369,7 +494,9 @@
         "Capacité": "14 000 places (60 000 places de 1938 à 1972)",
         "Affluence record": "63 638, le 5 mars 1969 (match d'appui de quarts de finale de Coupe des Clubs Champions Européens Ajax Amsterdam-Benfica Lisbonne"
       },
-      "matchYear": 1938
+      "matchYear": [
+        1938
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -405,7 +532,9 @@
         "Tribunes": "Officielle:Sud Latérale:Paul Langlois Populaire est:Harfleur Populaire ouest:KOP",
         "Affluence record": "19 285 (Le Havre-Marseille) (16 août 1996)"
       },
-      "matchYear": 1938
+      "matchYear": [
+        1938
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -437,7 +566,9 @@
         "Clubs résidents": "Olympique lillois (1907-1944) Lille OSC (1944-1975)",
         "Capacité": "15 000"
       },
-      "matchYear": 1938
+      "matchYear": [
+        1938
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -475,7 +606,9 @@
         "Affluence record": "59 120 le 6 octobre 2007 (Angleterre-Australie)",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1938
+      "matchYear": [
+        1938
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -512,7 +645,9 @@
         "Tribunes": "- Officielle : Présidentielle-Francis Borelli - Latérale : Paris - Populaire Sud : KOP OF BOULOGNE - Populaire Nord : VIRAGE AUTEUIL",
         "Affluence record": "50 370 (France-Galles) (18 février 1989)[2]"
       },
-      "matchYear": 1938
+      "matchYear": [
+        1938
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -550,7 +685,9 @@
         "Affluence record": "27 774 (Reims-Marseille) (2 juin 1987) 21 044 (Reims-Marseille) (12 août 2012) (nouveau stade)",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1938
+      "matchYear": [
+        1938
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -590,7 +727,9 @@
         "Affluence record": "44 566 (RFA - Portugal en 1984)",
         "Dimensions": "110 m × 68 m"
       },
-      "matchYear": 1938
+      "matchYear": [
+        1938
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -618,13 +757,50 @@
         "Surface": "Pelouse naturelle",
         "Capacité": "19 500 places"
       },
-      "matchYear": 1938
+      "matchYear": [
+        1938
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         1.415556,
         43.621944
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade de l'Indépendance",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Independencia",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Independ%C3%AAncia_Stadium.jpg/280px-Independ%C3%AAncia_Stadium.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Independ%C3%AAncia_Stadium.jpg"
+          }
+        ],
+        "Surnom(s)": "Estádio Independência",
+        "Nom complet": "Estádio Raimundo Sampaio",
+        "Adresse": "Belo Horizonte, Minas Gerais, Brésil",
+        "Coordonnées": "19° 54′ 30″ S 43° 55′ 04″ O / -19.908333, -43.917778 ()19° 54′ 30″ Sud 43° 55′ 04″ Ouest / -19.908333, -43.917778 ()",
+        "Construction": "1947",
+        "Ouverture": "1950",
+        "Clubs résidents": "América Mineiro",
+        "Propriétaire": "Sete de Setembro",
+        "Capacité": "18 000 places"
+      },
+      "matchYear": [
+        1950
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -43.917778,
+        -19.908333
       ]
     }
   },
@@ -654,7 +830,9 @@
         "Affluence record": "24 303 le 8 septembre 1968 (Clube Atlético Paranaense-Santos)",
         "Dimensions": "110 × 70 m"
       },
-      "matchYear": 1950
+      "matchYear": [
+        1950
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -681,7 +859,9 @@
         "Surface": "Pelouse synthétique",
         "Capacité": "10 000"
       },
-      "matchYear": 1950
+      "matchYear": [
+        1950
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -717,7 +897,9 @@
         "Affluence record": "56 875 (SC Recife 2 - 0 AC Porto le 7 juin 1998)",
         "Dimensions": "105 × 78 m"
       },
-      "matchYear": 1950
+      "matchYear": [
+        1950
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -755,7 +937,9 @@
         "Affluence record": "199 854 le 16 juin 1950 Coupe du monde de football de 1950 (Uruguay-Brésil)",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1950
+      "matchYear": [
+        1950
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -790,13 +974,67 @@
         "Affluence record": "73 532 (Santos 1 - 1 Palmeiras le 11 décembre 1977)",
         "Dimensions": "104 × 70 m"
       },
-      "matchYear": 1950
+      "matchYear": [
+        1950
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         -46.665111,
         -23.548639
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Estádio Independência",
+      "wikipedia": "http://en.wikipedia.org/wiki/Est%C3%A1dio_Independ%C3%AAncia",
+      "stadeInfo": {},
+      "matchYear": [
+        1950
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        null,
+        null
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade Saint-Jacques",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Saint-Jacques",
+      "stadeInfo": {
+        "Surnom(s)": "Joggeli",
+        "Adresse": "Bâle, Suisse",
+        "Coordonnées": "47° 32′ 29″ N 7° 37′ 12″ E / 47.541389, 7.62 ()47° 32′ 29″ Nord 7° 37′ 12″ Est / 47.541389, 7.62 ()",
+        "Début construction": "1952",
+        "Ouverture": "25 avril 1954",
+        "Coût de construction": "1,9 million Fr.CHF",
+        "Fermeture": "13 décembre 1998",
+        "Démolition": "1999",
+        "Clubs résidents": "FC Concordia Bâle FC Bâle (1954 à 1998)",
+        "Propriétaire": "Genossenschaft Stadion St. Jakob-Park",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "51 500 (1954)",
+        "Affluence record": "55 000 (Concert de Bruce Springsteen) (14 juillet 1988)"
+      },
+      "matchYear": [
+        1954
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        7.62,
+        47.541389
       ]
     }
   },
@@ -824,7 +1062,9 @@
         "Capacité": "Football: 22 000 (1925) • 42 000 (1939) • 64 000 (1954)",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1954
+      "matchYear": [
+        1954
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -858,7 +1098,9 @@
         "Affluence record": "27 000 (1962)",
         "Dimensions": "110 × 65 m"
       },
-      "matchYear": 1954
+      "matchYear": [
+        1954
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -891,7 +1133,9 @@
         "Capacité": "50 000 (1954) • 25 000 (1985) • 15 850 (1993)",
         "Dimensions": "104,5 × 69,5 m"
       },
-      "matchYear": 1954
+      "matchYear": [
+        1954
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -912,7 +1156,9 @@
         "Clubs résidents": "AC Lugano FC Rapid Lugano",
         "Capacité": "14'873 places"
       },
-      "matchYear": 1954
+      "matchYear": [
+        1954
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -940,13 +1186,50 @@
         "Clubs résidents": "Grasshopper Zurich",
         "Capacité": "17 666"
       },
-      "matchYear": 1954
+      "matchYear": [
+        1954
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         8.504722,
         47.393056
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Ryavallen",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Ryavallen",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Curve_and_Ryahallen_at_Ryavallen_January_2008.JPG/280px-Curve_and_Ryahallen_at_Ryavallen_January_2008.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Curve_and_Ryahallen_at_Ryavallen_January_2008.JPG"
+          }
+        ],
+        "Adresse": "Ålgårdsvägen 32, 506 30 Borås",
+        "Coordonnées": "57° 44′ 09″ N 12° 56′ 06″ E / 57.735724, 12.934921 ()57° 44′ 09″ Nord 12° 56′ 06″ Est / 57.735724, 12.934921 ()",
+        "Ouverture": "17 août 1941",
+        "Clubs résidents": "IF Elfsborg",
+        "Propriétaire": "Municipalité de Borås",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "19 400 places",
+        "Affluence record": "22 654 spectateurs (1956)",
+        "Dimensions": "105 × 65 m"
+      },
+      "matchYear": [
+        1958
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.934921,
+        57.735724
       ]
     }
   },
@@ -974,7 +1257,9 @@
         "Capacité": "7 800 (6 000 assises)",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1958
+      "matchYear": [
+        1958
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1015,7 +1300,9 @@
         "Affluence record": "64 312 (Concert de Bruce Springsteen & The E Street Band) (8 juin 1985)",
         "Dimensions": "100 m × 68 m"
       },
-      "matchYear": 1958
+      "matchYear": [
+        1958
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1049,7 +1336,9 @@
         "Affluence record": "26,154 (Helsingborgs IF-Malmö FF, le 14 mai 1954",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1958
+      "matchYear": [
+        1958
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1082,7 +1371,9 @@
         "Capacité": "10 000 places",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1958
+      "matchYear": [
+        1958
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1116,7 +1407,9 @@
         "Capacité": "30 000 places",
         "Dimensions": "110 × 70 m"
       },
-      "matchYear": 1958
+      "matchYear": [
+        1958
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1148,7 +1441,9 @@
         "Capacité": "19 414 places",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1958
+      "matchYear": [
+        1958
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1182,7 +1477,9 @@
         "Capacité": "14 500 places",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1958
+      "matchYear": [
+        1958
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1214,7 +1511,9 @@
         "Surface": "Pelouse naturelle",
         "Capacité": "7 000"
       },
-      "matchYear": 1958
+      "matchYear": [
+        1958
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1245,7 +1544,9 @@
         "Clubs résidents": "AIK Solna",
         "Capacité": "36 800"
       },
-      "matchYear": 1958
+      "matchYear": [
+        1958
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1275,7 +1576,9 @@
         "Propriétaire": "Municipalité d'Uddevalla",
         "Capacité": "10 000 places"
       },
-      "matchYear": 1958
+      "matchYear": [
+        1958
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1302,13 +1605,44 @@
         "Affluence record": "14 208 : Vasteras SK FK-Sandvikens IF (1956)",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1958
+      "matchYear": [
+        1958
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         16.541,
         59.6204
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Estadio Carlos Dittborn",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Estadio_Carlos_Dittborn",
+      "stadeInfo": {
+        "Adresse": "Arica Chili",
+        "Coordonnées": "18° 29′ 15″ S 70° 17′ 57″ O / -18.487506, -70.299272 ()18° 29′ 15″ Sud 70° 17′ 57″ Ouest / -18.487506, -70.299272 ()",
+        "Ouverture": "15 avril 1962",
+        "Architecte": "Karl Brunner",
+        "Clubs résidents": "Club Deportivo San Marcos de Arica Deportivo Universidad de Tarapacá",
+        "Propriétaire": "gouvernement du Chili",
+        "Surface": "pelouse naturelle",
+        "Capacité": "19 000",
+        "Dimensions": "105 × 68 m"
+      },
+      "matchYear": [
+        1962
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -70.299272,
+        -18.487506
       ]
     }
   },
@@ -1336,7 +1670,9 @@
         "Capacité": "14 450",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1962
+      "matchYear": [
+        1962
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1365,7 +1701,9 @@
         "Clubs résidents": "Chili Universidad de Chile",
         "Capacité": "47 000"
       },
-      "matchYear": 1962
+      "matchYear": [
+        1962
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1398,13 +1736,55 @@
         "Capacité": "18 037",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1962
+      "matchYear": [
+        1962
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         -71.535233,
         -33.014397
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Wembley Stadium (1923)",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Wembley_Stadium_(1923)",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Old_Wembley_Stadium_%28external_view%29.jpg/280px-Old_Wembley_Stadium_%28external_view%29.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Old_Wembley_Stadium_(external_view).jpg"
+          }
+        ],
+        "Noms précédents": "British Empire Exhibition Stadium",
+        "Surnom(s)": "The Twin Towers, The Place of Living Rock, Old Wembley",
+        "Adresse": "Londres, Angleterre",
+        "Coordonnées": "51° 33′ 20″ N 0° 16′ 47″ O / 51.555556, -0.279722 ()51° 33′ 20″ Nord 0° 16′ 47″ Ouest / 51.555556, -0.279722 ()",
+        "Début construction": "1922",
+        "Ouverture": "1923",
+        "Architecte": "John William Simpson et Maxwell Ayrton",
+        "Coût de construction": "750 000 £GBP (1923)",
+        "Fermeture": "2000",
+        "Démolition": "2003",
+        "Clubs résidents": "Équipe d'Angleterre de football (1923 à 2000) Wembley Lions (1946 à 1957 et 1970 à 1971)",
+        "Propriétaire": "Wembley Company",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "82 000 (initialement 127 000)"
+      },
+      "matchYear": [
+        1966
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -0.279722,
+        51.555556
       ]
     }
   },
@@ -1437,7 +1817,9 @@
         "Affluence record": "78 299 le 18 septembre 1948 (Everton Football Club-Liverpool Football Club)",
         "Dimensions": "100,48 × 68 mètres"
       },
-      "matchYear": 1966
+      "matchYear": [
+        1966
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1473,7 +1855,9 @@
         "Affluence record": "72 841 le 17 février 1934 FA Challenge Cup (Sheffield Wednesday FC-Chesterfield FC)",
         "Dimensions": "106 × 65 m"
       },
-      "matchYear": 1966
+      "matchYear": [
+        1966
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1509,7 +1893,9 @@
         "Capacité": "22 500",
         "Affluence record": "75 118 le 8 mars 1933 (FA Challenge Cup (Sunderland AFC-Derby County FC)"
       },
-      "matchYear": 1966
+      "matchYear": [
+        1966
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1542,7 +1928,9 @@
         "Surface": "pelouse naturelle",
         "Capacité": "93 000"
       },
-      "matchYear": 1966
+      "matchYear": [
+        1966
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1578,7 +1966,9 @@
         "Affluence record": "76 588",
         "Dimensions": "105 × 69 mètres[1]"
       },
-      "matchYear": 1966
+      "matchYear": [
+        1966
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1619,7 +2009,9 @@
         "Affluence record": "76 212 le 10 février 2008 (Manchester United - Manchester City)[2]",
         "Dimensions": "105 × 68 mètres"
       },
-      "matchYear": 1966
+      "matchYear": [
+        1966
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1656,13 +2048,53 @@
         "Affluence record": "53 802 le 27 décembre 1949 (Middlesbrough Football Club-Newcastle United Football Club)",
         "Dimensions": "110 × 74 yds"
       },
-      "matchYear": 1966
+      "matchYear": [
+        1966
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         -1.246944,
         54.564167
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade Jalisco",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Jalisco",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Estadio_jalisco.jpg/280px-Estadio_jalisco.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_jalisco.jpg"
+          }
+        ],
+        "Adresse": "No. 1772, Colonia Independencia, Guadalajara, C.P. 44290.",
+        "Coordonnées": "20° 42′ 18″ N 103° 19′ 41″ O / 20.705008, -103.328147 ()20° 42′ 18″ Nord 103° 19′ 41″ Ouest / 20.705008, -103.328147 ()",
+        "Début construction": "20 novembre 1952",
+        "Ouverture": "31 janvier 1960",
+        "Architecte": "Constructora Jalisco Constructora ARVA",
+        "Rénovation": "1970 1999",
+        "Coût de construction": "50 millions Mex$MXN (1970) 18 millions Mex$MXN (1999)",
+        "Clubs résidents": "CF Atlas (depuis 1960) Chivas de Guadalajara (1960-2010) Universidad de Guadalajara Club Jalisco",
+        "Propriétaire": "Clubes Unidos de Jalisco",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "56 713",
+        "Dimensions": "105 × 68 m"
+      },
+      "matchYear": [
+        1970
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -103.328147,
+        20.705008
       ]
     }
   },
@@ -1689,7 +2121,9 @@
         "Capacité": "30 000",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1970
+      "matchYear": [
+        1970
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1726,7 +2160,9 @@
         "Capacité": "105 094",
         "Affluence record": "136 274 (Chávez vs. Haugen) (20 février 1993)"
       },
-      "matchYear": 1970
+      "matchYear": [
+        1970
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1761,7 +2197,9 @@
         "Capacité": "46 912",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1970
+      "matchYear": [
+        1970
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1794,13 +2232,56 @@
         "Capacité": "30 000",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1970
+      "matchYear": [
+        1970
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         -99.6667944,
         19.2872861
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade olympique de Berlin",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stade_olympique_de_Berlin",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/fr/thumb/6/61/OlympiastadionBerlinlogo.jpg/140px-OlympiastadionBerlinlogo.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:OlympiastadionBerlinlogo.jpg"
+          },
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Berlin_Olympiastadion_aussen.jpg/280px-Berlin_Olympiastadion_aussen.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Berlin_Olympiastadion_aussen.jpg"
+          }
+        ],
+        "Adresse": "Olympischer Platz 3 14053 Berlin",
+        "Coordonnées": "52° 30′ 53″ N 13° 14′ 22″ E / 52.514628, 13.239547 ()52° 30′ 53″ Nord 13° 14′ 22″ Est / 52.514628, 13.239547 ()",
+        "Ouverture": "1er août 1936",
+        "Architecte": "Werner March (1936) Friedrich Wilhelm Krahe (1974) Gerkan, Marg and Partner (2000-04)",
+        "Rénovation": "1974, 2000–04",
+        "Coût de construction": "42 millions RM (1936) 242 millions €EUR (2000-04)",
+        "Clubs résidents": "Hertha BSC Berlin (depuis 1963) Berlin Thunder (2004 à 2007) Équipe d'Allemagne de football",
+        "Propriétaire": "Olympiastadion Berlin GmbH",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "74 228",
+        "Dimensions": "105 m × 68 m"
+      },
+      "matchYear": [
+        1974
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.239547,
+        52.514628
       ]
     }
   },
@@ -1832,7 +2313,9 @@
         "Affluence record": "83 000 spectateurs (à six reprises)[2]",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1974
+      "matchYear": [
+        1974
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1866,7 +2349,9 @@
         "Surface": "Pelouse naturelle",
         "Capacité": "76 000"
       },
-      "matchYear": 1974
+      "matchYear": [
+        1974
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1909,7 +2394,9 @@
         "Capacité": "Football: 51 500 (6 300 debout) Football américain: 48 500 Concerts: 55 000",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1974
+      "matchYear": [
+        1974
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1941,7 +2428,9 @@
         "Clubs résidents": "FC Schalke 04 (1973-2001)",
         "Capacité": "62 004"
       },
-      "matchYear": 1974
+      "matchYear": [
+        1974
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -1977,7 +2466,9 @@
         "Capacité": "57 000",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1974
+      "matchYear": [
+        1974
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2013,7 +2504,9 @@
         "Capacité": "49 000",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1974
+      "matchYear": [
+        1974
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2050,7 +2543,9 @@
         "Capacité": "69 250",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1974
+      "matchYear": [
+        1974
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2086,13 +2581,56 @@
         "Surface": "Pelouse naturelle",
         "Capacité": "60 441"
       },
-      "matchYear": 1974
+      "matchYear": [
+        1974
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         9.231944,
         48.792222
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade Monumental Antonio Vespucio Liberti",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Monumental_Antonio_Vespucio_Liberti",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/002.Buenos_Aires_desde_el_cielo_%28Estadio_de_River%29.JPG/280px-002.Buenos_Aires_desde_el_cielo_%28Estadio_de_River%29.JPG",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:002.Buenos_Aires_desde_el_cielo_(Estadio_de_River).JPG"
+          }
+        ],
+        "Noms précédents": "Estadio Monumental (1938-1986)",
+        "Surnom(s)": "El Monumental",
+        "Nom complet": "Estadio Monumental Antonio Vespucio Liberti",
+        "Adresse": "Buenos Aires",
+        "Coordonnées": "34° 32′ 43″ S 58° 26′ 59″ O / -34.54525, -58.449694 ()34° 32′ 43″ Sud 58° 26′ 59″ Ouest / -34.54525, -58.449694 ()",
+        "Construction": "1936-1938",
+        "Ouverture": "25 mai 1938",
+        "Architecte": "José Aslan Héctor Ezcurra",
+        "Rénovation": "1978",
+        "Clubs résidents": "CA River Plate Argentine",
+        "Propriétaire": "CA River Plate",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "61 321 (en 2013[1])",
+        "Affluence record": "100 000 (1975)",
+        "Dimensions": "105 × 68 m"
+      },
+      "matchYear": [
+        1978
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -58.449694,
+        -34.54525
       ]
     }
   },
@@ -2116,7 +2654,9 @@
         "Clubs résidents": "CA Vélez Sársfield, Équipe d'Argentine de rugby à XV",
         "Capacité": "49 540"
       },
-      "matchYear": null
+      "matchYear": [
+        1978
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2150,7 +2690,9 @@
         "Capacité": "46 083",
         "Dimensions": "105 × 70 m"
       },
-      "matchYear": null
+      "matchYear": [
+        1978
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2183,7 +2725,9 @@
         "Capacité": "48 000",
         "Dimensions": "105 × 70 m"
       },
-      "matchYear": null
+      "matchYear": [
+        1978
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2216,7 +2760,9 @@
         "Capacité": "41 654",
         "Dimensions": "105 × 70 m"
       },
-      "matchYear": null
+      "matchYear": [
+        1978
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2239,13 +2785,50 @@
         "Clubs résidents": "Club Atlético Aldosivi, Club Atlético Alvarado",
         "Capacité": "35 354 places assises"
       },
-      "matchYear": null
+      "matchYear": [
+        1978
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         -57.582333,
         -38.017944
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade José-Rico-Pérez",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Jos%C3%A9_Rico_Perez",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Estadio_Jos%C3%A9_Rico_P%C3%A9rez%2C_Alicante%2C_Espa%C3%B1a.jpg/280px-Estadio_Jos%C3%A9_Rico_P%C3%A9rez%2C_Alicante%2C_Espa%C3%B1a.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_Jos%C3%A9_Rico_P%C3%A9rez,_Alicante,_Espa%C3%B1a.jpg"
+          }
+        ],
+        "Adresse": "Alicante Espagne",
+        "Coordonnées": "38° 21′ 26″ N 0° 29′ 33″ O / 38.357222, -0.4925 ()38° 21′ 26″ Nord 0° 29′ 33″ Ouest / 38.357222, -0.4925 ()",
+        "Ouverture": "3 août 1974",
+        "Architecte": "Francisco Muñoz Llorens",
+        "Clubs résidents": "Hércules Alicante",
+        "Propriétaire": "Hércules Alicante",
+        "Surface": "pelouse naturelle",
+        "Capacité": "29 500",
+        "Dimensions": "105 × 68 m"
+      },
+      "matchYear": [
+        1982
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -0.4925,
+        38.357222
       ]
     }
   },
@@ -2278,7 +2861,9 @@
         "Capacité": "99 354[1]",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2312,7 +2897,9 @@
         "Capacité": "43 667",
         "Dimensions": "105 × 70 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2340,7 +2927,9 @@
         "Capacité": "39 750",
         "Dimensions": "103 m × 68 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2376,7 +2965,9 @@
         "Capacité": "36 017",
         "Dimensions": "108 × 70 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2406,7 +2997,9 @@
         "Capacité": "30 000",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2438,7 +3031,9 @@
         "Capacité": "34 600",
         "Tribunes": "Tribuna Preferencia Pabellón Maratón"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2480,7 +3075,9 @@
         "Affluence record": "120 000 spectateurs (Real Madrid-Fiorentina, 30 mai 1957)",
         "Dimensions": "106 × 70 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2515,7 +3112,9 @@
         "Capacité": "55 005",
         "Dimensions": "105 × 70 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2549,7 +3148,9 @@
         "Capacité": "28 963 spectateurs",
         "Dimensions": "105 × 68m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2580,7 +3181,9 @@
         "Capacité": "22 000 (1932) • 23 500 (1982) • 16 500 (1998)",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2617,7 +3220,9 @@
         "Capacité": "34 496",
         "Dimensions": "107 × 68 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2652,7 +3257,9 @@
         "Capacité": "56 500",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2688,7 +3295,9 @@
         "Capacité": "45 500",
         "Dimensions": "105 × 70 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2718,7 +3327,9 @@
         "Capacité": "52 000 places",
         "Tribunes": "Tribuna central Grada del mar Gol sur Gol norte"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2753,7 +3364,9 @@
         "Capacité": "26 512",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2790,13 +3403,53 @@
         "Affluence record": "45 000 le 16 mai 1982 (Celta Vigo-Getafe CF)",
         "Dimensions": "105 × 69 m"
       },
-      "matchYear": 1982
+      "matchYear": [
+        1982
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         -8.739711,
         42.211842
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade Jalisco",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Jalisco",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Estadio_jalisco.jpg/280px-Estadio_jalisco.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Estadio_jalisco.jpg"
+          }
+        ],
+        "Adresse": "No. 1772, Colonia Independencia, Guadalajara, C.P. 44290.",
+        "Coordonnées": "20° 42′ 18″ N 103° 19′ 41″ O / 20.705008, -103.328147 ()20° 42′ 18″ Nord 103° 19′ 41″ Ouest / 20.705008, -103.328147 ()",
+        "Début construction": "20 novembre 1952",
+        "Ouverture": "31 janvier 1960",
+        "Architecte": "Constructora Jalisco Constructora ARVA",
+        "Rénovation": "1970 1999",
+        "Coût de construction": "50 millions Mex$MXN (1970) 18 millions Mex$MXN (1999)",
+        "Clubs résidents": "CF Atlas (depuis 1960) Chivas de Guadalajara (1960-2010) Universidad de Guadalajara Club Jalisco",
+        "Propriétaire": "Clubes Unidos de Jalisco",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "56 713",
+        "Dimensions": "105 × 68 m"
+      },
+      "matchYear": [
+        1986
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -103.328147,
+        20.705008
       ]
     }
   },
@@ -2823,7 +3476,9 @@
         "Surface": "Pelouse naturelle",
         "Capacité": "30 015"
       },
-      "matchYear": 1986
+      "matchYear": [
+        1986
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2856,7 +3511,9 @@
         "Capacité": "24 000",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1986
+      "matchYear": [
+        1986
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2889,7 +3546,9 @@
         "Capacité": "30 000",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1986
+      "matchYear": [
+        1986
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2926,7 +3585,9 @@
         "Capacité": "105 094",
         "Affluence record": "136 274 (Chávez vs. Haugen) (20 février 1993)"
       },
-      "matchYear": 1986
+      "matchYear": [
+        1986
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2958,7 +3619,9 @@
         "Surface": "Herbe",
         "Capacité": "63.186"
       },
-      "matchYear": 1986
+      "matchYear": [
+        1986
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -2994,7 +3657,9 @@
         "Capacité": "43 257",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1986
+      "matchYear": [
+        1986
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3027,7 +3692,9 @@
         "Capacité": "36 485",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1986
+      "matchYear": [
+        1986
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3053,7 +3720,9 @@
         "Capacité": "28 000",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1986
+      "matchYear": [
+        1986
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3081,7 +3750,9 @@
         "Clubs résidents": "Querétaro FC",
         "Capacité": "40 785 places"
       },
-      "matchYear": 1986
+      "matchYear": [
+        1986
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3114,13 +3785,46 @@
         "Capacité": "30 000",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1986
+      "matchYear": [
+        1986
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         -99.6667944,
         19.2872861
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade San Nicola",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stadio_San_Nicola",
+      "stadeInfo": {
+        "Surnom(s)": "Astronave",
+        "Adresse": "Strada Torrebella 70124 Bari (BA), Italie",
+        "Coordonnées": "41° 05′ 05″ N 16° 50′ 24″ E / 41.084736, 16.840072 ()41° 05′ 05″ Nord 16° 50′ 24″ Est / 41.084736, 16.840072 ()",
+        "Début construction": "1987",
+        "Ouverture": "1990",
+        "Architecte": "Renzo Piano",
+        "Clubs résidents": "AS Bari (depuis 1990)",
+        "Propriétaire": "Ville de Bari",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "58 170",
+        "Dimensions": "105 m × 68 m"
+      },
+      "matchYear": [
+        1990
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        16.840072,
+        41.084736
       ]
     }
   },
@@ -3150,7 +3854,9 @@
         "Capacité": "38 279",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1990
+      "matchYear": [
+        1990
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3179,7 +3885,9 @@
         "Capacité": "23 486 places",
         "Dimensions": "105 × 66,5 m"
       },
-      "matchYear": 1990
+      "matchYear": [
+        1990
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3218,7 +3926,9 @@
         "Affluence record": "58 271 (Fiorentina-Inter Milan) (25 novembre 1984)",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1990
+      "matchYear": [
+        1990
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3251,7 +3961,9 @@
         "Affluence record": "+60 000 (Italie-Portugal le 27 février 1949)",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1990
+      "matchYear": [
+        1990
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3281,7 +3993,9 @@
         "Capacité": "80 018[1]",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1990
+      "matchYear": [
+        1990
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3318,7 +4032,9 @@
         "Affluence record": "85 000 spectateurs",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1990
+      "matchYear": [
+        1990
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3353,7 +4069,9 @@
         "Tribunes": "Montepellegrino 8 557 Tribuna Coperta 5 000 Virage Sud 11 261",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1990
+      "matchYear": [
+        1990
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3388,7 +4106,9 @@
         "Capacité": "72 698",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1990
+      "matchYear": [
+        1990
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3424,7 +4144,9 @@
         "Capacité": "69 295",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1990
+      "matchYear": [
+        1990
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3459,7 +4181,9 @@
         "Capacité": "30 667[1]",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 1990
+      "matchYear": [
+        1990
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3486,13 +4210,43 @@
         "Capacité": "39 371",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1990
+      "matchYear": [
+        1990
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         10.968647,
         45.435356
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Rose Bowl (stade)",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Rose_Bowl_(stade)",
+      "stadeInfo": {
+        "Adresse": "1001 Rose Bowl Drive Pasadena, California 91103",
+        "Coordonnées": "34° 09′ 41″ N 118° 10′ 03″ O / 34.161389, -118.1675 ()34° 09′ 41″ Nord 118° 10′ 03″ Ouest / 34.161389, -118.1675 ()",
+        "Ouverture": "1er janvier 1923",
+        "Coût de construction": "272 198 $USD",
+        "Clubs résidents": "UCLA Bruins, Los Angeles Galaxy(1996–2003)",
+        "Propriétaire": "Ville de Pasadena",
+        "Administration": "Rose Bowl Operating Company",
+        "Capacité": "91 136 places – UCLA Bruins 94 392 places – Rose Bowl Game"
+      },
+      "matchYear": [
+        1994
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -118.1675,
+        34.161389
       ]
     }
   },
@@ -3522,7 +4276,9 @@
         "Capacité": "60 000 (1921–1924) • 70 200 (1925–1926) 85 500 (1927–2005) • 50 000",
         "Affluence record": "94 000 (California - Stanford) (16 novembre 1935)"
       },
-      "matchYear": 1994
+      "matchYear": [
+        1994
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3554,7 +4310,9 @@
         "Capacité": "80 325[1]",
         "Affluence record": "93 682 (Messe de Jean-Paul II) (19 septembre 1987)[1]"
       },
-      "matchYear": 1994
+      "matchYear": [
+        1994
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3594,7 +4352,9 @@
         "Affluence record": "84 472 (Concert de U2) (24 septembre 2009)",
         "Dimensions": "118 m × 71 m"
       },
-      "matchYear": 1994
+      "matchYear": [
+        1994
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3629,7 +4389,9 @@
         "Capacité": "65 438 (70 000 avec les gradins provisoires)",
         "Affluence record": "74 635 (WrestleMania XXIV) (30 mars 2008)"
       },
-      "matchYear": 1994
+      "matchYear": [
+        1994
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3661,7 +4423,9 @@
         "Capacité": "61 500",
         "Affluence record": "260 000 (Marian Year Tribute) (8 septembre 1954)"
       },
-      "matchYear": 1994
+      "matchYear": [
+        1994
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3700,7 +4464,9 @@
         "Capacité": "92 100",
         "Affluence record": "96 009 (Oklahoma-Texas) (17 octobre 2009)"
       },
-      "matchYear": 1994
+      "matchYear": [
+        1994
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3730,7 +4496,9 @@
         "Surface": "AstroTurf (1971 - 1990) Pelouse naturelle (1991 - 2001)",
         "Capacité": "Football américain: 60 292"
       },
-      "matchYear": 1994
+      "matchYear": [
+        1994
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3760,13 +4528,55 @@
         "Surface": "Pelouse naturelle",
         "Capacité": "Baseball: 45 596 Football américain et Soccer: 56 692"
       },
-      "matchYear": 1994
+      "matchYear": [
+        1994
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         -76.971667,
         38.889722
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade de France",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stade_de_France",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Finale_Coupe_de_France_2010-2011_%28Lille_LOSC_vs_Paris_SG_PSG%29.jpg/280px-Finale_Coupe_de_France_2010-2011_%28Lille_LOSC_vs_Paris_SG_PSG%29.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:Finale_Coupe_de_France_2010-2011_(Lille_LOSC_vs_Paris_SG_PSG).jpg"
+          }
+        ],
+        "Surnom(s)": "SDF",
+        "Adresse": "Zac du Cornillon Nord93200 Saint-Denis",
+        "Coordonnées": "48° 55′ 28″ N 2° 21′ 36″ E / 48.924444, 2.36 ()48° 55′ 28″ Nord 2° 21′ 36″ Est / 48.924444, 2.36 ()",
+        "Début construction": "2 juin 1995",
+        "Ouverture": "28 janvier 1998",
+        "Architecte": "Michel MacaryAymeric ZublenaMichel RegembalClaude Costantini",
+        "Coût de construction": "364 millions €[1]",
+        "Clubs résidents": "Équipe de France de footballÉquipe de France de rugby à XV",
+        "Propriétaire": "État français",
+        "Administration": "Consortium Stade de France (jusqu'en 2025)",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "Football et rugby à XV : 81 338Athlétisme : 75 000Spectacles : plus de 90 000 selon configuration",
+        "Affluence record": "81 100 spectateurs France - Angleterre (Rugby à XV) 20 mars 2010",
+        "Dimensions": "105×70 m[2]"
+      },
+      "matchYear": [
+        1998
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.36,
+        48.924444
       ]
     }
   },
@@ -3798,7 +4608,9 @@
         "Affluence record": "59 120 le 6 octobre 2007 (Angleterre-Australie)",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1998
+      "matchYear": [
+        1998
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3835,7 +4647,9 @@
         "Tribunes": "- Officielle : Présidentielle-Francis Borelli - Latérale : Paris - Populaire Sud : KOP OF BOULOGNE - Populaire Nord : VIRAGE AUTEUIL",
         "Affluence record": "50 370 (France-Galles) (18 février 1989)[2]"
       },
-      "matchYear": 1998
+      "matchYear": [
+        1998
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3871,7 +4685,9 @@
         "Affluence record": "48 552 spectateurs (9 septembre 1980, OL - ASSE)",
         "Protection": "Inscrit MH Patrimoine XXe s."
       },
-      "matchYear": 1998
+      "matchYear": [
+        1998
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3911,7 +4727,9 @@
         "Affluence record": "48 912[2], le 15 février 1992 lors de Lens - Olympique de Marseille",
         "Dimensions": "105 mètres × 68 mètres"
       },
-      "matchYear": 1998
+      "matchYear": [
+        1998
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3951,7 +4769,9 @@
         "Affluence record": "51 359 (France-Belgique) (16 juin 1984)",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1998
+      "matchYear": [
+        1998
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -3984,7 +4804,9 @@
         "Capacité": "35 575 places[1]",
         "Affluence record": "39 450 spectateurs (20 mai 1951, Union sportive carmausine - Stadoceste Tarbais,14-12, Finale Championnat de France)"
       },
-      "matchYear": 1998
+      "matchYear": [
+        1998
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4025,7 +4847,9 @@
         "Affluence record": "47 747 spectateurs (11 mai 1985, ASSE-Lille OSC)",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1998
+      "matchYear": [
+        1998
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4063,7 +4887,9 @@
         "Affluence record": "40 211 (Bordeaux-Juventus) (24 avril 1985)",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1998
+      "matchYear": [
+        1998
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4100,13 +4926,45 @@
         "Affluence record": "32 231 (Australie-Fidji en rugby à XV en 2007)",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 1998
+      "matchYear": [
+        1998
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         3.8122183,
         43.621856
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade principal Asiad",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stade_principal_Asiad",
+      "stadeInfo": {
+        "Adresse": "1300 Geoje-dong, Yeonje-gu Pusan, Corée du Sud",
+        "Coordonnées": "35° 11′ 24″ N 129° 03′ 30″ E / 35.19, 129.058222 ()35° 11′ 24″ Nord 129° 03′ 30″ Est / 35.19, 129.058222 ()",
+        "Début construction": "novembre 1993",
+        "Ouverture": "15 septembre 2001",
+        "Architecte": "Space Group[1]",
+        "Coût de construction": "226,94 milliards KRW",
+        "Clubs résidents": "Busan I'Park (depuis 2002)",
+        "Administration": "Sport facility management office Busan metropolitan city",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "53 769"
+      },
+      "matchYear": [
+        2002
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        129.058222,
+        35.19
       ]
     }
   },
@@ -4131,7 +4989,9 @@
         "Capacité": "66 422",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4163,7 +5023,9 @@
         "Capacité": "40 535",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4193,7 +5055,9 @@
         "Capacité": "44 118",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4225,7 +5089,9 @@
         "Capacité": "50 256",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4255,7 +5121,9 @@
         "Capacité": "42 477",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4283,7 +5151,9 @@
         "Capacité": "35 657",
         "Dimensions": "117 m × 78 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4314,7 +5184,9 @@
         "Capacité": "66 806",
         "Dimensions": "117 m × 78 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4344,7 +5216,9 @@
         "Capacité": "43 959",
         "Dimensions": "114 m × 77 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4374,7 +5248,9 @@
         "Capacité": "44 474",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4408,7 +5284,9 @@
         "Capacité": "40 728",
         "Dimensions": "115 × 78 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4446,7 +5324,9 @@
         "Surface": "Pelouse naturelle",
         "Capacité": "30 132"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4480,7 +5360,9 @@
         "Surface": "Pelouse naturelle",
         "Capacité": "49 133"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4516,7 +5398,9 @@
         "Capacité": "42 300",
         "Dimensions": "107 m × 72 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4553,7 +5437,9 @@
         "Capacité": "40 000",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4588,7 +5474,9 @@
         "Capacité": "50 000",
         "Dimensions": "107 m × 71 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4625,7 +5513,9 @@
         "Capacité": "63 700",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4660,7 +5550,9 @@
         "Surface": "Pelouse naturelle (Football) Gazon artificiel (Baseball)",
         "Capacité": "Football: 41 484 Baseball: 40 476 Maximum: 53 845"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4694,7 +5586,9 @@
         "Capacité": "50 889",
         "Dimensions": "107 m × 72 m"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4729,13 +5623,53 @@
         "Capacité": "72 327",
         "Affluence record": "69 029 spectateurs (30 juin 2002)"
       },
-      "matchYear": 2002
+      "matchYear": [
+        2002
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         139.606247,
         35.510044
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Imtech Arena",
+      "wikipedia": "http://fr.wikipedia.org/wiki/HSH_Nordbank_Arena",
+      "stadeInfo": {
+        "photos": [
+          {
+            "src": "http://upload.wikimedia.org/wikipedia/commons/thumb/d/de/RK_1009_9831_Volksparkstadion.jpg/280px-RK_1009_9831_Volksparkstadion.jpg",
+            "href": "http://fr.wikipedia.org/wiki/Fichier:RK_1009_9831_Volksparkstadion.jpg"
+          }
+        ],
+        "Noms précédents": "Volksparkstadion (1953 - 2001) AOL Arena (2001 - 2007) FIFA WM-Stadion Hamburg (Coupe du monde de football de 2006) HSH Nordbank Arena (2007 - 2010)",
+        "Surnom(s)": "Volksparkstadion",
+        "Adresse": "Sylvesterallee 7 22525 Hambourg",
+        "Coordonnées": "53° 35′ 13″ N 9° 53′ 55″ E / 53.586944, 9.898611 ()53° 35′ 13″ Nord 9° 53′ 55″ Est / 53.586944, 9.898611 ()",
+        "Ouverture": "21 juillet 1953",
+        "Rénovation": "1998-00",
+        "Coût de construction": "64 millions €EUR (1998-00)",
+        "Clubs résidents": "Hambourg SV (depuis 1963) Hambourg Sea Devils (2005 à 2007)",
+        "Propriétaire": "Hambourg SV",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "57 000",
+        "Dimensions": "105 m × 68 m"
+      },
+      "matchYear": [
+        2006
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        9.898611,
+        53.586944
       ]
     }
   },
@@ -4768,7 +5702,9 @@
         "Capacité": "74 228",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2006
+      "matchYear": [
+        2006
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4798,7 +5734,9 @@
         "Capacité": "44 345 (ancien stade: 100 000)",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2006
+      "matchYear": [
+        2006
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4835,7 +5773,9 @@
         "Capacité": "50 000 (37 967 places assises)[1]",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2006
+      "matchYear": [
+        2006
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4873,7 +5813,9 @@
         "Capacité": "71 137 67 812 (matchs internationaux)",
         "Dimensions": "105 × 68 mètres"
       },
-      "matchYear": 2006
+      "matchYear": [
+        2006
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4909,7 +5851,9 @@
         "Surface": "Pelouse naturelle",
         "Capacité": "60 441"
       },
-      "matchYear": 2006
+      "matchYear": [
+        2006
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4947,7 +5891,9 @@
         "Capacité": "49 780",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 2006
+      "matchYear": [
+        2006
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -4987,7 +5933,9 @@
         "Capacité": "61 673 (54 142 places assises) Maximum: 78 996",
         "Dimensions": "118 m × 79 m"
       },
-      "matchYear": 2006
+      "matchYear": [
+        2006
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -5025,7 +5973,9 @@
         "Affluence record": "83 000 spectateurs (à six reprises)[2]",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2006
+      "matchYear": [
+        2006
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -5062,7 +6012,9 @@
         "Capacité": "Football (championnat): 50 076 Football (international): 46 361 (toutes assises)[1]",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2006
+      "matchYear": [
+        2006
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -5105,7 +6057,9 @@
         "Capacité": "Football: 51 500 (6 300 debout) Football américain: 48 500 Concerts: 55 000",
         "Dimensions": "105 m × 68 m"
       },
-      "matchYear": 2006
+      "matchYear": [
+        2006
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -5143,13 +6097,45 @@
         "Capacité": "49 780",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 2006
+      "matchYear": [
+        2006
+      ]
     },
     "geometry": {
       "type": "Point",
       "coordinates": [
         7.776667,
         49.434722
+      ]
+    }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "type": "Stade",
+      "title": "Stade Royal Bafokeng",
+      "wikipedia": "http://fr.wikipedia.org/wiki/Stade_Royal_Bafokeng",
+      "stadeInfo": {
+        "Surnom(s)": "Royal Bafokeng",
+        "Adresse": "Rustenburg, Afrique du Sud",
+        "Coordonnées": "25° 34′ 43″ S 27° 09′ 39″ E / -25.5786, 27.1607 ()25° 34′ 43″ Sud 27° 09′ 39″ Est / -25.5786, 27.1607 ()",
+        "Ouverture": "1999",
+        "Rénovation": "2009",
+        "Extension": "2009",
+        "Clubs résidents": "Platinum Stars Leopards",
+        "Propriétaire": "Royal Bafokeng Nation",
+        "Surface": "Pelouse naturelle",
+        "Capacité": "44 530"
+      },
+      "matchYear": [
+        2010
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        27.1607,
+        -25.5786
       ]
     }
   },
@@ -5177,7 +6163,9 @@
         "Clubs résidents": "Blue Bulls, Bulls (rugby à XV) Mamelodi Sundowns, Supersport United (football)",
         "Capacité": "49 365[1]"
       },
-      "matchYear": 2010
+      "matchYear": [
+        2010
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -5204,7 +6192,9 @@
         "Surface": "Pelouse semi-synthétique",
         "Capacité": "46 000"
       },
-      "matchYear": 2010
+      "matchYear": [
+        2010
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -5238,7 +6228,9 @@
         "Propriétaire": "municipalité",
         "Capacité": "43 589"
       },
-      "matchYear": 2010
+      "matchYear": [
+        2010
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -5283,7 +6275,9 @@
         "Affluence record": "88 791 Afrique du Sud-Nouvelle-Zélande, le 21 août 2010, 22-29",
         "Dimensions": "105 × 68 m"
       },
-      "matchYear": 2010
+      "matchYear": [
+        2010
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -5318,7 +6312,9 @@
         "Administration": "Ellis Park Stadium Pty (Ltd)",
         "Capacité": "62 567 (football et rugby à XV)"
       },
-      "matchYear": 2010
+      "matchYear": [
+        2010
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -5354,7 +6350,9 @@
         "Surface": "Pelouse naturelle",
         "Capacité": "64 100"
       },
-      "matchYear": 2010
+      "matchYear": [
+        2010
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -5385,7 +6383,9 @@
         "Surface": "Pelouse naturelle",
         "Capacité": "48 459"
       },
-      "matchYear": 2010
+      "matchYear": [
+        2010
+      ]
     },
     "geometry": {
       "type": "Point",
@@ -5413,7 +6413,9 @@
         "Surface": "gazon",
         "Capacité": "48 000"
       },
-      "matchYear": 2010
+      "matchYear": [
+        2010
+      ]
     },
     "geometry": {
       "type": "Point",
