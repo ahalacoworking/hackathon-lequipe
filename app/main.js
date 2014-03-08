@@ -35,7 +35,7 @@
         })
         var list = new Mosaic.ListView({
             app : app,
-            el : $('#list')
+            el : $('#years')
         })
         app.start();
 
@@ -61,6 +61,14 @@
         app.addDataSet(new Mosaic.DebugDataSet());
         Q().then(function() {
             var dataUrl = '../data/info/stades.json';
+            return loadJson(dataUrl).then(function(data) {
+                var dataSet = new Mosaic.GeoJsonDataSet({
+                    data : data
+                });
+                app.addDataSet(dataSet);
+            })
+        }).then(function() {
+            var dataUrl = '../data/info/coupsDuMondeInfo.json';
             return loadJson(dataUrl).then(function(data) {
                 var dataSet = new Mosaic.GeoJsonDataSet({
                     data : data

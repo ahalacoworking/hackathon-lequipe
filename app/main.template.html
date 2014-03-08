@@ -19,9 +19,7 @@
 	</div>
 
 	<div data-resource-type="Stade" data-view="MapMarkerView">
-		<div style="white-space: nowrap; color: white;">
-			<i class="fa fa-circle-o"></i>
-		</div>
+		<div class="stade-marker"></div>
 		<script type="text/javascript">
             ({
                         renderTitle : function(el) {
@@ -46,8 +44,37 @@
 
 	<div data-resource-type="Stade" data-view="MapActivePopupView"
 		data-extends="#parentView">
-		<h3 data-action-click="sayHello" data-render="renderTitle"></h3>
-		<p data-render="renderDescription"></p>
+		<div>
+			<div class="row">
+				<strong class="col-md-12" data-render="renderTitle"></strong>
+			</div>
+			<div class="row">
+				<div class="col-md-12" data-render="renderImage">
+					<img class="img-responsive" />
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+		({
+		    popupOptions : {
+		        minWidth  : 350,
+		        maxWidth : 350,
+		    },
+		    renderImage : function(elm){
+		        var templ = elm.html();
+		        elm.html('');  
+ 		        var resource = this.getResource();
+		        var images = resource.properties.stadeInfo.photos;
+		        images = _.toArray(images);
+		        _.each(images, function(imgInfo){
+		            var img = $(templ).attr({
+		                src : imgInfo.src
+		            })
+		            elm.append(img);
+		        })
+ 		    }
+		})</script>
 	</div>
 
 	<div data-resource-type="Stade" data-view="MapFocusedPopupView"
@@ -65,20 +92,38 @@
         </script>
 	</div>
 
-	<div data-resource-type="rue" data-view="ListItemView"
-		id="rue-list-view" data-extends="#parentView">
-		<h3 data-action-click="activateResource" data-render="renderTitle">Hello</h3>
-		<p data-render="renderDescription">Blah-blah</p>
+	<div data-resource-type="CoupDuMonde" data-view="ListItemView"
+		data-extends="#parentView">
+		<div data-action-click="open">
+			<div>
+				<strong data-render="renderYear"></strong>
+			</div>
+			<div data-render="renderImage">
+				<img
+					style="max-width: 100%; max-height: 80px; width: auto; margin: auto;" />
+			</div>
+		</div>
 		<script type="text/javascript">
             ({
-                renderDescription : function(elm) {
+                className: 'year-view',
+                open : function(ev){
+                    alert('Hello')
+                },
+                renderImage:  function(elm){
                     var resource = this.getResource();
-                    elm.html(resource.properties.description);
+                    var templ = elm.html();
+                    elm.html('');
+                    var logo = resource.properties.logo;
+                    var src = logo?logo.src:'';
+                    var img = $(templ).attr('src', src);
+                    elm.html(img);
+                },
+                renderYear:  function(elm){
+                    var resource = this.getResource();
+                    elm.text(resource.properties.year);
                 }
             })
         </script>
 	</div>
 
-	<div data-resource-type="Resource/rue" data-view="ListItemView"
-		data-extends="#rue-list-view"></div>
 </div>

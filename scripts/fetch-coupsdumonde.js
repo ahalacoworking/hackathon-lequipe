@@ -31,7 +31,7 @@ Q().then(function() {
             reload : false
         }).then(function(doc) {
             var obj = extractInfo(url, doc);
-            obj.year = year;
+            obj.properties.year = year;
             console.log('Done: "' + obj.title + '". URL: "' + url + '".');
             return obj;
         });
@@ -44,7 +44,12 @@ Q().then(function() {
 }).done();
 
 function extractInfo(url, doc) {
-    var result = {};
+    var properties = {
+        type : 'CoupDuMonde'
+    };
+    var result = {
+        properties : properties
+    };
 
     var body = doc.find('body');
     result.title = Utils.normalize(body.find('.firstHeading').text());
@@ -53,20 +58,20 @@ function extractInfo(url, doc) {
     Utils.resolveRefs(url, infoBlock);
 
     var logo = infoBlock.find('.thumbinner')
-    result.year = 0;
-    result.wikipedia = url;
-    result.logo = {
+    properties.year = 0;
+    properties.wikipedia = url;
+    properties.logo = {
         src : logo.find('img').attr('src'),
         href : logo.find('a').attr('href')
     }
 
-    result.info = extractStructureFromTable(infoBlock.find('table'));
-    result.teams = extractTeamInfo(body);
+    properties.info = extractStructureFromTable(infoBlock.find('table'));
+    properties.teams = extractTeamInfo(body);
     return result;
 }
 
-function extractTeamInfo(body){
-    
+function extractTeamInfo(body) {
+
 }
 
 function extractStructureFromTable(table) {
