@@ -4,7 +4,6 @@
             ({
                 renderText : function(elm) {
                     this._elm = elm;
-                    elm.text('Now :' + new Date());
                 },
                 renderTitle : function(elm) {
                     var resource = this.getResource();
@@ -17,6 +16,8 @@
             })
         </script>
 	</div>
+
+	<!--  Selected stades -->
 
 	<div data-resource-type="Stade" data-view="MapMarkerView">
 		<div class="stade-marker"></div>
@@ -77,20 +78,79 @@
 		})</script>
 	</div>
 
-	<div data-resource-type="Stade" data-view="MapFocusedPopupView"
+	<!--  Selected stades -->
+
+	<div data-resource-type="SelectedStade" data-view="MapMarkerView">
+		<div class="selected-stade-marker"></div>
+		<script type="text/javascript">
+            ({
+                        icon : {
+                            popupAnchor : [ 6, -17 ],
+                            iconAnchor: [12, 14]
+                        }
+                    })
+        </script>
+	</div>
+
+	<script type="text/javascript" data-map-options="SelectedStade"
+		data-extends="#commonOptions">
+        {
+            color: 'red',
+            weight: 0.5
+        }
+    </script>
+
+	<div data-resource-type="SelectedStade" data-view="MapFocusedPopupView"
 		data-extends="#parentView">
-		<strong data-action-click="sayHello" data-render="renderTitle"></strong>
+		<strong data-render="renderTitle"></strong>
 		<script type="text/javascript">
             ({
                 popupOptions : function() {
                     return {
                         offset : [ 0, 0 ],
-                        minWidth : 150
+                        minWidth : 250
                     }
                 }
             })
         </script>
 	</div>
+
+	<div data-resource-type="SelectedStade" data-view="MapActivePopupView"
+		data-extends="#parentView">
+		<div>
+			<div class="row">
+				<strong class="col-md-12" data-render="renderTitle"></strong>
+			</div>
+			<div class="row">
+				<div class="col-md-12" data-render="renderImage">
+					<img class="img-responsive" />
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+        ({
+            popupOptions : {
+                minWidth  : 350,
+                maxWidth : 350,
+            },
+            renderImage : function(elm){
+                var templ = elm.html();
+                elm.html('');  
+                var resource = this.getResource();
+                var images = resource.properties.stadeInfo.photos;
+                images = _.toArray(images);
+                _.each(images, function(imgInfo){
+                    var img = $(templ).attr({
+                        src : imgInfo.src
+                    })
+                    elm.append(img);
+                })
+            }
+        })</script>
+	</div>
+
+	<!--  CoupDuMonde -->
 
 	<div data-resource-type="CoupDuMonde" data-view="ListItemView"
 		data-extends="#parentView">
@@ -123,8 +183,7 @@
         </script>
 	</div>
 
-
-	<div class="modal fade" id="myDialog" data-resource-type="CoupDuMonde"
+	<div class="modal fade" data-resource-type="CoupDuMonde"
 		data-view="StadePopupView">
 		<div class="modal-dialog modal-lg" style="z-index: 10000;">
 			<div class="modal-content">
@@ -150,7 +209,6 @@
 		    renderContent : function(el){
                 var resource = this.getResource();
                 var props = resource.properties.info;
-                console.log(props);
                 el.append($('<div>Lieu : </div>').append(props['Lieu']));
                 el.append($('<div>Site(s) : </div>').append(props['Site(s)']));
                 el.append($('<div>Date : </div>').append(props['Date']));
@@ -161,8 +219,100 @@
                 el.append($('<div>Finaliste : </div>').append(props['Finaliste']));
                 el.append($('<div>Meilleur(s) buteur(s) : </div>').append(props['Meilleur(s) buteur(s)']));
                 el.append($('<div>Buts : </div>').append(props['Buts']));
-		    }
+		    },
+		    renderImage:  function(elm){
+                var resource = this.getResource();
+                var templ = elm.html();
+                elm.html('');
+                var logo = resource.properties.logo;
+                var src = logo?logo.src:'';
+                var img = $(templ).attr('src', src);
+                elm.html(img);
+            },
 		})</script>
+	</div>
+	<!-- /.modal -->
+
+
+	<div class="modal fade" data-resource-type="MainScreen"
+		data-view="IntroPopup">
+		<div class="modal-dialog modal-lg" style="z-index: 10000;">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						data-aria-hidden="true">&times;</button>
+					<h4 class="modal-title" data-render="renderTitle"></h4>
+				</div>
+				<div class="modal-body" style="max-height: 300px; overflow: auto;"
+					data-render="renderContent"></div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+		<script type="text/javascript">({
+            renderTitle : function(el){
+            },
+            _getCountryId : function(name){
+                return '' + name; 
+            },
+            _removeHighlights : function(el){
+                el.find('[data-country-key]')
+                .removeClass('country-selected')
+                .removeClass('country-primary');
+            },
+            _hightlightCountry : function(el, name, primary) {
+                var id = this._getCountryId(name);
+                var e = el.find('[data-country-key="' + id + '"]');
+                e.addClass('country-selected');
+                if (primary) {
+                    e.addClass('country-primary');
+                }
+            },
+            renderContent : function(el){
+                var dataSet = this.options.dataSet;
+                var template = el.html();
+                el.text('Chargement...');
+                var that = this;
+                dataSet.loadCountries().then(function(list){
+                    el.text('');
+                    var id = 0;
+                    var row;
+                    _.each(list, function(value){
+                        if ((id % 4) == 0) {
+                            row = $('<div class="row"></div>');
+                            el.append(row);
+                        }
+                        id++;
+                        var cell = $('<div class="col-md-3"></div>');
+                        row.append(cell);
+                        cell.attr('data-country-key', that._getCountryId(value));
+                        cell.append(value);
+                        cell.click(function(){
+                            that._removeHighlights(el);
+                            var active = that._active;
+                            that._active = null;
+                            if (value == active)
+                                return ;
+                            that._active = value;
+                            dataSet.loadParteners(value).then(function(matches){
+                                var partener = matches[active];
+                                if (partener && active != value) {
+                                    dataSet.activateMatch(partener);
+                                } else {
+                                    that._hightlightCountry(el, value, true);
+                                    _.each(matches, function(match, key){
+                                        that._hightlightCountry(el, key);
+                                    })                                
+                                }
+                            }).done();
+                        })
+                    });
+                }).done();
+            }
+        })</script>
 	</div>
 	<!-- /.modal -->
 </div>
