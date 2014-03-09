@@ -31,7 +31,7 @@
             el : $('#map'),
             maxZoom : 22,
             initialZoom : 2,
-            initialCenter : [-33.046875,43.83452678223684]
+            initialCenter : [ -33.046875, 43.83452678223684 ]
         })
         var list = new Mosaic.ListView({
             app : app,
@@ -55,6 +55,12 @@
         var tilesUrl = 'http://127.0.0.1:8888/tiles/app-econovista/osm-bright/{z}/{x}/{y}.png';
         var tilesUrl = "http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png";
         tilesUrl = 'http://{s}.tiles.mapbox.com/v3/mkotelnikov.hfd53c8o/{z}/{x}/{y}.png';
+        // tilesUrl =
+        // "http://localhost:8888/tiles/app-econovista/osm-bright/{z}/{x}/{y}.png";
+
+        // - Get the list of matchs
+        // - Show a list of  
+        
         app.addDataSet(new Mosaic.TilesDataSet({
             tilesUrl : tilesUrl,
         }));

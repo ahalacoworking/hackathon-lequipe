@@ -12,11 +12,15 @@ var equipeResultFile = DATA_DIR + 'stades-names-lequipe.csv';
 var wikipediaSourceFile = DATA_DIR + 'stades.json';
 var wikipediaResultFile = DATA_DIR + 'stades-names-wikipedia.csv';
 
-/* -------------------------------- */
+/* -------------------------------- */s
+
+function toKey(array) {
+    return array.join('-');
+}
 
 function extractEquipeStadeNames(from, to) {
     function getStadeKey(obj) {
-        return obj.saison + ';' + obj.lieu_du_match + ';' + obj.stade;
+        return toKey([ obj.saison, obj.lieu_du_match, obj.stade ]);
     }
     var results = {};
     console.log("Extracting data from l'Equipe DB...")
@@ -39,8 +43,7 @@ function extractEquipeStadeNames(from, to) {
 function extractWikipediaStadeNames(from, to) {
     function getStadeKey(obj) {
         var props = obj.properties;
-        return props.matchYear + ';' + props.title + ';'
-                + props.stadeInfo['Adresse'];
+        return toKey([ props.matchYear, props.stadeInfo['Adresse'], props.title ]);
     }
     var results = {};
     console.log("Extracting data from Wikipedia DB...")

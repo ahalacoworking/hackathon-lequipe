@@ -94,12 +94,12 @@
 
 	<div data-resource-type="CoupDuMonde" data-view="ListItemView"
 		data-extends="#parentView">
-		<div data-action-click="open">
-			<div>
+		<div>
+			<div data-action-click="open">
 				<strong data-render="renderYear"></strong>
 			</div>
 			<div data-render="renderImage">
-				<img
+				<img data-action-click="open"
 					style="max-width: 100%; max-height: 80px; width: auto; margin: auto;" />
 			</div>
 		</div>
@@ -107,7 +107,8 @@
             ({
                 className: 'year-view',
                 open : function(ev){
-                    alert('Hello')
+                    var resource = this.getResource();
+                    alert(resource.properties.year);
                 },
                 renderImage:  function(elm){
                     var resource = this.getResource();
