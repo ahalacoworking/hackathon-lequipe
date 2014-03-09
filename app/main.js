@@ -2,7 +2,7 @@
 
     require([ './require.config' ], function() {
         require([ 'underscore', 'jquery', 'q', 'Mosaic', 'L',
-                "text!./main.template.html" ], module);
+                "text!./main.template.html", 'bootstrap' ], module);
     });
 
     function module(_, $, Q, Mosaic, L, templateHtml) {
@@ -11,6 +11,7 @@
 
         Mosaic.registerViewAdapters(templateHtml);
         Mosaic.registerMapOptions(templateHtml);
+        var template = $(templateHtml);
 
         /* ------------------------------------------------- */
         Mosaic.DebugDataSet = Mosaic.DataSet.extend({});
@@ -59,29 +60,60 @@
         // "http://localhost:8888/tiles/app-econovista/osm-bright/{z}/{x}/{y}.png";
 
         // - Get the list of matchs
-        // - Show a list of  
-        
+        // - Show a list of
+
+        var StadePopupView = Mosaic.ViewAdapter.extend({
+            type : 'StadePopupView'
+        })
+
+        var stadesFileUrl = '../data/lequipe/db/stades.json';
+        var coupsDuMondeFileUrl = '../data/info/coupsDuMondeInfo.json';
+        var matchFileUrl = '../data/lequipe/db/lequipe_hack_cm_matchs.json';
+
+        var stadesDataSet;
+        var coupsDuMondeDataSet;
+
         app.addDataSet(new Mosaic.TilesDataSet({
             tilesUrl : tilesUrl,
         }));
         app.addDataSet(new Mosaic.DebugDataSet());
         Q().then(function() {
-            var dataUrl = '../data/info/stades.json';
-            return loadJson(dataUrl).then(function(data) {
-                var dataSet = new Mosaic.GeoJsonDataSet({
+            return loadJson(stadesFileUrl).then(function(data) {
+                stadesDataSet = new Mosaic.GeoJsonDataSet({
                     data : data
                 });
-                app.addDataSet(dataSet);
+                app.addDataSet(stadesDataSet);
             })
         }).then(function() {
-            var dataUrl = '../data/info/coupsDuMondeInfo.json';
-            return loadJson(dataUrl).then(function(data) {
-                var dataSet = new Mosaic.GeoJsonDataSet({
+            return loadJson(coupsDuMondeFileUrl).then(function(data) {
+                coupsDuMondeDataSet = new Mosaic.GeoJsonDataSet({
                     data : data
                 });
-                app.addDataSet(dataSet);
+                app.addDataSet(coupsDuMondeDataSet);
             })
-        }).done();
+        }).then(
+                function() {
+                    stadesDataSet.on('activateResource', function(ev) {
+                        console.log('Stade is activated', ev);
+                    });
+                    coupsDuMondeDataSet.on('activateResource', function(ev) {
+                        var options = {};
+                        var resource = ev.resource;
+                        var ViewType = coupsDuMondeDataSet.getResourceAdapter(
+                                resource, StadePopupView);
+                        var view = new ViewType({
+                            resource : resource,
+                            dataSet : coupsDuMondeDataSet
+                        });
+
+                        var element = view.getElement();
+                        element.modal(options);
+                        
+                        $('body').append(element);
+                        view.render();
+
+                    });
+                }).done();
 
         /**
          * Return a promise for the data loaded from the specified URL

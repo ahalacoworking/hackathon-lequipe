@@ -64,6 +64,7 @@ function writeEquipeMatchInfoDB(index, sourceFile, targetFile) {
         var key = getStadeKey(obj);
         var stadeId = index.equipeStadeIndex[key];
         obj.stadeId = stadeId;
+        obj.type = 'Match';
         list.push({
             type : 'Feature',
             properties : obj
