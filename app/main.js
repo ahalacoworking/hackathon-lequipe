@@ -47,7 +47,7 @@
                 position : 'topright'
             },
             onAdd : function(map) {
-                var btn = $('<button><i class="fa fa-dribbble"></i> Matchs</button>');
+                var btn = $('<button><i class="fa fa-dribbble"></i></button>');
                 btn.click(function() {
                     openMatchPopup();
                 })
@@ -162,7 +162,6 @@
                 var resources = this.getResources();
                 var results = [];
                 _.each(resources, function(resource) {
-                    console.log(year, resource.properties.saison)
                     if ('' + resource.properties.saison == year + '') {
                         results.push(resource.properties.stadeId);
                     }
