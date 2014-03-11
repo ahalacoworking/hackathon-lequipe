@@ -9,7 +9,7 @@
         "underscore" : "*",
         "requirejs" : "*",
         "requirejs-text" : "*"
-        "mosaic-ui" : "git://github.com/ubimix/mosaic-ui.git#5f7eb12de7098013922822d25ba68b5503b03ade"
+        "mosaic-ui" : "git://github.com/ubimix/mosaic-ui.git#212697dda56e491b27b603c53b802e02c2c266b4"
     },
     "devDependencies" : {
         "mocha" : "*",
