@@ -1,362 +1,68 @@
 <div>
-	<div id="parentView">
+	<div id="TIC">
 		<script type="text/javascript">
-            ({
-                renderText : function(elm) {
-                    this._elm = elm;
-                },
-                renderTitle : function(elm) {
-                    var resource = this.getResource();
-                    elm.html(resource.properties.title);
-                },
-                renderDescription : function(elm) {
-                    var resource = this.getResource();
-                    elm.html(resource.properties.description);
-                }
-            })
-        </script>
+        ({
+            renderTitle : function(elm){
+                var resource = this.getResource();
+                var name = resource.properties.name;
+                elm.text(name);
+            },
+            popupOptions:{
+                minWidth : 50,
+                maxWidth : 350
+            }
+        })</script>
 	</div>
 
-	<!--  Selected stades -->
+	<script type="text/javascript" data-map-options="TIC">
+        {
+            color: 'red',
+            weight: 0.5
+        }
+    </script>
 
-	<div data-resource-type="Stade" data-view="MapMarkerView">
-		<div class="stade-marker"></div>
+	<div data-resource-type="TIC" data-view="MapMarkerView"
+		data-extends="#TIC">
+		<div style="white-space: nowrap;">
+			<i style="color:white;" class="fa fa-map-marker fa-2x"></i><i class="fa fa-caret-left"
+				style="color: white;"></i><span
+				style="background-color: white; border: 1px solid white; border-radius: 3px; padding: 0.1em 0.5em;"
+				data-render="renderTitle"></span>
+		</div>
 		<script type="text/javascript">
             ({
                         renderTitle : function(el) {
                             var resource = this.getResource();
-                            el.text(resource.properties.title);
+                            el.text(resource.properties.name);
                         },
                         icon : {
-                            popupAnchor : [ 6, -17 ],
-                            iconAnchor: [0, 14]
+                            iconAnchor: [6, 24],
+                            popupAnchor : [ 0, -24 ],
                         }
                     })
         </script>
 	</div>
 
-	<script type="text/javascript" data-map-options="Stade"
-		data-extends="#commonOptions">
-        {
-            color: 'red',
-            weight: 0.5
-        }
-    </script>
-
-	<div data-resource-type="Stade" data-view="MapActivePopupView"
-		data-extends="#parentView">
-		<div>
-			<div class="row">
-				<strong class="col-md-12" data-render="renderTitle"></strong>
-			</div>
-			<div class="row">
-				<div class="col-md-12" data-render="renderImage">
-					<img class="img-responsive" />
-				</div>
-			</div>
-		</div>
-
-		<script type="text/javascript">
-		({
-		    popupOptions : {
-		        minWidth  : 350,
-		        maxWidth : 350,
-		    },
-		    renderImage : function(elm){
-		        var templ = elm.html();
-		        elm.html('');  
- 		        var resource = this.getResource();
-		        var images = resource.properties.stadeInfo.photos;
-		        images = _.toArray(images);
-		        _.each(images, function(imgInfo){
-		            var src= imgInfo.src; 
-		            if (src.indexOf('LOSC_vs_Paris_SG_PSG') > 0){
-		                src =   './data/image.png';
-		            }
-		            var img = $(templ).attr({
-		                src : src
-		            })
-		            elm.append(img);
-		        })
- 		    }
-		})</script>
-	</div>
-
-	<!--  Selected stades -->
-
-	<div data-resource-type="SelectedStade" data-view="MapMarkerView">
-		<div class="selected-stade-marker"></div>
-		<script type="text/javascript">
-            ({
-                        icon : {
-                            popupAnchor : [ 6, -17 ],
-                            iconAnchor: [12, 14]
-                        }
-                    })
-        </script>
-	</div>
-
-	<script type="text/javascript" data-map-options="SelectedStade"
-		data-extends="#commonOptions">
-        {
-            color: 'red',
-            weight: 0.5
-        }
-    </script>
-
-	<div data-resource-type="SelectedStade" data-view="MapFocusedPopupView"
-		data-extends="#parentView">
+	<div data-resource-type="TIC" data-view="MapFocusedPopupView"
+		data-extends="#TIC">
 		<strong data-render="renderTitle"></strong>
-		<script type="text/javascript">
-            ({
-                popupOptions : function() {
-                    return {
-                        offset : [ 0, 0 ],
-                        minWidth : 250
-                    }
-                }
-            })
-        </script>
 	</div>
-
-	<div data-resource-type="SelectedStade" data-view="MapActivePopupView"
-		data-extends="#parentView">
+	<div data-resource-type="TIC" data-view="MapActivePopupView"
+		data-extends="#TIC">
 		<div>
 			<div class="row">
 				<strong class="col-md-12" data-render="renderTitle"></strong>
 			</div>
 			<div class="row">
-				<div class="col-md-12" data-render="renderImage">
-					<img class="img-responsive" />
-				</div>
+				<div class="col-md-12" data-render="renderDescription"></div>
 			</div>
 		</div>
-
-		<script type="text/javascript">
-        ({
-            popupOptions : {
-                minWidth  : 350,
-                maxWidth : 350,
-            },
-            renderImage : function(elm){
-                var templ = elm.html();
-                elm.html('');  
-                var resource = this.getResource();
-                var images = resource.properties.stadeInfo.photos;
-                images = _.toArray(images);
-                _.each(images, function(imgInfo){
-                    var src= imgInfo.src; 
-                    if (src.indexOf('LOSC_vs_Paris_SG_PSG') > 0){
-                        src =   '../data/image.png';
-                    }
-                    var img = $(templ).attr({
-                        src : src
-                    })
-                    elm.append(img);
-                })
-            }
-        })</script>
-	</div>
-
-	<!--  CoupDuMonde -->
-
-	<div data-resource-type="CoupDuMonde" data-view="ListItemView"
-		data-extends="#parentView">
-		<div>
-			<div data-action-click="activateResource">
-				<strong data-render="renderYear"></strong>
-			</div>
-			<div data-render="renderImage">
-				<img data-action-click="activateResource"
-					style="max-width: 100%; max-height: 80px; width: auto; margin: auto;" />
-			</div>
-		</div>
-		<script type="text/javascript">
-            ({
-                className: 'year-view',
-                renderImage:  function(elm){
-                    var resource = this.getResource();
-                    var templ = elm.html();
-                    elm.html('');
-                    var logo = resource.properties.logo;
-                    var src = logo?logo.src:'';
-                    var img = $(templ).attr('src', src);
-                    elm.html(img);
-                },
-                renderYear:  function(elm){
-                    var resource = this.getResource();
-                    elm.text(resource.properties.year);
-                }
-            })
-        </script>
-	</div>
-
-	<div class="modal fade" data-resource-type="CoupDuMonde"
-		data-view="StadePopupView">
-		<div class="modal-dialog modal-lg" style="z-index: 10000;">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"
-						data-aria-hidden="true">&times;</button>
-					<h3 class="modal-title" data-render="renderTitle"></h3>
-				</div>
-				<div class="modal-body">
-					<div class="row">
-						<div class="col-xs-3 col-md-3">
-							<a href="#" class="thumbnail"> <img data-render="renderImage"
-								data-src="holder.js/100%x180" />
-							</a>
-						</div>
-						<div class="col-xs-9 col-md-9">
-							<h4>
-								<span data-render="renderCountry"></span> <span
-									data-render="renderDate"></span>
-							</h4>
-							<div data-render="renderContent"></div>
-						</div>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
-				</div>
-			</div>
-			<!-- /.modal-content -->
-		</div>
-		<!-- /.modal-dialog -->
 		<script type="text/javascript">({
-		    renderTitle : function(el){
+		    renderDescription: function(elm){
 		        var resource = this.getResource();
-		        var str = resource.title;
-		        el.text(str);
-		    },
-	        renderCountry : function(elm){
-                var resource = this.getResource();
-                var props = resource.properties.info;
-                elm.text(props['Lieu']);
-	        },
-	        renderDate : function(elm){
-                var resource = this.getResource();
-                var props = resource.properties.info;
-                elm.text(props['Date']);
-	        },
-		    renderContent : function(el){
-                var resource = this.getResource();
-                var props = resource.properties.info;
-                var mapping = {'Site' :  'Site(s)',
-                        'Participants' : 'Participants',
-                        'Épreuves' : 'Épreuves',
-                        'Affluence': 'Affluence',
-                        'Vainqueur' : 'Vainqueur',
-                        'Finaliste' : 'Finaliste',
-                        'Meilleur buteur' : 'Meilleur(s) buteur(s)',
-                        'Buts' : 'Buts'
-                };
-                _.each(mapping, function(key,label){
-                    var value = props[key];
-                    if (!value||value=='')
-                        return ;
-                    // value = $('<strong></strong>').append(value);
-                    el.append($('<div></div>')
-                            .append(label)
-                            .append(' : ')
-                            .append(value));
-                });
-		    },
-		    renderImage:  function(elm){
-                var resource = this.getResource();
-                var logo = resource.properties.logo;
-                var src = logo?logo.src:'';
-                elm.attr('src', src);
-            },
+		        elm.text(resource.properties.description);
+		    }
 		})</script>
 	</div>
-	<!-- /.modal -->
 
-
-	<div class="modal fade" data-resource-type="MainScreen"
-		data-view="IntroPopup">
-		<div class="modal-dialog modal-lg" style="z-index: 10000;">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"
-						data-aria-hidden="true">&times;</button>
-					<h4 class="modal-title" data-render="renderTitle">Choisissez
-						votre duel</h4>
-				</div>
-				<div class="modal-body" style="max-height: 300px; overflow: auto;"
-					data-render="renderContent"></div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
-				</div>
-			</div>
-			<!-- /.modal-content -->
-		</div>
-		<!-- /.modal-dialog -->
-		<script type="text/javascript">({
-            renderTitle : function(el){
-            },
-            _getCountryId : function(name){
-                return '' + name; 
-            },
-            _removeHighlights : function(el){
-                el.find('[data-country-key]')
-                    .removeClass('country-selected')
-                    .removeClass('country-primary');
-                el.find('.badge').remove();
-            },
-            _hightlightCountry : function(el, name, label) {
-                var id = this._getCountryId(name);
-                var e = el.find('[data-country-key="' + id + '"]');
-                e.addClass('country-selected');
-                if (!label) {
-                    e.addClass('country-primary');
-                } else {
-                    e.append(' <span class="badge badge-danger">' + label + '</span>' );
-                }
-            },
-            renderContent : function(el){
-                var dataSet = this.options.dataSet;
-                var template = el.html();
-                el.text('Chargement...');
-                var that = this;
-                dataSet.loadCountries().then(function(list){
-                    el.text('');
-                    var id = 0;
-                    var row;
-                    _.each(list, function(value){
-                        if ((id % 4) == 0) {
-                            row = $('<div class="row"></div>');
-                            el.append(row);
-                        }
-                        id++;
-                        var cell = $('<div class="col-md-3"></div>');
-                        row.append(cell);
-                        cell.attr('data-country-key', that._getCountryId(value));
-                        cell.append(value);
-                        cell.click(function(){
-                            that._removeHighlights(el);
-                            var active = that._active;
-                            that._active = null;
-                            if (value == active)
-                                return ;
-                            that._active = value;
-                            dataSet.loadParteners(value).then(function(matches){
-                                var partener = matches[active];
-                                if (partener && active != value) {
-                                    dataSet.activateMatch(partener);
-                                } else {
-                                    that._hightlightCountry(el, value);
-                                    _.each(matches, function(match, key){
-                                        var m = match[0];
-                                        that._hightlightCountry(el, key, m.properties.saison);
-                                    })                                
-                                }
-                            }).done();
-                        })
-                    });
-                }).done();
-            }
-        })</script>
-	</div>
-	<!-- /.modal -->
 </div>

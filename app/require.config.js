@@ -18,6 +18,7 @@ require
                 'text' : './libs/requirejs-text/text',
                 'underscore' : './libs/underscore/underscore',
                 'bootstrap' : './libs/bootstrap/dist/js/bootstrap',
+                'select2' : './libs/select2/select2',
                 'q' : './libs/q/q',
 
                 'Mosaic' : './libs/mosaic-ui/app/Mosaic',
@@ -35,6 +36,9 @@ require
                     exports : 'Backbone'
                 },
                 'bootstrap' : {
+                    deps : [ 'jquery' ]
+                },
+                'select2' : {
                     deps : [ 'jquery' ]
                 },
                 'jquery' : {

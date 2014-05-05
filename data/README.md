@@ -1,4 +1,2 @@
-List of files in the "data/lequipe" folder required to launch the application:
-
-* data/lequipe/lequipe_hack_cm_matchs.csv
-* 
+* resources-tic.json - dump of data from techonmap.fr at 11/03/2014;
+  "category":"Xxx" was replaced by "type":"TIC/Xxx"  

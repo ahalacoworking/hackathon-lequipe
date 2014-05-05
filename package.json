@@ -1,5 +1,5 @@
 {
-    "name" : "hackathon-lequipe",
+    "name" : "paris-region-map",
     "version" : "0.0.1",
     "devDependencies" : {
         "mocha" : "*",
