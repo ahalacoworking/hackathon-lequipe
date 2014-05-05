@@ -1,0 +1,266 @@
+
+@ml1 : 0.4;
+@ml5 : @ml1 * 0.25;
+@ml6 : @ml1 * 0.25;
+@ml7 : @ml1 * 0.25;
+@ml8 : @ml1 * 0.25;
+@ml9 : @ml1 * 0.5;
+@ml10 : @ml1 * 1;
+@ml11 : @ml1 * 2;
+@ml12 : @ml1 * 4;
+@ml13 : @ml1 * 8;
+@ml14 : @ml1 * 16;
+@ml15 : @ml1 * 32;
+@ml16 : @ml1 * 32;
+@ml17 : @ml1 * 32;
+@ml18 : @ml1 * 32;
+@ml19 : @ml1 * 32;
+@ml20 : @ml1 * 32;
+
+@rdiff : 1.5;
+@rl1 : @ml1 * @rdiff;
+@rl5 : @ml5 * @rdiff;
+@rl6 : @ml6 * @rdiff;
+@rl7 : @ml7 * @rdiff;
+@rl8 : @ml8 * @rdiff;
+@rl9 : @ml9 * @rdiff;
+@rl10 : @ml10 * @rdiff;
+@rl11 : @ml11 * @rdiff;
+@rl12 : @ml12 * @rdiff;
+@rl13 : @ml13 * @rdiff;
+@rl14 : @ml14 * @rdiff;
+@rl15 : @ml15 * @rdiff;
+@rl16 : @ml16 * @rdiff;
+@rl17 : @ml17 * @rdiff;
+@rl18 : @ml18 * @rdiff;
+@rl19 : @ml19 * @rdiff;
+@rl20 : @ml20 * @rdiff;
+
+@mlgap : 1.5;
+
+#objects {
+
+	/* Lines */
+
+	line-color: silver;
+	line-width: @ml1;
+	line-opacity: 1;
+	line-join: round;
+	line-cap: round;
+    [t_mode='Métro'] { line-width: @ml1; line-color: gray; }
+    [t_mode='RER'] { line-width: @rl1; line-color: gray; }
+ 
+    [zoom >= 5] {
+	  line-width: @ml5;
+	  line-opacity: 0.2;
+	  [t_type='1'], [t_mode='Métro']{ line-width: @ml5; }
+      [t_mode='Métro'] { line-dasharray: @ml5, @ml5 * @mlgap; }
+      [t_type='2'], [t_mode='RER']{ line-width: @rl5; }
+      [t_mode='RER'] { line-dasharray: @rl5, @rl5 * @mlgap; }
+	}
+	[zoom >= 6] {
+	  line-width: @ml6;
+	  line-opacity: 0.3;
+	  [t_type='1'], [t_mode='Métro']{ line-width: @ml6; }
+      [t_mode='Métro'] { line-dasharray: @ml6, @ml6 * @mlgap; }
+      [t_type='2'], [t_mode='RER']{ line-width: @rl6; }
+      [t_mode='RER'] { line-dasharray: @rl6, @rl6 * @mlgap; }
+	}
+	[zoom >= 7] {
+	  line-width: @ml7;
+	  line-opacity: 0.4;
+      [t_type='1'], [t_mode='Métro']{ line-width: @ml7; }
+      [t_mode='Métro'] { line-dasharray: @ml7, @ml7 * @mlgap; }
+      [t_type='2'], [t_mode='RER']{ line-width: @rl7; }
+      [t_mode='RER'] { line-dasharray: @rl7, @rl7 * @mlgap; }
+	}
+	[zoom >= 8] {
+	  line-width: @ml8;
+	  line-opacity: 0.5;
+      [t_type='1'], [t_mode='Métro']{ line-width: @ml8; }
+      [t_mode='Métro'] { line-dasharray: @ml8, @ml8 * @mlgap; }
+      [t_type='2'], [t_mode='RER']{ line-width: @rl8; }
+      [t_mode='RER'] { line-dasharray: @rl8, @rl8 * @mlgap; }
+	}
+	[zoom >= 9] {
+	  line-width: @ml9;
+	  line-opacity: 0.5;
+      [t_type='1'], [t_mode='Métro']{ line-width: @ml9; }
+      [t_mode='Métro'] { line-dasharray: @ml9, @ml9 * @mlgap; }
+      [t_type='2'], [t_mode='RER']{ line-width: @rl9; }
+      [t_mode='RER'] { line-dasharray: @rl9, @rl9 * @mlgap; }
+	}
+	[zoom >= 10] {
+	  line-width: @ml10;
+	  line-opacity: 0.6;
+      [t_type='1'], [t_mode='Métro']{ line-width: @ml10; }
+      [t_mode='Métro'] { line-dasharray: @ml10, @ml10 * @mlgap; }
+      [t_type='2'], [t_mode='RER']{ line-width: @rl10; }
+      [t_mode='RER'] { line-dasharray: @rl10, @rl10 * @mlgap; }
+	}
+	[zoom >= 11] {
+	  line-width: @ml11;
+	  line-opacity: 0.6;
+      [t_type='1'], [t_mode='Métro']{ line-width: @ml11; }
+      [t_mode='Métro'] { line-dasharray: @ml11, @ml11 * @mlgap; }
+      [t_type='2'], [t_mode='RER']{ line-width: @rl11; }
+      [t_mode='RER'] { line-dasharray: @rl11, @rl11 * @mlgap; }
+	}
+	[zoom >= 12] {
+	  line-width: @ml12;
+	  line-opacity: 0.7;
+      [t_type='1'], [t_mode='Métro']{ line-width: @ml12; }
+      [t_mode='Métro'] { line-dasharray: @ml12, @ml12 * @mlgap; }
+      [t_type='2'], [t_mode='RER']{ line-width: @rl12; }
+      [t_mode='RER'] { line-dasharray: @rl12, @rl12 * @mlgap; }
+	}
+	[zoom >= 13] {
+	  line-width: @ml13;
+	  line-opacity: 0.8;
+      [t_type='1'], [t_mode='Métro']{ line-width: @ml13; }
+      [t_mode='Métro'] { line-dasharray: @ml13, @ml13 * @mlgap; }
+      [t_type='2'], [t_mode='RER']{ line-width: @rl13; }
+      [t_mode='RER'] { line-dasharray: @rl13, @rl13 * @mlgap; }
+	}
+	[zoom >= 14] {
+	  line-width: @ml14;
+	  line-opacity: 0.9;
+      [t_type='1'], [t_mode='Métro']{ line-width: @ml14; }
+      [t_mode='Métro'] { line-dasharray: @ml14, @ml14 * @mlgap; }
+      [t_type='2'], [t_mode='RER']{ line-width: @rl14; }
+      [t_mode='RER'] { line-dasharray: @rl14, @rl14 * @mlgap; }
+	}
+	[zoom >= 15] {
+	  line-width: @ml15;
+	  line-opacity: 1;
+      [t_type='1'], [t_mode='Métro']{ line-width: @ml15; }
+      [t_mode='Métro'] { line-dasharray: @ml15, @ml15 * @mlgap; }
+      [t_type='2'], [t_mode='RER']{ line-width: @rl15; }
+      [t_mode='RER'] { line-dasharray: @rl15, @rl15 * @mlgap; }
+	}
+  
+   /* Specific types */
+    [t_mode='Métro'][t_name='Ligne 1'],
+    [t_type='1'][t_code='1'] {
+        line-color: #F9BE09;
+    }
+    [t_mode='Métro'][t_name='Ligne 2'],
+    [t_type='1'][t_code='2'] {
+        line-color: #0B469A;
+    }
+    [t_mode='Métro'][t_name='Ligne 3'],
+    [t_type='1'][t_code='3'] {
+        line-color: #926E0E;
+    }
+    [t_mode='Métro'][t_name='Ligne 4'],
+    [t_type='1'][t_code='4'] {
+        line-color: #BA4A9A;
+    }
+    [t_mode='Métro'][t_name='Ligne 5'],
+    [t_type='1'][t_code='5'] {
+        line-color: #F87429;
+    }
+    [t_mode='Métro'][t_name='Ligne 6'],
+    [t_type='1'][t_code='6'] {
+        line-color: #66B767;
+    }
+    [t_mode='Métro'][t_name='Ligne 7'],
+    [t_type='1'][t_code='7'] {
+        line-color: #F68BAB;
+    }
+    [t_mode='Métro'][t_name='Ligne 8'],
+    [t_type='1'][t_code='8'] {
+        line-color: #B88CC4;
+    }
+    [t_mode='Métro'][t_name='Ligne 9'],
+    [t_type='1'][t_code='9'] {
+        line-color: #A9B70A;
+    }
+    [t_mode='Métro'][t_name='Ligne 11'],
+    [t_type='1'][t_code='11'] {
+        line-color: #753B0B;
+    }
+    [t_mode='Métro'][t_name='Ligne 10'],
+    [t_type='1'][t_code='10'] {
+        line-color: #DEAD18;
+    }
+    [t_mode='Métro'][t_name='Ligne 12'],
+    [t_type='1'][t_code='12'] {
+        line-color: #008C59;
+    }
+    [t_mode='Métro'][t_name='Ligne 13'],
+    [t_type='1'][t_code='13'] {
+        line-color: #67B6BE;
+    }
+    [t_mode='Métro'][t_name='Ligne 14'],
+    [t_type='2'][t_code='14'] {
+        line-color: #662C91;
+    }
+    [t_mode='Métro'][t_name='Ligne 15'],
+    [t_type='2'][t_code='15'] {
+        line-color: red;
+    }
+
+    /* Points */
+  
+    marker-fill: gray;
+    marker-opacity: 0.2;
+    marker-width: 1;
+    marker-line-color: white;
+    marker-line-width: 0.1;
+    marker-line-opacity: 0.05;
+    marker-placement: point;
+    marker-type: ellipse;
+    marker-allow-overlap: true;
+    
+    [type='fer_gares'] {
+      marker-fill: black;
+    }
+
+    [zoom >= 10] {
+      marker-line-width: 0.2;
+      marker-line-opacity: 0.1;
+      marker-width: 1;
+    }
+    [zoom >= 11] {
+      marker-line-width: 0.4;
+      marker-line-opacity: 0.2;
+      marker-width: 2;
+      marker-opacity: 0.3;
+    }
+    [zoom >= 12] {
+      marker-line-width: 0.8;
+      marker-line-opacity: 0.3;
+      marker-width: 2;
+      marker-opacity: 0.6;
+    }
+    [zoom >= 13] {
+      marker-line-width: 1.6;
+      marker-line-opacity: 0.4;
+      marker-width: 4;
+      marker-opacity: 1;
+    }
+    [zoom >= 14] {
+      marker-line-width: 3.2;
+      marker-width: 8;
+    }
+    [zoom >= 15] {
+      marker-line-width: 6.4;
+      marker-width: 16;
+    }
+    [zoom >= 17] {
+      marker-line-width: 16.8;
+      marker-width: 32;
+    }
+  
+
+  /* Polygons */
+  [type="data_t_liv1_territoire_test1"] {
+    polygon-fill : blue;
+    polygon-opacity : 0.1;
+    line-color : blue;
+    line-width : 0;
+    line-opacity : 0.04;
+  }
+   
+}

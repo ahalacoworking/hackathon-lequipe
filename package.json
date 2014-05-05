@@ -1,25 +1,26 @@
 {
     "name" : "paris-region-map",
     "version" : "0.0.1",
-    "devDependencies" : {
-        "mocha" : "*",
-        "superagent" : "*",
-        "expect.js" : "*"
-    },
-    "private" : true,
+    "description" : "Tilepin caching server",
+    "url" : "http://github.com/ubimix/tilepin",
+    "keywords" : [ "map", "server", "mapnik" ],
+    "licenses" : [ {
+        "type" : "BSD"
+    } ],
+    "contributors" : [ {
+        "name" : "Mikhail Kotelnikov",
+        "email" : "mikhail.kotelnikov"
+    } ],
     "dependencies" : {
         "underscore" : "*",
-        "q" : "*",
         "express" : "*",
-        "amdefine" : "*",
-        "cheerio" : "*",
-        "tilepin" : "git://github.com/ubimix/tilepin.git"
+        "tilepin" : "git://github.com/ubimix/tilepin.git#master"
     },
     "scripts" : {
-        "test" : "mocha -R spec ./tests/Test*"
+        "start" : "node ./node_modules/tilepin/tilepin-server.js"
     },
+    "devDependencies" : {},
     "engines" : {
-        "node" : "latest",
-        "npm" : "latest"
+        "node" : "*"
     }
 }

@@ -7,8 +7,6 @@
         "jquery" : "*",
         "q" : "*",
         "underscore" : "*",
-        "requirejs" : "*",
-        "requirejs-text" : "*",
         "select2" : "~3.4.0",
         "mosaic-ui" : "git://github.com/ubimix/mosaic-ui.git"
     },

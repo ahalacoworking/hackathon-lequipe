@@ -1,19 +1,249 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Paris Region Map</title>
-<meta name="viewport"
-	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"></meta>
+<title>Je suis ici</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"></meta>
 <meta charset="utf-8"></meta>
-<link rel="stylesheet" href="main.css"></link>
-<!--[if lte IE 8]><link rel="stylesheet" href="main.ie.css"></link><![endif]-->
-<script data-main="main" src="../app/libs/requirejs/require.js"></script>
-<style>
+<!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700,300'
+    rel='stylesheet' type='text/css'>
+ -->
+<link rel="shortcut icon" href="favicon.ico">
+
+
+<!-- External CSS styles -->
+<link rel="stylesheet" href="./libs/bootstrap/dist/css/bootstrap.css"></link>
+<link rel="stylesheet" href="./libs/font-awesome/css/font-awesome.css"></link>
+<link rel="stylesheet"
+	href="./libs/bootstrap/dist/css/bootstrap-theme.css"></link>
+<link rel="stylesheet" href="./libs/leaflet/leaflet.css" />
+<!--[if lte IE 8]><link rel="stylesheet" href="./libs/leaflet/leaflet.ie.css" /><![endif]-->
+
+<!-- JavaScript libraries -->
+<script type="text/javascript" src="./libs/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="./libs/underscore/underscore.js"></script>
+<script type="text/javascript"
+	src="./libs/bootstrap/dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="./libs/leaflet/leaflet.js"></script>
+<script type="text/javascript"
+	src="./libs/leaflet.utfgrid/dist/leaflet.utfgrid-src.js"></script>
+<script type="text/javascript" src="./libs/mosaic-ui/js/Mosaic.js"></script>
+
+<!-- Specific CSS styles -->
+<style type="text/css">
+html,body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#map {
+	background-color: white;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	background-color: #eee;
+}
+
+.panel {
+	margin-bottom: 0;
+}
+
+.panel .panel-body h4 {
+	font-size: 1.3em;
+	margin: 0 0 0.5em 0;
+	color: gray;
+}
+
+address {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.photo-wrapper img {
+	max-height: 200px;
+	border: 1px solid silver;
+	-webkit-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 2px 2px 11px 0px rgba(50, 50, 50, 0.75);
+}
+
+.leaflet-popup-content-wrapper {
+	padding: 0px;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+	margin: 0;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content .panel {
+	margin-bottom: 0;
+	border: none;
+}
+
+.leftbox {
+	position: absolute;
+	left: 0px;
+	top: 55px;
+}
+
+.category-icon {
+	width: 1.5em;
+}
+
+.field-label {
+	color: gray;
+}
+
+p,h3 {
+	margin: 0.5em 0;
+}
 </style>
+
+<script type="text/javascript" src="./index.js"></script>
+
 </head>
 <body>
-	<div id="map"></div>
-	<div id="list"></div>
 
+	<!-- Static navbar -->
+	<div class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Paris Région Map</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#" data-map-layer-selector="transport">
+							Transport</a></li>
+					<li><a href="#" data-map-layer-selector="routes"> Routes </a></li>
+					<li><a href="#" data-map-layer-selector="territories">Territoires
+							d'acceuil</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown">FR <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li class="active"><a href="#">FR</a></li>
+							<li><a href="#">EN</a></li>
+							<li><a href="#">RU</a></li>
+						</ul></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+
+	<div id="map" data-center="[2.3462677001953125,48.860649275706926]"
+		data-zoom="9" data-min-zoom="2" data-max-zoom="20">
+
+		<div data-map-layer="background" data-visible="true"
+			data-tiles-url="../tiles/layers/prm/map/{z}/{x}/{y}.png"
+			data-force-reload="true">
+			<div class="attribution">
+				Données &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>
+			</div>
+		</div>
+
+		<div data-map-layer="territoire" data-visible="true"
+			data-tiles-url="../tiles/layers/prm/territoire/{z}/{x}/{y}.png"
+			data-utfgrid-url="../tiles/layers/prm/territoire/{z}/{x}/{y}.grid.json?callback={cb}"
+			data-force-reload="true">
+			<div class="attribution">
+				&copy; <a href="http://opendata.paris.fr/">Ville de Paris</a> &copy;
+				<a href="http://data.iledefrance.fr">Paris Région</a> &copy; <a
+					href="http://data.gouv.fr">Etalab</a>
+			</div>
+		</div>
+
+		<div data-map-layer="data" data-visible="true"
+			data-tiles-url="../tiles/layers/prm/data/{z}/{x}/{y}.png"
+			data-utfgrid-url="../tiles/layers/prm/data/{z}/{x}/{y}.grid.json?callback={cb}"
+			data-force-reload="true">
+			<div class="attribution">
+				&copy; <a href="http://opendata.paris.fr/">Ville de Paris</a> &copy;
+				<a href="http://data.iledefrance.fr">Paris Région</a> &copy; <a
+					href="http://data.gouv.fr">Etalab</a>
+			</div>
+		</div>
+
+		<!--
+		<div data-map-layer="transport" data-visible="true"
+			data-tiles-url="../tiles/layers/prm/transport/{z}/{x}/{y}.png"
+			data-utfgrid-url="../tiles/layers/prm/transport/{z}/{x}/{y}.grid.json?callback={cb}"
+			data-force-reload="true">
+			<div class="attribution"></div>
+		</div>
+ -->
+	</div>
+
+	<div id="templates" style="display: none;">
+
+		<div id="ParentTemplate">
+			<script type="text/javascript">
+                ({
+                    renderLabel : function(elm) {
+                        var label = this.getLabel();
+                        elm.text(label);
+                    },
+                    getLabel : function() {
+                        var resource = this.getResource();
+                        console.log(resource);
+                        return resource.libgeo;
+                    },
+                    popupOptions : {
+                        minWidth : 50,
+                        maxWidth : 350
+                    }
+                })
+            </script>
+		</div>
+
+		<!-- 		<div data-resource-type="Default" data-view="MapFocusedPopupView"
+			data-extends="#ParentTemplate">
+			<div class="panel panel-info">
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-12">
+							<span data-render="renderLabel"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div data-resource-type="Default" data-view="MapActivePopupView"
+			data-extends="[data-resource-type='Default'][data-view='MapFocusedPopupView']">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<span data-render="renderLabel">1</span>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-12">
+							<span data-render="renderLabel"></span>
+							<div data-render="renderDescription">addr</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript">
+                ({
+                    renderDescription : function(elm) {
+                        var resource = this.getResource();
+                        // elm.text(str);
+                    }
+                })
+            </script>
+		</div> -->
+
+	</div>
 </body>
 </html>

@@ -1,0 +1,40 @@
+{
+  "Layer": [
+     {
+      "Datasource": {
+        "dbname": "econovista", 
+        "user" : "postgres",
+        "host" : "localhost",
+        "port" : 5432,
+        "geometry_field": "the_geom_webmercator", 
+        "table": "( select w.id, w.type, (w.properties->>'nom') as t_name, (w.properties->>'type') as t_type, (w.properties->>'code') as t_code, (w.properties->>'mode') as t_mode, w.properties as p, w.properties::text as properties, st_asgeojson(w.geometry)::text as geometry, w.the_geom_webmercator from objects_webmercator as w join type_order as o on o.type=w.type and w.type not like 'TIC%' and w.type not like 'data_t_liv1_territoire_test1'  order by o.gid ) AS data", 
+        "type": "postgis"
+      }, 
+      "class": "", 
+      "id": "objects", 
+      "name": "objects", 
+      "geometry": "polygon", 
+      "srs-name": "900913",
+      "status": "on"
+    }
+  ], 
+  "Stylesheet": [
+    "project.carto.css"
+  ], 
+  "attribution": "Econovista", 
+  "center": [
+    0, 
+    20, 
+    4
+  ], 
+  "description": "", 
+  "format": "png", 
+  "interactivity": {
+       "layer" : "objects",
+       "fields" : "id,type,properties"
+  }, 
+  "maxzoom": 18, 
+  "minzoom": 0, 
+  "name": "Econovista",
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" 
+}
