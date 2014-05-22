@@ -152,7 +152,8 @@ p,h3 {
 				Données &copy; <a href="http://openstreetmap.org">OpenStreetMap</a>
 			</div>
 		</div>
-		<!-- 
+
+		<!--  
 		<div data-map-layer="territoire" data-visible="true"
 			data-tiles-url="../tiles/layers/prm/territoire/{z}/{x}/{y}.png"
 			data-utfgrid-url="../tiles/layers/prm/territoire/{z}/{x}/{y}.grid.json?callback={cb}"
@@ -163,11 +164,11 @@ p,h3 {
 					href="http://data.gouv.fr">Etalab</a>
 			</div>
 		</div>
--->
+		-->
 
-		<div data-map-layer="territoire-simple" data-visible="true"
-			data-tiles-url="../tiles/layers/prm/territoire-simple/{z}/{x}/{y}.png"
-			data-utfgrid-url="../tiles/layers/prm/territoire-simple/{z}/{x}/{y}.grid.json?callback={cb}"
+		<div data-map-layer="territoire/A" data-visible="true"
+			data-tiles-url="../tiles/layers/prm/territoire/A/{z}/{x}/{y}.png"
+			data-utfgrid-url="../tiles/layers/prm/territoire/A/{z}/{x}/{y}.grid.json?callback={cb}"
 			data-force-reload="true">
 			<div class="attribution">
 				&copy; <a href="http://data.iledefrance.fr">Paris Région</a> &copy;
@@ -175,6 +176,7 @@ p,h3 {
 			</div>
 		</div>
 
+		<!--
 		<div data-map-layer="data" data-visible="true"
 			data-tiles-url="../tiles/layers/prm/data/{z}/{x}/{y}.png"
 			data-utfgrid-url="../tiles/layers/prm/data/{z}/{x}/{y}.grid.json?callback={cb}"
@@ -185,7 +187,7 @@ p,h3 {
 					href="http://data.gouv.fr">Etalab</a>
 			</div>
 		</div>
-
+-->
 		<!--
 		<div data-map-layer="transport" data-visible="true"
 			data-tiles-url="../tiles/layers/prm/transport/{z}/{x}/{y}.png"
@@ -218,7 +220,7 @@ p,h3 {
             </script>
 		</div>
 
-		<!-- 		<div data-resource-type="Default" data-view="MapFocusedPopupView"
+		<div data-resource-type="Default" data-view="MapFocusedPopupView"
 			data-extends="#ParentTemplate">
 			<div class="panel panel-info">
 				<div class="panel-body">
@@ -230,6 +232,9 @@ p,h3 {
 				</div>
 			</div>
 		</div>
+
+		<!-- 
+		../tiles/layers/prm/territoire-simple/{z}/{x}/{y}.grid.json?callback={cb}
 		<div data-resource-type="Default" data-view="MapActivePopupView"
 			data-extends="[data-resource-type='Default'][data-view='MapFocusedPopupView']">
 			<div class="panel panel-primary">

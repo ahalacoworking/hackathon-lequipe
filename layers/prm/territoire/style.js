@@ -1,218 +1,121 @@
 var Utils = require('../common-styles');
 var _ = require('underscore');
+var Styles = require('tilepin/tilepin-styles');
 
-function calculateStyles() {
-    var opacity = 0.8;
-    var niv1 = {
-        'polygon-fill' : '#A4E3FF',
-        'polygon-opacity' : opacity
-    };
-    var niv2 = {
-        'polygon-fill' : '#1CB6FF',
-        'polygon-opacity' : 0
-    };
+// Levels:
+// * 3 - 10 - "Territoire/niv2"
+// * 10 - 11 - both types levels "Territoire/niv2" + "Territoire/niv1"
+// * 12 - 20 - "Territoire/niv1"
 
-    var labels1 = {}
-    var labels2 = {}
+// "Territoire/niv2"
+// * zoom: 3 - 11
+// * text: 24 at the level 11
+// * transparency:
 
-    var size1 = 20;
-    var size2 = 8;
-    var zoomMin = 8;
-    var zoomMax = 13;
+// "Territoire/niv1"
+// * zoom: 10 - 18
+// * text: 24 at the level 18
+// * transparency:
 
-    var text = {
-        'text-name' : '[nomcom]',
-        'text-face-name' : '"Open Sans Regular"',
-        'text-fill' : '#036',
-        'text-halo-fill' : 'fadeout(white, 30%)',
-        'text-halo-radius' : 2.5
-    }
-
-    labels1['[zoom<=' + zoomMin + ']'] = _.extend({
-        'text-size' : size1
-    }, text)
-
-    var steps = zoomMax - zoomMin + 1;
-    var step = opacity / steps;
-    for (var i = 1; i < steps; i++) {
-        var delta = i * step;
-        var zoom = '[zoom>=' + (i + zoomMin) + ']';
-        var o = parseFloat((opacity - delta).toFixed(2));
-        niv1[zoom] = {
-            'polygon-opacity' : o
-        };
-        if (o > step) {
-            labels1[zoom] = _.extend({
-                'text-size' : size1 + i * 0.2
-            }, text)
-        }
-
-        o = parseFloat(delta.toFixed(2));
-        niv2[zoom] = {
-            'polygon-opacity' : o
-        };
-        if (o > step) {
-            labels2[zoom] = _.extend({
-                'text-size' : size2 + i * 2
-            }, text)
-        }
-    }
-    niv1['[zoom>=' + zoomMax + ']'] = {
-        'polygon-opacity' : 0
-    }
-    labels2['[zoom>' + zoomMax + ']'] = _.extend({
-        'text-size' : size2 + (zoomMax - zoomMin)
-    }, text)
-    var style = {
-        'polygon-fill' : 'white',
-        'line-width' : 0,
-        'polygon-opacity' : 0,
-        'line-opacity' : 0,
-        // 'polygon-smooth' : 1,
-        '[niv1=1]' : niv1,
-        '[niv2=1]' : niv2,
-        '[niv2=1]::labels' : labels2,
-        '[niv1=1]::labels' : labels1,
-    }
-    return style;
-}
-
-var style = {
+var style = Styles({
     'polygon-fill' : 'white',
-    'line-width' : 0,
     'polygon-opacity' : 0,
+
+    'line-width' : 0,
     'line-opacity' : 0,
-    '[niv1=1]' : {
-        'polygon-fill' : '#A4E3FF',
-        'polygon-opacity' : 0.8,
-        '[zoom>=9]' : {
-            'polygon-opacity' : 0.67
-        },
-        '[zoom>=10]' : {
-            'polygon-opacity' : 0.53
-        },
-        '[zoom>=11]' : {
-            'polygon-opacity' : 0.4
-        },
+
+    '[type="Territoire/niv2"]' : Styles({
+        'polygon-fill' : '@polygon_color_niv2',
+    }).range(3, 11, Styles.linear(1, 0.2, function(zoom, opacity) {
+        // Set opacity (1 -> 0)
+        var obj = {};
+        obj['[zoom>=' + zoom + ']'] = {
+            'polygon-opacity' : opacity
+        }
+        return obj;
+    })).add({
         '[zoom>=12]' : {
-            'polygon-opacity' : 0.27
-        },
-        '[zoom>=13]' : {
             'polygon-opacity' : 0
         }
-    },
-    '[niv2=1]' : {
-        'polygon-fill' : '#1CB6FF',
-        'polygon-opacity' : 0,
-        '[zoom>=9]' : {
-            'polygon-opacity' : 0.27
-        },
-        '[zoom>=10]' : {
-            'polygon-opacity' : 0.4
-        },
-        '[zoom>=11]' : {
-            'polygon-opacity' : 0.53
-        },
-        '[zoom>=12]' : {
-            'polygon-opacity' : 0.67
-        },
-        '[zoom>=13]' : {
-            'polygon-opacity' : 0.8
-        }
-    },
-    '[niv1=1]::labels' : {
-        '[zoom<=8]' : {
-            'text-size' : 16,
-            'text-name' : '[nomcom]',
-            'text-face-name' : '"Open Sans Regular"',
-            'text-fill' : '#036',
-            'text-halo-fill' : 'fadeout(white, 30%)',
-            'text-halo-radius' : 2.5
-        },
-        '[zoom>=9]' : {
-            'text-size' : 15.4,
-            'text-name' : '[nomcom]',
-            'text-face-name' : '"Open Sans Regular"',
-            'text-fill' : '#036',
-            'text-halo-fill' : 'fadeout(white, 30%)',
-            'text-halo-radius' : 2.5
-        },
-        '[zoom>=10]' : {
-            'text-size' : 14.8,
-            'text-name' : '[nomcom]',
-            'text-face-name' : '"Open Sans Regular"',
-            'text-fill' : '#036',
-            'text-halo-fill' : 'fadeout(white, 30%)',
-            'text-halo-radius' : 2.5
-        },
-        '[zoom>=11]' : {
-            'text-size' : 14.2,
-            'text-name' : '[nomcom]',
-            'text-face-name' : '"Open Sans Regular"',
-            'text-fill' : '#036',
-            'text-halo-fill' : 'fadeout(white, 30%)',
-            'text-halo-radius' : 2.5
-        },
-        '[zoom>=12]' : {
-            'text-size' : 13.6,
-            'text-name' : '[nomcom]',
-            'text-face-name' : '"Open Sans Regular"',
-            'text-fill' : '#036',
-            'text-halo-fill' : 'fadeout(white, 30%)',
-            'text-halo-radius' : 2.5
-        }
-    },
-    '[niv2=1]::labels' : {
-        '[zoom>10]' : {
-            'text-size' : 14,
-            'text-name' : '[nomcom]',
-            'text-face-name' : '"Open Sans Regular"',
-            'text-fill' : '#036',
-            'text-halo-fill' : 'fadeout(white, 30%)',
-            'text-halo-radius' : 2.5
-        },
-        '[zoom>=11]' : {
-            'text-size' : 16,
-            'text-name' : '[nomcom]',
-            'text-face-name' : '"Open Sans Regular"',
-            'text-fill' : '#036',
-            'text-halo-fill' : 'fadeout(white, 30%)',
-            'text-halo-radius' : 2.5
-        },
-        '[zoom>=12]' : {
-            'text-size' : 18,
-            'text-name' : '[nomcom]',
-            'text-face-name' : '"Open Sans Regular"',
-            'text-fill' : '#036',
-            'text-halo-fill' : 'fadeout(white, 30%)',
-            'text-halo-radius' : 2.5
-        },
-        '[zoom>=13]' : {
-            'text-size' : 20,
-            'text-name' : '[nomcom]',
-            'text-face-name' : '"Open Sans Regular"',
-            'text-fill' : '#036',
-            'text-halo-fill' : 'fadeout(white, 30%)',
-            'text-halo-radius' : 2.5
-        },
-        '[zoom>13]' : {
-            'text-size' : 15,
-            'text-name' : '[nomcom]',
-            'text-face-name' : '"Open Sans Regular"',
-            'text-fill' : '#036',
-            'text-halo-fill' : 'fadeout(white, 30%)',
-            'text-halo-radius' : 2.5
-        }
-    },
-}
+    }).get(),
 
-// var style = calculateStyles();
-// console.log(style);
+    '[type="Territoire/niv1"]' : Styles({
+        'polygon-fill' : '@polygon_color_niv1',
+    }).range(10, 15, Styles.linear(0.5, 1, function(zoom, opacity) {
+        // Set parameter for zoom levels 3-11
+        // Set opacity (1 -> 0)
+        var obj = {};
+        obj['[zoom>=' + zoom + ']'] = {
+            'polygon-opacity' : opacity
+        }
+        return obj;
+    })).get(),
+
+    '::label' : {
+        'text-name' : '[label]',
+        'text-allow-overlap' : true,
+        'text-face-name' : '"Open Sans Regular"',
+        'text-opacity' : 0,
+        '[type="Territoire/niv2"]' : Styles({
+            'text-opacity' : 0,
+            'text-fill' : '@text_color_niv2',
+        }).range(8, 11, Styles.exp(0.5, function(zoom, size) {
+            // Set text size
+            var obj = {};
+            obj['[zoom>=' + zoom + ']'] = {
+                'text-size' : '@text_size_niv2 * ' + size
+            }
+            return obj;
+        }), Styles.linear(1, .5, function(zoom, val) {
+            var obj = {};
+            obj['[zoom>=' + zoom + ']'] = {
+                'text-opacity' : val
+            }
+            return obj;
+        })).add({
+            '[zoom>=12]' : {
+                'text-opacity' : 0
+            }
+        }).get(),
+
+        '[type="Territoire/niv1"]' : Styles({
+            'text-opacity' : 0,
+        }).range(10, 12, Styles.exp(0.6, function(zoom, size) {
+            // Set text size
+            var obj = {};
+            obj['[zoom>=' + zoom + ']'] = {
+                'text-size' : '@text_size_niv1 * ' + size
+            }
+            return obj;
+        }), Styles.linear(0, 20, function(zoom, val) {
+            // Set text darken(0% -> 20%)
+            var obj = {};
+            obj['[zoom>=' + zoom + ']'] = {
+                'text-fill' : 'darken(@text_color_niv1, ' + val + '%)',
+                'text-opacity' : 0.8 + val / 100
+            }
+            return obj;
+        })).get()
+    }
+
+})
+// Get the final style
+.get();
+
+console.log('-------')
+console.log(JSON.stringify(style, null, 2));
 
 module.exports = {
     'Map' : {
-        'font-directory' : 'url(../../fonts)',
-        'buffer-size' : 256
+        'font-directory' : 'url(../../../fonts)',
+        'buffer-size' : 512
     },
+    '@text_color_niv1' : '16',
+    '@text_size_niv1' : '24',
+    '@text_size_niv2' : '36',
+    '@polygon_color_niv1' : '#A4E3FF',
+    '@polygon_color_niv2' : '#A4E3FF',
+    '@text_color_niv1' : 'darken(@polygon_color_niv1, 50%)',
+    '@text_color_niv2' : 'darken(@polygon_color_niv2, 50%)',
     '.objects' : style
 }

@@ -81,7 +81,6 @@ var Utils = {
         }
         return result;
     }
-
 }
 
 module.exports = Utils;

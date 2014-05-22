@@ -1,0 +1,19 @@
+{
+    "name" : "paris-region-map.scripts",
+    "version" : "0.0.1",
+    "private" : true,
+    "dependencies" : {
+        "underscore" : "*",
+        "q" : "*",
+        "geocoder" : "*",
+        "pg" : "*",
+        "mosaic-distil" : "git://github.com/ubimix/mosaic-distil.git#master"
+    },
+    "scripts" : {
+        "run" : "node download-all.js"
+    },
+    "engines" : {
+        "node" : "latest",
+        "npm" : "latest"
+    }
+}
