@@ -1,4 +1,5 @@
 /node_modules
 /sandbox
 /design
+project.tilepin.*.xml
 project.tilepin.xml
